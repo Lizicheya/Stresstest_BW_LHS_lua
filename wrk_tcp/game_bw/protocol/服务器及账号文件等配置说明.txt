@@ -1,0 +1,15 @@
+1、配置文件目录：E:\LuaYaCe\wrk_tcp  的config.lua文件
+
+2、port  为对应个人服务器后方的端口，例如8007,8009
+
+3、cheat_host为作弊指令对应服务器web地址，例如10.0.0.142:9007    、10.0.0.142:9009     （即第二条的8007变为车9007,8009变为9009）
+
+4、total_accounts   需要构建的账号总数（最低至少为4）     
+		建议最低配置20，如果有需要更少，则需要同步修改  connections 也为    需要构建的账号总数相同数值
+
+5、账号文件来源配置：user_ids_file     修改最后的文件名例如robot/ycf_b.txt  修改为  robot/ycf_a.txt    即可
+		账号文件位置：E:\LuaYaCe\wrk_tcp\robot下对应文件（确保文件存在）
+
+6、协议用例模板文件(配置：protocol_template_path     修改最后的文件名例如game_bw/protocol/protocol_model-lhs.xlsx 修改为 game_bw/protocol/protocol_model-wxq.xlsx
+要执行的协议或作弊命令模板文件：本目录下的protocol_model-lhs.xlsx     ；后续可以自己新增模板文件（最好复制该模板文件后重命名再修改为自己的命令方式，之后修改路径文件名即可）
+		

@@ -1,0 +1,155 @@
+commands = {
+   json2lua = {
+      "lua-cjson/2.1.0.10-1"
+   },
+   lua2json = {
+      "lua-cjson/2.1.0.10-1"
+   }
+}
+dependencies = {
+   argparse = {
+      ["0.7.2-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               },
+               {
+                  op = "<",
+                  version = {
+                     5, 6, string = "5.6"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   lrandom = {
+      ["20180729-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   ["lua-cjson"] = {
+      ["2.1.0.10-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   luafilesystem = {
+      ["1.9.0-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   }
+}
+modules = {
+   argparse = {
+      "argparse/0.7.2-1"
+   },
+   cjson = {
+      "lua-cjson/2.1.0.10-1"
+   },
+   ["cjson.util"] = {
+      "lua-cjson/2.1.0.10-1"
+   },
+   json2lua = {
+      "lua-cjson/2.1.0.10-1"
+   },
+   lfs = {
+      "luafilesystem/1.9.0-1"
+   },
+   lua2json = {
+      "lua-cjson/2.1.0.10-1"
+   },
+   random = {
+      "lrandom/20180729-1"
+   }
+}
+repository = {
+   argparse = {
+      ["0.7.2-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               argparse = "argparse.lua"
+            }
+         }
+      }
+   },
+   lrandom = {
+      ["20180729-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               random = "random.dll"
+            }
+         }
+      }
+   },
+   ["lua-cjson"] = {
+      ["2.1.0.10-1"] = {
+         {
+            arch = "installed",
+            commands = {
+               json2lua = "json2lua",
+               lua2json = "lua2json"
+            },
+            dependencies = {},
+            modules = {
+               cjson = "cjson.dll",
+               ["cjson.util"] = "cjson\\util.lua",
+               json2lua = "json2lua.lua",
+               lua2json = "lua2json.lua"
+            }
+         }
+      }
+   },
+   luafilesystem = {
+      ["1.9.0-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               lfs = "lfs.dll"
+            }
+         }
+      }
+   }
+}

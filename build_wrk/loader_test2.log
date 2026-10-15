@@ -1,0 +1,14 @@
+﻿loader returned main:	table
+main.init:	function
+ERROR:	lualib/protocol\proto.lua:36: nil sproto at index 1
+
+stack traceback:
+	[C]: in function 'sproto.core.loadproto'
+	lualib/protocol\proto.lua:36: in function 'protocol.proto.load'
+	game_bw/proto_util.lua:23: in function 'proto_util.init'
+	game_bw/main_bw.lua:37: in function 'main_bw.init'
+	test_loader_init.lua:12: in function <test_loader_init.lua:5>
+	[C]: in function 'xpcall'
+	test_loader_init.lua:5: in main chunk
+	[C]: in ?
+Test failed

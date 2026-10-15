@@ -1,0 +1,1671 @@
+game_bw load accounts from ycf_b.txt, count:599
+game_bw init thread id:1 delta:0s
+game_bw load accounts from ycf_b.txt, count:599
+game_bw init thread id:4 delta:0s
+game_bw load accounts from ycf_b.txt, count:599
+game_bw init thread id:2 delta:0s
+game_bw load accounts from ycf_b.txt, count:599
+game_bw init thread id:3 delta:0s
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=396 gw=10.0.0.142:8107 uid=100483 token_len=28
+[dbg] reconnect fd=396 -> 396 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=340 gw=10.0.0.142:8107 uid=100480 token_len=28
+[dbg] reconnect fd=340 -> 340 gw=10.0.0.142:8107
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100483,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100483,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100483}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100483},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100480,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100480,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100480}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100480},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=100 gw=10.0.0.142:8107 uid=100481 token_len=28
+[dbg] reconnect fd=100 -> 100 gw=10.0.0.142:8107
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=428 gw=10.0.0.142:8107 uid=100482 token_len=28
+[dbg] reconnect fd=428 -> 428 gw=10.0.0.142:8107
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100481}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100481},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"uid":100482,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"lv":19,"uid":100482,"buildCfgId":100},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"forceChangeBuildLv","time":0}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100482}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100482},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"unlockCityAreaAll","time":0}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100481}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100481},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto402_2026-10-13_15-30-24.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto401_2026-10-13_15-30-24.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto403_2026-10-13_15-30-25.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto404_2026-10-13_15-30-25.xlsx
+script_writeable fd:424 error, msg:game_bw/protocol\xlsx_util.lua:228: invalid value (nil) at index 796824 in table for 'concat'
+[dbg] TIMEOUT fd=432 status=2 proto=reqlogin
+[dbg] fd=432 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=424 gw=10.0.0.142:8107 uid=100496 token_len=28
+[dbg] reconnect fd=424 -> 424 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=432 gw=10.0.0.142:8107 uid=100498 token_len=28
+[dbg] reconnect fd=432 -> 432 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=436 gw=10.0.0.142:8107 uid=100497 token_len=28
+[dbg] reconnect fd=436 -> 436 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=440 gw=10.0.0.142:8107 uid=100499 token_len=28
+[dbg] reconnect fd=440 -> 440 gw=10.0.0.142:8107
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=340 -> 340 login=10.0.0.142:8007
+sproto_client relogin, account=auto421
+game_bw thread 1 fd=340 rotate to account auto421 (21/100)
+[dbg] TIMEOUT fd=356 status=2 proto=reqlogin
+[dbg] fd=356 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=360 status=2 proto=reqlogin
+[dbg] fd=360 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=368 status=2 proto=reqlogin
+[dbg] fd=368 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=356 gw=10.0.0.142:8107 uid=100489 token_len=28
+[dbg] reconnect fd=356 -> 356 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=360 gw=10.0.0.142:8107 uid=100490 token_len=28
+[dbg] reconnect fd=360 -> 360 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=368 gw=10.0.0.142:8107 uid=100488 token_len=28
+[dbg] reconnect fd=368 -> 368 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=372 gw=10.0.0.142:8107 uid=100491 token_len=28
+[dbg] reconnect fd=372 -> 372 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100491,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100491,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100491}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100491},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=396 -> 460 login=10.0.0.142:8007
+sproto_client relogin, account=auto422
+game_bw thread 2 fd=460 rotate to account auto422 (22/100)
+[dbg] TIMEOUT fd=392 status=2 proto=reqlogin
+[dbg] fd=392 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=400 status=2 proto=reqlogin
+[dbg] fd=400 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=404 status=2 proto=reqlogin
+[dbg] fd=404 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=392 gw=10.0.0.142:8107 uid=100484 token_len=28
+[dbg] reconnect fd=392 -> 392 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=400 gw=10.0.0.142:8107 uid=100487 token_len=28
+[dbg] reconnect fd=400 -> 400 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=404 gw=10.0.0.142:8107 uid=100485 token_len=28
+[dbg] reconnect fd=404 -> 404 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=408 gw=10.0.0.142:8107 uid=100486 token_len=28
+[dbg] reconnect fd=408 -> 408 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100487,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100487,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100487}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100487},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=100 -> 100 login=10.0.0.142:8007
+sproto_client relogin, account=auto424
+game_bw thread 4 fd=100 rotate to account auto424 (24/100)
+[dbg] TIMEOUT fd=316 status=2 proto=reqlogin
+[dbg] fd=316 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=268 status=2 proto=reqlogin
+[dbg] fd=268 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=104 status=2 proto=reqlogin
+[dbg] fd=104 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=316 gw=10.0.0.142:8107 uid=100492 token_len=28
+[dbg] reconnect fd=316 -> 316 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=268 gw=10.0.0.142:8107 uid=100495 token_len=28
+[dbg] reconnect fd=268 -> 268 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=104 gw=10.0.0.142:8107 uid=100494 token_len=28
+[dbg] reconnect fd=104 -> 104 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=380 gw=10.0.0.142:8107 uid=100493 token_len=28
+[dbg] reconnect fd=380 -> 380 gw=10.0.0.142:8107
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100494}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100494},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100494}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100494},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=428 -> 428 login=10.0.0.142:8007
+sproto_client relogin, account=auto427
+game_bw thread 3 fd=428 rotate to account auto427 (27/100)
+protocol_task: results saved to game_bw/protocol/result_auto417_2026-10-13_15-30-28.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto410_2026-10-13_15-30-28.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto416_2026-10-13_15-30-28.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=372 -> 372 login=10.0.0.142:8007
+sproto_client relogin, account=auto425
+game_bw thread 1 fd=372 rotate to account auto425 (25/100)
+[dbg] reqlogin resp fd=340 gw=10.0.0.142:8107 uid=100500 token_len=28
+[dbg] reconnect fd=340 -> 340 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100489,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100489,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+[dbg] TIMEOUT fd=424 status=4 proto=reqAuth
+[dbg] fd=424 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=432 status=4 proto=reqAuth
+[dbg] fd=432 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=436 status=4 proto=reqAuth
+[dbg] fd=436 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=440 status=4 proto=reqAuth
+[dbg] fd=440 reqAuth still waiting (1), no reauth
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100489}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100489},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=400 -> 400 login=10.0.0.142:8007
+sproto_client relogin, account=auto426
+game_bw thread 2 fd=400 rotate to account auto426 (26/100)
+[dbg] reqlogin resp fd=460 gw=10.0.0.142:8107 uid=100501 token_len=28
+[dbg] reconnect fd=460 -> 460 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100484,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100484,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100484}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100484},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=104 -> 104 login=10.0.0.142:8007
+sproto_client relogin, account=auto428
+game_bw thread 4 fd=104 rotate to account auto428 (28/100)
+[dbg] reqlogin resp fd=100 gw=10.0.0.142:8107 uid=100502 token_len=28
+[dbg] reconnect fd=100 -> 100 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100492}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100492},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100492}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100492},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto405_2026-10-13_15-30-31.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto406_2026-10-13_15-30-31.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto408_2026-10-13_15-30-31.xlsx
+[dbg] TIMEOUT fd=428 status=2 proto=reqlogin
+[dbg] fd=428 reqlogin still waiting (1), no relogin
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=356 -> 356 login=10.0.0.142:8007
+sproto_client relogin, account=auto429
+game_bw thread 1 fd=356 rotate to account auto429 (29/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100490,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100490,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100490}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100490},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] TIMEOUT fd=424 status=4 proto=nil
+[dbg] fd=424 reqAuth still waiting (2), no reauth
+[dbg] TIMEOUT fd=432 status=4 proto=nil
+[dbg] fd=432 reqAuth still waiting (2), no reauth
+[dbg] TIMEOUT fd=436 status=4 proto=nil
+[dbg] fd=436 reqAuth still waiting (2), no reauth
+[dbg] TIMEOUT fd=440 status=4 proto=nil
+[dbg] fd=440 reqAuth still waiting (2), no reauth
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=392 -> 392 login=10.0.0.142:8007
+sproto_client relogin, account=auto430
+game_bw thread 2 fd=392 rotate to account auto430 (30/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100485,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100485,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100485}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100485},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task: results saved to game_bw/protocol/result_auto409_2026-10-13_15-30-35.xlsx
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=316 -> 316 login=10.0.0.142:8007
+sproto_client relogin, account=auto432
+game_bw thread 4 fd=316 rotate to account auto432 (32/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100495}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100495},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100495}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100495},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto414_2026-10-13_15-30-36.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto412_2026-10-13_15-30-37.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=360 -> 360 login=10.0.0.142:8007
+sproto_client relogin, account=auto433
+game_bw thread 1 fd=360 rotate to account auto433 (33/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100488,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100488,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100488}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100488},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+[dbg] TIMEOUT fd=428 status=2 proto=nil
+[dbg] fd=428 reqlogin still waiting (2), no relogin
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=404 -> 404 login=10.0.0.142:8007
+sproto_client relogin, account=auto434
+game_bw thread 2 fd=404 rotate to account auto434 (34/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100486,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100486,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100486}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100486},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task: results saved to game_bw/protocol/result_auto413_2026-10-13_15-30-39.xlsx
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+[dbg] TIMEOUT fd=424 status=4 proto=nil
+fd=424 reqAuth no response x3, abandon account=auto407
+[dbg] TIMEOUT fd=432 status=4 proto=nil
+fd=432 reqAuth no response x3, abandon account=auto411
+[dbg] TIMEOUT fd=436 status=4 proto=nil
+fd=436 reqAuth no response x3, abandon account=auto415
+[dbg] TIMEOUT fd=440 status=4 proto=nil
+fd=440 reqAuth no response x3, abandon account=auto419
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=268 -> 268 login=10.0.0.142:8007
+sproto_client relogin, account=auto436
+game_bw thread 4 fd=268 rotate to account auto436 (36/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100493}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100493},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100493}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100493},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: results saved to game_bw/protocol/result_auto418_2026-10-13_15-30-40.xlsx
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto420_2026-10-13_15-30-42.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=368 -> 368 login=10.0.0.142:8007
+sproto_client relogin, account=auto437
+game_bw thread 1 fd=368 rotate to account auto437 (37/100)
+[dbg] TIMEOUT fd=372 status=2 proto=reqlogin
+[dbg] fd=372 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=340 status=4 proto=reqAuth
+[dbg] fd=340 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100500,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100500,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100500}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100500},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=408 -> 408 login=10.0.0.142:8007
+sproto_client relogin, account=auto438
+game_bw thread 2 fd=408 rotate to account auto438 (38/100)
+[dbg] TIMEOUT fd=400 status=2 proto=reqlogin
+[dbg] fd=400 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=400 gw=10.0.0.142:8107 uid=100503 token_len=28
+[dbg] reconnect fd=400 -> 400 gw=10.0.0.142:8107
+[dbg] TIMEOUT fd=460 status=4 proto=reqAuth
+[dbg] fd=460 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100503,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100503,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=432 -> 432 login=10.0.0.142:8007
+sproto_client relogin, account=auto431
+game_bw thread 3 fd=432 rotate to account auto431 (31/100)
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100503}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100503},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto421_2026-10-13_15-30-44.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=380 -> 380 login=10.0.0.142:8007
+sproto_client relogin, account=auto440
+game_bw thread 4 fd=380 rotate to account auto440 (40/100)
+[dbg] TIMEOUT fd=104 status=2 proto=reqlogin
+[dbg] fd=104 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=104 gw=10.0.0.142:8107 uid=100504 token_len=28
+[dbg] reconnect fd=104 -> 104 gw=10.0.0.142:8107
+[dbg] TIMEOUT fd=100 status=4 proto=reqAuth
+[dbg] fd=100 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100502}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100502},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100502}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100502},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: results saved to game_bw/protocol/result_auto426_2026-10-13_15-30-45.xlsx
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto424_2026-10-13_15-30-46.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=440 -> 440 login=10.0.0.142:8007
+sproto_client relogin, account=auto435
+game_bw thread 3 fd=440 rotate to account auto435 (35/100)
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=424 -> 424 login=10.0.0.142:8007
+sproto_client relogin, account=auto439
+game_bw thread 3 fd=424 rotate to account auto439 (39/100)
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=340 -> 340 login=10.0.0.142:8007
+sproto_client relogin, account=auto441
+game_bw thread 1 fd=340 rotate to account auto441 (41/100)
+[dbg] TIMEOUT fd=356 status=2 proto=reqlogin
+[dbg] fd=356 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=360 status=2 proto=reqlogin
+[dbg] fd=360 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=368 status=2 proto=reqlogin
+[dbg] fd=368 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=372 status=2 proto=nil
+[dbg] fd=372 reqlogin still waiting (2), no relogin
+[dbg] reqlogin resp fd=356 gw=10.0.0.142:8107 uid=100505 token_len=28
+[dbg] reconnect fd=356 -> 356 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=360 gw=10.0.0.142:8107 uid=100507 token_len=28
+[dbg] reconnect fd=360 -> 360 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=368 gw=10.0.0.142:8107 uid=100508 token_len=28
+[dbg] reconnect fd=368 -> 368 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=372 gw=10.0.0.142:8107 uid=100506 token_len=28
+[dbg] reconnect fd=372 -> 372 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100506,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100506,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100506}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100506},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=436 -> 436 login=10.0.0.142:8007
+sproto_client relogin, account=auto443
+game_bw thread 3 fd=436 rotate to account auto443 (43/100)
+[dbg] TIMEOUT fd=428 status=2 proto=nil
+fd=428 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=428 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=428 -> 428 login=10.0.0.142:8007
+sproto_client relogin, account=auto427
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=400 -> 400 login=10.0.0.142:8007
+sproto_client relogin, account=auto442
+game_bw thread 2 fd=400 rotate to account auto442 (42/100)
+[dbg] TIMEOUT fd=392 status=2 proto=reqlogin
+[dbg] fd=392 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=460 status=4 proto=nil
+[dbg] fd=460 reqAuth still waiting (2), no reauth
+[dbg] TIMEOUT fd=404 status=2 proto=reqlogin
+[dbg] fd=404 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=408 status=2 proto=reqlogin
+[dbg] fd=408 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=392 gw=10.0.0.142:8107 uid=100509 token_len=28
+[dbg] reconnect fd=392 -> 392 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=404 gw=10.0.0.142:8107 uid=100511 token_len=28
+[dbg] reconnect fd=404 -> 404 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=408 gw=10.0.0.142:8107 uid=100510 token_len=28
+[dbg] reconnect fd=408 -> 408 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100501,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100501,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100501}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100501},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+[dbg] TIMEOUT fd=432 status=2 proto=reqlogin
+[dbg] fd=432 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=440 status=2 proto=reqlogin
+[dbg] fd=440 reqlogin still waiting (1), no relogin
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto425_2026-10-13_15-30-53.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=100 -> 100 login=10.0.0.142:8007
+sproto_client relogin, account=auto444
+game_bw thread 4 fd=100 rotate to account auto444 (44/100)
+[dbg] TIMEOUT fd=316 status=2 proto=reqlogin
+[dbg] fd=316 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=268 status=2 proto=reqlogin
+[dbg] fd=268 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=104 status=4 proto=reqAuth
+[dbg] fd=104 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=380 status=2 proto=reqlogin
+[dbg] fd=380 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=316 gw=10.0.0.142:8107 uid=100513 token_len=28
+[dbg] reconnect fd=316 -> 316 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=268 gw=10.0.0.142:8107 uid=100512 token_len=28
+[dbg] reconnect fd=268 -> 268 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=380 gw=10.0.0.142:8107 uid=100514 token_len=28
+[dbg] reconnect fd=380 -> 380 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100504}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100504},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100504}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100504},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: results saved to game_bw/protocol/result_auto422_2026-10-13_15-30-54.xlsx
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+[dbg] TIMEOUT fd=424 status=2 proto=reqlogin
+[dbg] fd=424 reqlogin still waiting (1), no relogin
+protocol_task: results saved to game_bw/protocol/result_auto428_2026-10-13_15-30-55.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=372 -> 372 login=10.0.0.142:8007
+sproto_client relogin, account=auto445
+game_bw thread 1 fd=372 rotate to account auto445 (45/100)
+[dbg] reqlogin resp fd=340 gw=10.0.0.142:8107 uid=100515 token_len=28
+[dbg] reconnect fd=340 -> 340 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100505,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100505,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100505}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100505},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] TIMEOUT fd=428 status=2 proto=reqlogin
+fd=428 reqlogin no response after rebuild, abandon account=auto427
+[dbg] TIMEOUT fd=436 status=2 proto=reqlogin
+[dbg] fd=436 reqlogin still waiting (1), no relogin
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=460 -> 460 login=10.0.0.142:8007
+sproto_client relogin, account=auto446
+game_bw thread 2 fd=460 rotate to account auto446 (46/100)
+[dbg] TIMEOUT fd=404 status=4 proto=reqAuth
+[dbg] fd=404 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=392 status=4 proto=reqAuth
+[dbg] fd=392 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100511,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100511,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100511}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100511},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto429_2026-10-13_15-30-57.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=104 -> 104 login=10.0.0.142:8007
+sproto_client relogin, account=auto448
+game_bw thread 4 fd=104 rotate to account auto448 (48/100)
+[dbg] TIMEOUT fd=316 status=4 proto=reqAuth
+[dbg] fd=316 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=268 status=4 proto=reqAuth
+[dbg] fd=268 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=380 status=4 proto=reqAuth
+[dbg] fd=380 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100513}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100513},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100513}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100513},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: results saved to game_bw/protocol/result_auto434_2026-10-13_15-30-59.xlsx
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto432_2026-10-13_15-31-01.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=356 -> 356 login=10.0.0.142:8007
+sproto_client relogin, account=auto449
+game_bw thread 1 fd=356 rotate to account auto449 (49/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100507,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100507,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=428 -> 428 login=10.0.0.142:8007
+sproto_client relogin, account=auto447
+game_bw thread 3 fd=428 rotate to account auto447 (47/100)
+[dbg] TIMEOUT fd=424 status=2 proto=nil
+[dbg] fd=424 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=432 status=2 proto=nil
+[dbg] fd=432 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=436 status=2 proto=nil
+[dbg] fd=436 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=440 status=2 proto=nil
+[dbg] fd=440 reqlogin still waiting (2), no relogin
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100507}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100507},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=404 -> 404 login=10.0.0.142:8007
+sproto_client relogin, account=auto450
+game_bw thread 2 fd=404 rotate to account auto450 (50/100)
+[dbg] TIMEOUT fd=392 status=4 proto=nil
+[dbg] fd=392 reqAuth still waiting (2), no reauth
+[dbg] TIMEOUT fd=460 status=2 proto=reqlogin
+[dbg] fd=460 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=400 status=2 proto=reqlogin
+[dbg] fd=400 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=408 status=4 proto=reqAuth
+[dbg] fd=408 reqAuth still waiting (1), no reauth
+[dbg] reqlogin resp fd=460 gw=10.0.0.142:8107 uid=100516 token_len=28
+[dbg] reconnect fd=460 -> 460 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=400 gw=10.0.0.142:8107 uid=100517 token_len=28
+[dbg] reconnect fd=400 -> 400 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100509,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100509,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100509}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100509},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto433_2026-10-13_15-31-05.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=316 -> 316 login=10.0.0.142:8007
+sproto_client relogin, account=auto452
+game_bw thread 4 fd=316 rotate to account auto452 (52/100)
+[dbg] TIMEOUT fd=100 status=2 proto=reqlogin
+[dbg] fd=100 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=268 status=4 proto=nil
+[dbg] fd=268 reqAuth still waiting (2), no reauth
+[dbg] TIMEOUT fd=104 status=2 proto=reqlogin
+[dbg] fd=104 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=380 status=4 proto=nil
+[dbg] fd=380 reqAuth still waiting (2), no reauth
+[dbg] reqlogin resp fd=100 gw=10.0.0.142:8107 uid=100518 token_len=28
+[dbg] reconnect fd=100 -> 100 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=104 gw=10.0.0.142:8107 uid=100519 token_len=28
+[dbg] reconnect fd=104 -> 104 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100512}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100512},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100512}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100512},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto430_2026-10-13_15-31-06.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto436_2026-10-13_15-31-07.xlsx
+[dbg] TIMEOUT fd=424 status=2 proto=nil
+fd=424 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=424 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=424 -> 424 login=10.0.0.142:8007
+sproto_client relogin, account=auto439
+[dbg] TIMEOUT fd=428 status=2 proto=reqlogin
+[dbg] fd=428 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=432 status=2 proto=nil
+fd=432 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=432 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=432 -> 432 login=10.0.0.142:8007
+sproto_client relogin, account=auto431
+[dbg] TIMEOUT fd=436 status=2 proto=nil
+fd=436 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=436 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=436 -> 436 login=10.0.0.142:8007
+sproto_client relogin, account=auto443
+[dbg] TIMEOUT fd=440 status=2 proto=nil
+fd=440 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=440 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=440 -> 440 login=10.0.0.142:8007
+sproto_client relogin, account=auto435
+[dbg] TIMEOUT fd=424 status=2 proto=reqlogin
+fd=424 reqlogin no response after rebuild, abandon account=auto439
+[dbg] TIMEOUT fd=428 status=2 proto=nil
+[dbg] fd=428 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=432 status=2 proto=reqlogin
+fd=432 reqlogin no response after rebuild, abandon account=auto431
+[dbg] TIMEOUT fd=436 status=2 proto=reqlogin
+fd=436 reqlogin no response after rebuild, abandon account=auto443
+[dbg] TIMEOUT fd=440 status=2 proto=reqlogin
+fd=440 reqlogin no response after rebuild, abandon account=auto435
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=360 -> 360 login=10.0.0.142:8007
+sproto_client relogin, account=auto453
+game_bw thread 1 fd=360 rotate to account auto453 (53/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100508,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100508,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100508}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100508},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto437_2026-10-13_15-31-18.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=392 -> 392 login=10.0.0.142:8007
+sproto_client relogin, account=auto454
+game_bw thread 2 fd=392 rotate to account auto454 (54/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100510,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100510,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100510}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100510},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=368 -> 368 login=10.0.0.142:8007
+sproto_client relogin, account=auto457
+game_bw thread 1 fd=368 rotate to account auto457 (57/100)
+[dbg] TIMEOUT fd=372 status=2 proto=reqlogin
+[dbg] fd=372 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=340 status=4 proto=reqAuth
+[dbg] fd=340 reqAuth still waiting (1), no reauth
+protocol_task: results saved to game_bw/protocol/result_auto438_2026-10-13_15-31-21.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100515,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100515,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100515}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100515},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=268 -> 268 login=10.0.0.142:8007
+sproto_client relogin, account=auto456
+game_bw thread 4 fd=268 rotate to account auto456 (56/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100514}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100514},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100514}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100514},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto441_2026-10-13_15-31-24.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=408 -> 408 login=10.0.0.142:8007
+sproto_client relogin, account=auto458
+game_bw thread 2 fd=408 rotate to account auto458 (58/100)
+[dbg] TIMEOUT fd=404 status=2 proto=reqlogin
+[dbg] fd=404 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=404 gw=10.0.0.142:8107 uid=100520 token_len=28
+[dbg] reconnect fd=404 -> 404 gw=10.0.0.142:8107
+[dbg] TIMEOUT fd=400 status=4 proto=reqAuth
+[dbg] fd=400 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=460 status=4 proto=reqAuth
+[dbg] fd=460 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100517,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100517,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100517}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100517},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto440_2026-10-13_15-31-26.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=432 -> 432 login=10.0.0.142:8007
+sproto_client relogin, account=auto451
+game_bw thread 3 fd=432 rotate to account auto451 (51/100)
+protocol_task: results saved to game_bw/protocol/result_auto442_2026-10-13_15-31-27.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=340 -> 340 login=10.0.0.142:8007
+sproto_client relogin, account=auto461
+game_bw thread 1 fd=340 rotate to account auto461 (61/100)
+[dbg] TIMEOUT fd=356 status=2 proto=reqlogin
+[dbg] fd=356 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=360 status=2 proto=reqlogin
+[dbg] fd=360 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=368 status=2 proto=reqlogin
+[dbg] fd=368 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=372 status=2 proto=nil
+[dbg] fd=372 reqlogin still waiting (2), no relogin
+[dbg] reqlogin resp fd=356 gw=10.0.0.142:8107 uid=100522 token_len=28
+[dbg] reconnect fd=356 -> 356 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=360 gw=10.0.0.142:8107 uid=100523 token_len=28
+[dbg] reconnect fd=360 -> 360 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=368 gw=10.0.0.142:8107 uid=100524 token_len=28
+[dbg] reconnect fd=368 -> 368 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=372 gw=10.0.0.142:8107 uid=100521 token_len=28
+[dbg] reconnect fd=372 -> 372 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100524,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100524,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100524}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100524},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=380 -> 380 login=10.0.0.142:8007
+sproto_client relogin, account=auto460
+game_bw thread 4 fd=380 rotate to account auto460 (60/100)
+[dbg] TIMEOUT fd=100 status=4 proto=reqAuth
+[dbg] fd=100 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=104 status=4 proto=reqAuth
+[dbg] fd=104 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100518}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100518},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100518}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100518},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto457_2026-10-13_15-31-31.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=440 -> 440 login=10.0.0.142:8007
+sproto_client relogin, account=auto455
+game_bw thread 3 fd=440 rotate to account auto455 (55/100)
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: results saved to game_bw/protocol/result_auto444_2026-10-13_15-31-33.xlsx
+[dbg] relogin reconnect fd=400 -> 400 login=10.0.0.142:8007
+sproto_client relogin, account=auto462
+game_bw thread 2 fd=400 rotate to account auto462 (62/100)
+[dbg] TIMEOUT fd=392 status=2 proto=reqlogin
+[dbg] fd=392 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=460 status=4 proto=nil
+[dbg] fd=460 reqAuth still waiting (2), no reauth
+[dbg] TIMEOUT fd=404 status=4 proto=reqAuth
+[dbg] fd=404 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=408 status=2 proto=reqlogin
+[dbg] fd=408 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=392 gw=10.0.0.142:8107 uid=100525 token_len=28
+[dbg] reconnect fd=392 -> 392 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=408 gw=10.0.0.142:8107 uid=100526 token_len=28
+[dbg] reconnect fd=408 -> 408 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100516,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100516,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100516}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100516},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto446_2026-10-13_15-31-36.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=424 -> 424 login=10.0.0.142:8007
+sproto_client relogin, account=auto459
+game_bw thread 3 fd=424 rotate to account auto459 (59/100)
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=100 -> 540 login=10.0.0.142:8007
+sproto_client relogin, account=auto464
+game_bw thread 4 fd=540 rotate to account auto464 (64/100)
+game_bw writeable failed, no client fd:100
+[dbg] TIMEOUT fd=316 status=2 proto=reqlogin
+[dbg] fd=316 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=268 status=2 proto=reqlogin
+[dbg] fd=268 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=104 status=4 proto=nil
+[dbg] fd=104 reqAuth still waiting (2), no reauth
+[dbg] TIMEOUT fd=380 status=2 proto=reqlogin
+[dbg] fd=380 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=316 gw=10.0.0.142:8107 uid=100529 token_len=28
+[dbg] reconnect fd=316 -> 316 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=268 gw=10.0.0.142:8107 uid=100528 token_len=28
+[dbg] reconnect fd=268 -> 268 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=380 gw=10.0.0.142:8107 uid=100530 token_len=28
+[dbg] reconnect fd=380 -> 380 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100519}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100519},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100519}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100519},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=368 -> 368 login=10.0.0.142:8007
+sproto_client relogin, account=auto465
+game_bw thread 1 fd=368 rotate to account auto465 (65/100)
+[dbg] TIMEOUT fd=340 status=2 proto=reqlogin
+[dbg] fd=340 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=356 status=4 proto=reqAuth
+[dbg] fd=356 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=360 status=4 proto=reqAuth
+[dbg] fd=360 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=372 status=4 proto=reqAuth
+[dbg] fd=372 reqAuth still waiting (1), no reauth
+[dbg] reqlogin resp fd=340 gw=10.0.0.142:8107 uid=100527 token_len=28
+[dbg] reconnect fd=340 -> 340 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100522,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100522,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100522}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100522},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto448_2026-10-13_15-31-40.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto449_2026-10-13_15-31-41.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=356 -> 356 login=10.0.0.142:8007
+sproto_client relogin, account=auto469
+game_bw thread 1 fd=356 rotate to account auto469 (69/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100523,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100523,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100523}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100523},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=460 -> 460 login=10.0.0.142:8007
+sproto_client relogin, account=auto466
+game_bw thread 2 fd=460 rotate to account auto466 (66/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100520,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100520,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100520}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100520},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto453_2026-10-13_15-31-46.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto450_2026-10-13_15-31-47.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=436 -> 436 login=10.0.0.142:8007
+sproto_client relogin, account=auto463
+game_bw thread 3 fd=436 rotate to account auto463 (63/100)
+[dbg] TIMEOUT fd=428 status=2 proto=nil
+fd=428 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=428 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=428 -> 428 login=10.0.0.142:8007
+sproto_client relogin, account=auto447
+[dbg] TIMEOUT fd=424 status=2 proto=reqlogin
+[dbg] fd=424 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=432 status=2 proto=reqlogin
+[dbg] fd=432 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=440 status=2 proto=reqlogin
+[dbg] fd=440 reqlogin still waiting (1), no relogin
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=360 -> 360 login=10.0.0.142:8007
+sproto_client relogin, account=auto473
+game_bw thread 1 fd=360 rotate to account auto473 (73/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100521,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100521,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100521}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100521},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=404 -> 404 login=10.0.0.142:8007
+sproto_client relogin, account=auto470
+game_bw thread 2 fd=404 rotate to account auto470 (70/100)
+[dbg] TIMEOUT fd=400 status=2 proto=reqlogin
+[dbg] fd=400 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=400 gw=10.0.0.142:8107 uid=100531 token_len=28
+[dbg] reconnect fd=400 -> 400 gw=10.0.0.142:8107
+[dbg] TIMEOUT fd=392 status=4 proto=reqAuth
+[dbg] fd=392 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=408 status=4 proto=reqAuth
+[dbg] fd=408 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100525,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100525,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=104 -> 104 login=10.0.0.142:8007
+sproto_client relogin, account=auto468
+game_bw thread 4 fd=104 rotate to account auto468 (68/100)
+[dbg] TIMEOUT fd=268 status=4 proto=reqAuth
+[dbg] fd=268 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=316 status=4 proto=reqAuth
+[dbg] fd=316 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=380 status=4 proto=reqAuth
+[dbg] fd=380 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100528}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100528},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100525}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100525},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100528}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100528},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: results saved to game_bw/protocol/result_auto445_2026-10-13_15-31-51.xlsx
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto454_2026-10-13_15-31-53.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto456_2026-10-13_15-31-53.xlsx
+[dbg] TIMEOUT fd=424 status=2 proto=nil
+[dbg] fd=424 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=428 status=2 proto=reqlogin
+fd=428 reqlogin no response after rebuild, abandon account=auto447
+[dbg] TIMEOUT fd=432 status=2 proto=nil
+[dbg] fd=432 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=436 status=2 proto=reqlogin
+[dbg] fd=436 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=440 status=2 proto=nil
+[dbg] fd=440 reqlogin still waiting (2), no relogin
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=268 -> 268 login=10.0.0.142:8007
+sproto_client relogin, account=auto472
+game_bw thread 4 fd=268 rotate to account auto472 (72/100)
+[dbg] TIMEOUT fd=540 status=2 proto=reqlogin
+[dbg] fd=540 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=540 gw=10.0.0.142:8107 uid=100535 token_len=28
+[dbg] reconnect fd=540 -> 540 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=104 gw=10.0.0.142:8107 uid=100536 token_len=28
+[dbg] reconnect fd=104 -> 104 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100529}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100529},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100529}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100529},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=392 -> 392 login=10.0.0.142:8007
+sproto_client relogin, account=auto474
+game_bw thread 2 fd=392 rotate to account auto474 (74/100)
+[dbg] TIMEOUT fd=460 status=2 proto=reqlogin
+[dbg] fd=460 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=460 gw=10.0.0.142:8107 uid=100533 token_len=28
+[dbg] reconnect fd=460 -> 460 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=404 gw=10.0.0.142:8107 uid=100534 token_len=28
+[dbg] reconnect fd=404 -> 404 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100531,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100531,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100531}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100531},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=372 -> 372 login=10.0.0.142:8007
+sproto_client relogin, account=auto477
+game_bw thread 1 fd=372 rotate to account auto477 (77/100)
+[dbg] TIMEOUT fd=368 status=2 proto=reqlogin
+[dbg] fd=368 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=368 gw=10.0.0.142:8107 uid=100532 token_len=28
+[dbg] reconnect fd=368 -> 368 gw=10.0.0.142:8107
+[dbg] TIMEOUT fd=340 status=4 proto=reqAuth
+[dbg] fd=340 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100532,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100532,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100532}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100532},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto452_2026-10-13_15-31-57.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto462_2026-10-13_15-31-57.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=428 -> 428 login=10.0.0.142:8007
+sproto_client relogin, account=auto467
+game_bw thread 3 fd=428 rotate to account auto467 (67/100)
+protocol_task: results saved to game_bw/protocol/result_auto465_2026-10-13_15-31-57.xlsx
+[dbg] TIMEOUT fd=424 status=2 proto=nil
+fd=424 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=424 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=424 -> 424 login=10.0.0.142:8007
+sproto_client relogin, account=auto459
+[dbg] TIMEOUT fd=432 status=2 proto=nil
+fd=432 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=432 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=432 -> 432 login=10.0.0.142:8007
+sproto_client relogin, account=auto451
+[dbg] TIMEOUT fd=436 status=2 proto=nil
+[dbg] fd=436 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=440 status=2 proto=nil
+fd=440 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=440 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=440 -> 100 login=10.0.0.142:8007
+sproto_client relogin, account=auto455
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=316 -> 316 login=10.0.0.142:8007
+sproto_client relogin, account=auto476
+game_bw thread 4 fd=316 rotate to account auto476 (76/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100530}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100530},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100530}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100530},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=368 -> 368 login=10.0.0.142:8007
+sproto_client relogin, account=auto481
+game_bw thread 1 fd=368 rotate to account auto481 (81/100)
+[dbg] TIMEOUT fd=356 status=2 proto=reqlogin
+[dbg] fd=356 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=360 status=2 proto=reqlogin
+[dbg] fd=360 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=356 gw=10.0.0.142:8107 uid=100537 token_len=28
+[dbg] reconnect fd=356 -> 356 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=360 gw=10.0.0.142:8107 uid=100538 token_len=28
+[dbg] reconnect fd=360 -> 360 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=372 gw=10.0.0.142:8107 uid=100539 token_len=28
+[dbg] reconnect fd=372 -> 372 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100527,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100527,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=400 -> 400 login=10.0.0.142:8007
+sproto_client relogin, account=auto478
+game_bw thread 2 fd=400 rotate to account auto478 (78/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100526,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100526,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100527}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100527},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100526}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100526},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto460_2026-10-13_15-32-01.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto461_2026-10-13_15-32-01.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto458_2026-10-13_15-32-01.xlsx
+[dbg] TIMEOUT fd=428 status=2 proto=reqlogin
+[dbg] fd=428 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=424 status=2 proto=reqlogin
+fd=424 reqlogin no response after rebuild, abandon account=auto459
+[dbg] TIMEOUT fd=432 status=2 proto=reqlogin
+fd=432 reqlogin no response after rebuild, abandon account=auto451
+[dbg] TIMEOUT fd=436 status=2 proto=nil
+fd=436 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=436 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=436 -> 436 login=10.0.0.142:8007
+sproto_client relogin, account=auto463
+[dbg] TIMEOUT fd=100 status=2 proto=reqlogin
+fd=100 reqlogin no response after rebuild, abandon account=auto455
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=408 -> 408 login=10.0.0.142:8007
+sproto_client relogin, account=auto482
+game_bw thread 2 fd=408 rotate to account auto482 (82/100)
+[dbg] TIMEOUT fd=460 status=4 proto=reqAuth
+[dbg] fd=460 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=404 status=4 proto=reqAuth
+[dbg] fd=404 reqAuth still waiting (1), no reauth
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=340 -> 340 login=10.0.0.142:8007
+sproto_client relogin, account=auto485
+game_bw thread 1 fd=340 rotate to account auto485 (85/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100533,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100533,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100533}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100533},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+[dbg] TIMEOUT fd=360 status=4 proto=reqAuth
+[dbg] fd=360 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=372 status=4 proto=reqAuth
+[dbg] fd=372 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=356 status=4 proto=reqAuth
+[dbg] fd=356 reqAuth still waiting (1), no reauth
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=380 -> 380 login=10.0.0.142:8007
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+sproto_client relogin, account=auto480
+game_bw thread 4 fd=380 rotate to account auto480 (80/100)
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100537,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100537,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+[dbg] TIMEOUT fd=268 status=2 proto=reqlogin
+[dbg] fd=268 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=268 gw=10.0.0.142:8107 uid=100540 token_len=28
+[dbg] reconnect fd=268 -> 268 gw=10.0.0.142:8107
+[dbg] TIMEOUT fd=540 status=4 proto=reqAuth
+[dbg] fd=540 reqAuth still waiting (1), no reauth
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100537}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100537},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+[dbg] TIMEOUT fd=104 status=4 proto=reqAuth
+[dbg] fd=104 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100540}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100540},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100540}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100540},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto466_2026-10-13_15-32-06.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto469_2026-10-13_15-32-06.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto472_2026-10-13_15-32-06.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=432 -> 432 login=10.0.0.142:8007
+sproto_client relogin, account=auto471
+game_bw thread 3 fd=432 rotate to account auto471 (71/100)
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=460 -> 460 login=10.0.0.142:8007
+sproto_client relogin, account=auto486
+game_bw thread 2 fd=460 rotate to account auto486 (86/100)
+[dbg] TIMEOUT fd=392 status=2 proto=reqlogin
+[dbg] fd=392 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=400 status=2 proto=reqlogin
+[dbg] fd=400 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=404 status=4 proto=nil
+[dbg] fd=404 reqAuth still waiting (2), no reauth
+[dbg] TIMEOUT fd=408 status=2 proto=reqlogin
+[dbg] fd=408 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=392 gw=10.0.0.142:8107 uid=100543 token_len=28
+[dbg] reconnect fd=392 -> 392 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=400 gw=10.0.0.142:8107 uid=100541 token_len=28
+[dbg] reconnect fd=400 -> 400 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=408 gw=10.0.0.142:8107 uid=100542 token_len=28
+[dbg] reconnect fd=408 -> 408 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100534,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100534,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100534}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100534},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=268 -> 268 login=10.0.0.142:8007
+sproto_client relogin, account=auto484
+game_bw thread 4 fd=268 rotate to account auto484 (84/100)
+[dbg] TIMEOUT fd=540 status=4 proto=nil
+[dbg] fd=540 reqAuth still waiting (2), no reauth
+[dbg] TIMEOUT fd=316 status=2 proto=reqlogin
+[dbg] fd=316 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=104 status=4 proto=nil
+[dbg] fd=104 reqAuth still waiting (2), no reauth
+[dbg] TIMEOUT fd=380 status=2 proto=reqlogin
+[dbg] fd=380 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=316 gw=10.0.0.142:8107 uid=100546 token_len=28
+[dbg] reconnect fd=316 -> 316 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=380 gw=10.0.0.142:8107 uid=100547 token_len=28
+[dbg] reconnect fd=380 -> 380 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100535}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100535},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=100 -> 100 login=10.0.0.142:8007
+sproto_client relogin, account=auto475
+game_bw thread 3 fd=100 rotate to account auto475 (75/100)
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100535}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100535},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=356 -> 356 login=10.0.0.142:8007
+sproto_client relogin, account=auto489
+game_bw thread 1 fd=356 rotate to account auto489 (89/100)
+[dbg] TIMEOUT fd=340 status=2 proto=reqlogin
+[dbg] fd=340 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=360 status=4 proto=nil
+[dbg] fd=360 reqAuth still waiting (2), no reauth
+[dbg] TIMEOUT fd=368 status=2 proto=reqlogin
+[dbg] fd=368 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=372 status=4 proto=nil
+[dbg] fd=372 reqAuth still waiting (2), no reauth
+[dbg] reqlogin resp fd=340 gw=10.0.0.142:8107 uid=100545 token_len=28
+[dbg] reconnect fd=340 -> 340 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=368 gw=10.0.0.142:8107 uid=100544 token_len=28
+[dbg] reconnect fd=368 -> 368 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100538,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100538,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100538}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100538},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto470_2026-10-13_15-32-13.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto464_2026-10-13_15-32-13.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto473_2026-10-13_15-32-13.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=424 -> 424 login=10.0.0.142:8007
+sproto_client relogin, account=auto479
+game_bw thread 3 fd=424 rotate to account auto479 (79/100)
+[dbg] TIMEOUT fd=428 status=2 proto=nil
+[dbg] fd=428 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=436 status=2 proto=reqlogin
+fd=436 reqlogin no response after rebuild, abandon account=auto463
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=360 -> 360 login=10.0.0.142:8007
+sproto_client relogin, account=auto503
+game_bw thread 1 fd=360 rotate to account auto503 (93/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100539,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100539,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=540 -> 540 login=10.0.0.142:8007
+sproto_client relogin, account=auto488
+game_bw thread 4 fd=540 rotate to account auto488 (88/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100536}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100536},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100536}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100536},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100539}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100539},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=436 -> 436 login=10.0.0.142:8007
+sproto_client relogin, account=auto483
+game_bw thread 3 fd=436 rotate to account auto483 (83/100)
+[dbg] TIMEOUT fd=432 status=2 proto=reqlogin
+[dbg] fd=432 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=100 status=2 proto=reqlogin
+[dbg] fd=100 reqlogin still waiting (1), no relogin
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=404 -> 404 login=10.0.0.142:8007
+sproto_client relogin, account=auto490
+game_bw thread 2 fd=404 rotate to account auto490 (90/100)
+[dbg] TIMEOUT fd=460 status=2 proto=reqlogin
+[dbg] fd=460 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=460 gw=10.0.0.142:8107 uid=100548 token_len=28
+[dbg] reconnect fd=460 -> 460 gw=10.0.0.142:8107
+[dbg] TIMEOUT fd=408 status=4 proto=reqAuth
+[dbg] fd=408 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=400 status=4 proto=reqAuth
+[dbg] fd=400 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=392 status=4 proto=reqAuth
+[dbg] fd=392 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100542,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100542,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100542}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100542},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task: results saved to game_bw/protocol/result_auto477_2026-10-13_15-32-18.xlsx
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+[dbg] TIMEOUT fd=424 status=2 proto=reqlogin
+[dbg] fd=424 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=428 status=2 proto=nil
+fd=428 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=428 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=428 -> 396 login=10.0.0.142:8007
+sproto_client relogin, account=auto467
+protocol_task: results saved to game_bw/protocol/result_auto468_2026-10-13_15-32-19.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto482_2026-10-13_15-32-20.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=372 -> 372 login=10.0.0.142:8007
+sproto_client relogin, account=auto507
+game_bw thread 1 fd=372 rotate to account auto507 (97/100)
+[dbg] TIMEOUT fd=356 status=2 proto=reqlogin
+[dbg] fd=356 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=356 gw=10.0.0.142:8107 uid=100549 token_len=28
+[dbg] reconnect fd=356 -> 356 gw=10.0.0.142:8107
+[dbg] TIMEOUT fd=340 status=4 proto=reqAuth
+[dbg] fd=340 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=368 status=4 proto=reqAuth
+[dbg] fd=368 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100545,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100545,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100545}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100545},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] TIMEOUT fd=432 status=2 proto=nil
+[dbg] fd=432 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=436 status=2 proto=reqlogin
+[dbg] fd=436 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=100 status=2 proto=nil
+[dbg] fd=100 reqlogin still waiting (2), no relogin
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=408 -> 408 login=10.0.0.142:8007
+sproto_client relogin, account=auto504
+game_bw thread 2 fd=408 rotate to account auto504 (94/100)
+[dbg] reqlogin resp fd=404 gw=10.0.0.142:8107 uid=100551 token_len=28
+[dbg] reconnect fd=404 -> 404 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100543,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100543,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100543}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100543},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto485_2026-10-13_15-32-23.xlsx
+[dbg] TIMEOUT fd=360 status=2 proto=reqlogin
+[dbg] fd=360 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=360 gw=10.0.0.142:8107 uid=100552 token_len=28
+[dbg] reconnect fd=360 -> 360 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=372 gw=10.0.0.142:8107 uid=100553 token_len=28
+[dbg] reconnect fd=372 -> 372 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100549,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100549,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100549}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100549},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=104 -> 104 login=10.0.0.142:8007
+sproto_client relogin, account=auto492
+game_bw thread 4 fd=104 rotate to account auto492 (92/100)
+[dbg] TIMEOUT fd=268 status=2 proto=reqlogin
+[dbg] fd=268 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=268 gw=10.0.0.142:8107 uid=100550 token_len=28
+[dbg] reconnect fd=268 -> 268 gw=10.0.0.142:8107
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] TIMEOUT fd=380 status=4 proto=reqAuth
+[dbg] fd=380 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=316 status=4 proto=reqAuth
+[dbg] fd=316 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100547}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100547},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100547}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100547},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto474_2026-10-13_15-32-24.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto489_2026-10-13_15-32-24.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100544,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100544,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100544}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100544},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+[dbg] TIMEOUT fd=424 status=2 proto=nil
+[dbg] fd=424 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=396 status=2 proto=reqlogin
+fd=396 reqlogin no response after rebuild, abandon account=auto467
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto480_2026-10-13_15-32-25.xlsx
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=392 -> 392 login=10.0.0.142:8007
+sproto_client relogin, account=auto508
+game_bw thread 2 fd=392 rotate to account auto508 (98/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100548,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100548,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100548}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100548},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto481_2026-10-13_15-32-26.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100552,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100552,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100552}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100552},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=380 -> 380 login=10.0.0.142:8007
+sproto_client relogin, account=auto506
+game_bw thread 4 fd=380 rotate to account auto506 (96/100)
+[dbg] TIMEOUT fd=540 status=2 proto=reqlogin
+[dbg] fd=540 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=540 gw=10.0.0.142:8107 uid=100554 token_len=28
+[dbg] reconnect fd=540 -> 540 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=104 gw=10.0.0.142:8107 uid=100555 token_len=28
+[dbg] reconnect fd=104 -> 104 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100546}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100546},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100546}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100546},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto486_2026-10-13_15-32-27.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100541,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100541,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=396 -> 396 login=10.0.0.142:8007
+sproto_client relogin, account=auto487
+game_bw thread 3 fd=396 rotate to account auto487 (87/100)
+[dbg] TIMEOUT fd=432 status=2 proto=nil
+fd=432 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=432 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=432 -> 432 login=10.0.0.142:8007
+sproto_client relogin, account=auto471
+[dbg] TIMEOUT fd=436 status=2 proto=nil
+[dbg] fd=436 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=100 status=2 proto=nil
+fd=100 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=100 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=100 -> 100 login=10.0.0.142:8007
+sproto_client relogin, account=auto475
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100541}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100541},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto503_2026-10-13_15-32-28.xlsx
+[dbg] TIMEOUT fd=372 status=4 proto=reqAuth
+[dbg] fd=372 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":100553,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","time":0,"data":{"buildCfgId":100,"uid":100553,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100553}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","time":0,"data":{"uid":100553},"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: results saved to game_bw/protocol/result_auto476_2026-10-13_15-32-28.xlsx
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto478_2026-10-13_15-32-29.xlsx
+[dbg] TIMEOUT fd=408 status=2 proto=reqlogin
+[dbg] fd=408 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=404 status=4 proto=reqAuth
+[dbg] fd=404 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100551,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100551,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100551}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100551},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+[dbg] TIMEOUT fd=424 status=2 proto=nil
+fd=424 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=424 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=424 -> 424 login=10.0.0.142:8007
+sproto_client relogin, account=auto479
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto507_2026-10-13_15-32-30.xlsx
+game_bw thread 1 all accounts done, report early stop
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=316 -> 316 login=10.0.0.142:8007
+sproto_client relogin, account=auto510
+game_bw thread 4 fd=316 rotate to account auto510 (100/100)
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100550}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100550},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100550}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100550},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto490_2026-10-13_15-32-31.xlsx
+[dbg] TIMEOUT fd=392 status=2 proto=reqlogin
+[dbg] fd=392 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=392 gw=10.0.0.142:8107 uid=100557 token_len=28
+[dbg] reconnect fd=392 -> 476 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=408 gw=10.0.0.142:8107 uid=100556 token_len=28
+[dbg] reconnect fd=408 -> 408 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100556,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100556,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100556}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100556},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto484_2026-10-13_15-32-32.xlsx
+[dbg] TIMEOUT fd=380 status=2 proto=reqlogin
+[dbg] fd=380 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=104 status=4 proto=reqAuth
+[dbg] fd=104 reqAuth still waiting (1), no reauth
+[dbg] TIMEOUT fd=540 status=4 proto=reqAuth
+[dbg] fd=540 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100555}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100555},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100555}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100555},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+[dbg] TIMEOUT fd=396 status=2 proto=reqlogin
+[dbg] fd=396 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=432 status=2 proto=reqlogin
+fd=432 reqlogin no response after rebuild, abandon account=auto471
+[dbg] TIMEOUT fd=436 status=2 proto=nil
+fd=436 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=436 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=436 -> 436 login=10.0.0.142:8007
+sproto_client relogin, account=auto483
+[dbg] TIMEOUT fd=100 status=2 proto=reqlogin
+fd=100 reqlogin no response after rebuild, abandon account=auto475
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto504_2026-10-13_15-32-33.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100557,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100557,"buildCfgId":100,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100557}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100557},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","msg":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto492_2026-10-13_15-32-34.xlsx
+[dbg] reqlogin resp fd=316 gw=10.0.0.142:8107 uid=100559 token_len=28
+[dbg] reconnect fd=316 -> 556 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=380 gw=10.0.0.142:8107 uid=100558 token_len=28
+[dbg] reconnect fd=380 -> 380 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100554}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100554},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100554}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100554},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto508_2026-10-13_15-32-35.xlsx
+game_bw thread 2 all accounts done, report early stop
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=432 -> 432 login=10.0.0.142:8007
+sproto_client relogin, account=auto491
+game_bw thread 3 fd=432 rotate to account auto491 (91/100)
+protocol_task: results saved to game_bw/protocol/result_auto488_2026-10-13_15-32-35.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100559}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100559},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100559}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100559},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto510_2026-10-13_15-32-38.xlsx
+[dbg] TIMEOUT fd=380 status=4 proto=reqAuth
+[dbg] fd=380 reqAuth still waiting (1), no reauth
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":100558}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":100558},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100558}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100558},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto506_2026-10-13_15-32-45.xlsx
+game_bw thread 4 all accounts done, report early stop
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=100 -> 100 login=10.0.0.142:8007
+sproto_client relogin, account=auto505
+game_bw thread 3 fd=100 rotate to account auto505 (95/100)
+[dbg] TIMEOUT fd=424 status=2 proto=reqlogin
+fd=424 reqlogin no response after rebuild, abandon account=auto479
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] relogin reconnect fd=424 -> 424 login=10.0.0.142:8007
+sproto_client relogin, account=auto509
+game_bw thread 3 fd=424 rotate to account auto509 (99/100)
+[dbg] TIMEOUT fd=396 status=2 proto=nil
+[dbg] fd=396 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=436 status=2 proto=reqlogin
+fd=436 reqlogin no response after rebuild, abandon account=auto483
+[dbg] TIMEOUT fd=432 status=2 proto=reqlogin
+[dbg] fd=432 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=100 status=2 proto=reqlogin
+[dbg] fd=100 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=424 status=2 proto=reqlogin
+[dbg] fd=424 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=396 status=2 proto=nil
+fd=396 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=396 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=396 -> 396 login=10.0.0.142:8007
+sproto_client relogin, account=auto487
+[dbg] TIMEOUT fd=432 status=2 proto=nil
+[dbg] fd=432 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=100 status=2 proto=nil
+[dbg] fd=100 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=424 status=2 proto=nil
+[dbg] fd=424 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=396 status=2 proto=reqlogin
+fd=396 reqlogin no response after rebuild, abandon account=auto487
+[dbg] TIMEOUT fd=432 status=2 proto=nil
+fd=432 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=432 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=432 -> 432 login=10.0.0.142:8007
+sproto_client relogin, account=auto491
+[dbg] TIMEOUT fd=100 status=2 proto=nil
+fd=100 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=100 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=100 -> 100 login=10.0.0.142:8007
+sproto_client relogin, account=auto505
+[dbg] TIMEOUT fd=424 status=2 proto=nil
+fd=424 reqlogin no response x3, escalate: rebuild connection
+game_bw thread 3 fd=424 rebuild connection for stuck reqlogin
+[dbg] relogin reconnect fd=424 -> 424 login=10.0.0.142:8007
+sproto_client relogin, account=auto509
+[dbg] TIMEOUT fd=432 status=2 proto=reqlogin
+fd=432 reqlogin no response after rebuild, abandon account=auto491
+[dbg] TIMEOUT fd=100 status=2 proto=reqlogin
+fd=100 reqlogin no response after rebuild, abandon account=auto505
+[dbg] TIMEOUT fd=424 status=2 proto=reqlogin
+fd=424 reqlogin no response after rebuild, abandon account=auto509
+game_bw thread 3 all accounts done, report early stop
+Running 600s test skynet
+  4 threads and 20 connections
+all threads tasks done, early stop after 175 s (configured 600 s)
+Running 600s test skynet
+  4 threads and actually 198 connections
+  Thread Stats       Avg       Min       Max
+    Latency       537.24 ms    0.00 ms    7965.30 ms
+  1217 requests 6886 responses in 190298.29 ms, 918.78 kb read
+  Socket errors: connect 0, read 0, write 0, timeout 22
+Requests/sec:      6.40
+Responses/sec:     36.19
+Transfer/sec:       4.83 kb

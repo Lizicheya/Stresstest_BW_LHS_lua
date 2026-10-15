@@ -1,0 +1,4 @@
+﻿require lpeg:	true	table: 00000000016e47f0
+lpeg version:	1.0.2
+match 'hello world':	6
+match 'world':	nil

@@ -1,0 +1,3 @@
+cd e:\LuaYaCe\wrk_tcp
+mkdir logs -Force
+.\wrk.exe > "logs\wrk_run_$(Get-Date -Format 'yyyyMMdd_HHmmss').log" 2>&1

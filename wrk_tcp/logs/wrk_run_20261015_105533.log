@@ -1,0 +1,784 @@
+game_bw load accounts from ycf_b.txt, count:880
+game_bw init thread id:4 delta:0s
+game_bw load accounts from ycf_b.txt, count:880
+game_bw init thread id:2 delta:0s
+game_bw load accounts from ycf_b.txt, count:880
+game_bw init thread id:1 delta:0s
+game_bw load accounts from ycf_b.txt, count:880
+game_bw init thread id:3 delta:0s
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=392 gw=10.0.0.142:8107 uid=100109 token_len=28
+[dbg] reconnect fd=392 -> 392 gw=10.0.0.142:8107
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=428 gw=10.0.0.142:8107 uid=100111 token_len=28
+[dbg] reconnect fd=428 -> 428 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=340 gw=10.0.0.142:8107 uid=100110 token_len=28
+[dbg] reconnect fd=340 -> 340 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=312 gw=10.0.0.142:8107 uid=100112 token_len=28
+[dbg] reconnect fd=312 -> 312 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task: results saved to game_bw/protocol/result_A121_2026-10-15_10-55-43.xlsx
+[dbg] TIMEOUT fd=396 status=2 proto=reqlogin
+[dbg] fd=396 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=400 status=2 proto=reqlogin
+[dbg] fd=400 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=396 gw=10.0.0.142:8107 uid=100115 token_len=28
+[dbg] reconnect fd=396 -> 396 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=400 gw=10.0.0.142:8107 uid=100116 token_len=28
+[dbg] reconnect fd=400 -> 400 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=408 gw=10.0.0.142:8107 uid=100114 token_len=28
+[dbg] reconnect fd=408 -> 408 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=412 gw=10.0.0.142:8107 uid=100113 token_len=28
+[dbg] reconnect fd=412 -> 412 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task: results saved to game_bw/protocol/result_A123_2026-10-15_10-55-43.xlsx
+[dbg] TIMEOUT fd=424 status=2 proto=reqlogin
+[dbg] fd=424 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=432 status=2 proto=reqlogin
+[dbg] fd=432 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=424 gw=10.0.0.142:8107 uid=100120 token_len=28
+[dbg] reconnect fd=424 -> 424 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=432 gw=10.0.0.142:8107 uid=100119 token_len=28
+[dbg] reconnect fd=432 -> 432 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=436 gw=10.0.0.142:8107 uid=100118 token_len=28
+[dbg] reconnect fd=436 -> 436 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=440 gw=10.0.0.142:8107 uid=100117 token_len=28
+[dbg] reconnect fd=440 -> 440 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task: results saved to game_bw/protocol/result_A124_2026-10-15_10-55-43.xlsx
+[dbg] TIMEOUT fd=356 status=2 proto=reqlogin
+[dbg] fd=356 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=360 status=2 proto=reqlogin
+[dbg] fd=360 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=364 status=2 proto=reqlogin
+[dbg] fd=364 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=356 gw=10.0.0.142:8107 uid=100122 token_len=28
+[dbg] reconnect fd=356 -> 356 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=360 gw=10.0.0.142:8107 uid=100123 token_len=28
+[dbg] reconnect fd=360 -> 360 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=364 gw=10.0.0.142:8107 uid=100124 token_len=28
+[dbg] reconnect fd=364 -> 476 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=368 gw=10.0.0.142:8107 uid=100121 token_len=28
+[dbg] reconnect fd=368 -> 368 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task: results saved to game_bw/protocol/result_A133_2026-10-15_10-55-45.xlsx
+protocol_task: results saved to game_bw/protocol/result_A131_2026-10-15_10-55-45.xlsx
+protocol_task: results saved to game_bw/protocol/result_A132_2026-10-15_10-55-46.xlsx
+protocol_task: results saved to game_bw/protocol/result_A122_2026-10-15_10-55-44.xlsx
+[dbg] TIMEOUT fd=252 status=2 proto=reqlogin
+[dbg] fd=252 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=248 status=2 proto=reqlogin
+[dbg] fd=248 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=316 status=2 proto=reqlogin
+[dbg] fd=316 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=252 gw=10.0.0.142:8107 uid=100126 token_len=28
+[dbg] reconnect fd=252 -> 252 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=248 gw=10.0.0.142:8107 uid=100125 token_len=28
+[dbg] reconnect fd=248 -> 248 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=316 gw=10.0.0.142:8107 uid=100127 token_len=28
+[dbg] reconnect fd=316 -> 316 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=320 gw=10.0.0.142:8107 uid=100128 token_len=28
+[dbg] reconnect fd=320 -> 320 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task: results saved to game_bw/protocol/result_A137_2026-10-15_10-55-47.xlsx
+protocol_task: results saved to game_bw/protocol/result_A127_2026-10-15_10-55-47.xlsx
+protocol_task: results saved to game_bw/protocol/result_A128_2026-10-15_10-55-47.xlsx
+protocol_task: results saved to game_bw/protocol/result_A134_2026-10-15_10-55-47.xlsx
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+[dbg] next_request error: game_bw/task\cheattask\cheat_task.lua:11: module 'cheat.cheat_defs' not found:
+	no field package.preload['cheat.cheat_defs']
+	no file 'lualib/cheat\cheat_defs.lua'
+	no file 'lualib/cheat\cheat_defs/init.lua'
+	no file 'game_bw/cheat\cheat_defs.lua'
+	no file 'game_bw/cheat\cheat_defs/init.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'E:\LuaYaCe\luarocks\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\lua\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs\init.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs.lua'
+	no file 'e:\LuaYaCe\wrk_tcp\..\share\lua\5.3\cheat\cheat_defs\init.lua'
+	no file '.\cheat\cheat_defs.lua'
+	no file '.\cheat\cheat_defs\init.lua'
+	no file 'lualib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.dll'
+	no file 'luaclib/cheat\cheat_defs.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat\cheat_defs.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat\cheat_defs.dll'
+	no file 'lualib/cheat.dll'
+	no file 'luaclib/cheat.dll'
+	no file 'luaclib/cheat.so'
+	no file 'E:\LuaYaCe\luarocks\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\cheat.dll'
+	no file 'e:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\cheat.dll'
+protocol_task: results saved to game_bw/protocol/result_A125_2026-10-15_10-55-49.xlsx
+protocol_task: results saved to game_bw/protocol/result_A139_2026-10-15_10-55-49.xlsx
+protocol_task: results saved to game_bw/protocol/result_A136_2026-10-15_10-55-49.xlsx
+protocol_task: results saved to game_bw/protocol/result_A138_2026-10-15_10-55-49.xlsx
+protocol_task: results saved to game_bw/protocol/result_A129_2026-10-15_10-55-50.xlsx
+game_bw thread 1 all accounts done, report early stop
+protocol_task: results saved to game_bw/protocol/result_A135_2026-10-15_10-55-50.xlsx
+game_bw thread 3 all accounts done, report early stop
+protocol_task: results saved to game_bw/protocol/result_A140_2026-10-15_10-55-50.xlsx
+game_bw thread 4 all accounts done, report early stop
+protocol_task: results saved to game_bw/protocol/result_A130_2026-10-15_10-55-51.xlsx
+protocol_task: results saved to game_bw/protocol/result_A126_2026-10-15_10-55-52.xlsx
+game_bw thread 2 all accounts done, report early stop
+Running 600s test skynet
+  4 threads and 20 connections
+all threads tasks done, early stop after 21 s (configured 600 s)
+Running 600s test skynet
+  4 threads and actually 40 connections
+  Thread Stats       Avg       Min       Max
+    Latency       242.63 ms    0.00 ms    7844.08 ms
+  200 requests 720 responses in 25492.75 ms, 182.66 kb read
+  Socket errors: connect 0, read 0, write 0, timeout 1
+Requests/sec:      7.85
+Responses/sec:     28.24
+Transfer/sec:       7.16 kb

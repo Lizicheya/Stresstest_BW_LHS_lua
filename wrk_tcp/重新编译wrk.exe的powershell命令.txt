@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -File e:\LuaYaCe\build_wrk\build_wrk.ps1

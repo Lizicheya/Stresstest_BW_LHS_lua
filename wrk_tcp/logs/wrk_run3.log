@@ -1,0 +1,34 @@
+﻿Running 5s test skynet
+  1 threads and 1 connections
+loader.lua load error, code:1, msg:lualib/sprotoparser.lua:1: module 'lpeg' not found:
+	no field package.preload['lpeg']
+	no file 'lualib/lpeg.lua'
+	no file 'lualib/lpeg/init.lua'
+	no file 'game_bw/lpeg.lua'
+	no file 'game_bw/lpeg/init.lua'
+	no file 'E:\LuaYaCe\wrk_tcp\lua\lpeg.lua'
+	no file 'E:\LuaYaCe\wrk_tcp\lua\lpeg\init.lua'
+	no file 'E:\LuaYaCe\wrk_tcp\lpeg.lua'
+	no file 'E:\LuaYaCe\wrk_tcp\lpeg\init.lua'
+	no file 'E:\LuaYaCe\wrk_tcp\..\share\lua\5.3\lpeg.lua'
+	no file 'E:\LuaYaCe\wrk_tcp\..\share\lua\5.3\lpeg\init.lua'
+	no file '.\lpeg.lua'
+	no file '.\lpeg\init.lua'
+	no file 'lualib/lpeg.dll'
+	no file 'luaclib/lpeg.dll'
+	no file 'luaclib/lpeg.so'
+	no file 'E:\LuaYaCe\wrk_tcp\lpeg.dll'
+	no file 'E:\LuaYaCe\wrk_tcp\..\lib\lua\5.3\lpeg.dll'
+	no file 'E:\LuaYaCe\wrk_tcp\loadall.dll'
+	no file '.\lpeg.dll'
+connect failed, errno:0, errmsg:No error
+connect error
+Running 5s test skynet
+  1 threads and actually 0 connections
+  Thread Stats       Avg       Min       Max
+    Latency       0.00 ms    18446744073709552.00 ms    0.00 ms
+  0 requests 0 responses in 5015.22 ms, 0.00 kb read
+  Socket errors: connect 1, read 0, write 0, timeout 0
+Requests/sec:      0.00
+Responses/sec:      0.00
+Transfer/sec:       0.00 kb

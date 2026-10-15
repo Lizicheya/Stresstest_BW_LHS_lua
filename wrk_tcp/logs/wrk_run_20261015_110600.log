@@ -1,0 +1,782 @@
+game_bw load accounts from ycf_b.txt, count:840
+game_bw init thread id:4 delta:0s
+game_bw load accounts from ycf_b.txt, count:840
+game_bw init thread id:1 delta:0s
+game_bw load accounts from ycf_b.txt, count:840
+game_bw init thread id:2 delta:0s
+game_bw load accounts from ycf_b.txt, count:840
+game_bw init thread id:3 delta:0s
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=332 gw=10.0.0.142:8107 uid=100151 token_len=28
+[dbg] reconnect fd=332 -> 332 gw=10.0.0.142:8107
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","data":{"buildCfgId":100,"uid":100151,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100151}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","data":{"uid":100151},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=380 gw=10.0.0.142:8107 uid=100152 token_len=28
+[dbg] reconnect fd=380 -> 380 gw=10.0.0.142:8107
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=424 gw=10.0.0.142:8107 uid=100150 token_len=28
+[dbg] reconnect fd=424 -> 424 gw=10.0.0.142:8107
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=336 gw=10.0.0.142:8107 uid=100149 token_len=28
+[dbg] reconnect fd=336 -> 336 gw=10.0.0.142:8107
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"buildCfgId":100,"lv":19,"uid":100152},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"forceChangeBuildLv"}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"msg":"success","data":"success","result":1}
+[dbg] TIMEOUT fd=312 status=2 proto=reqlogin
+[dbg] fd=312 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=404 status=2 proto=reqlogin
+[dbg] fd=404 reqlogin still waiting (1), no relogin
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"forceChangeBuildLv","data":{"buildCfgId":100,"lv":19,"uid":100150}}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100152}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100152},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"unlockCityAreaAll"}
+[dbg] reqlogin resp fd=408 gw=10.0.0.142:8107 uid=100156 token_len=28
+[dbg] reconnect fd=408 -> 408 gw=10.0.0.142:8107
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":88,"uid":100151,"heroCfgId":61301,"starLv":22},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"buildCfgId":100,"lv":19,"uid":100149},"cmd":"forceChangeBuildLv","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100150}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"unlockCityAreaAll","data":{"uid":100150}}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100149}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100149},"cmd":"unlockCityAreaAll","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":62,"uid":100151,"heroCfgId":62301,"starLv":17},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"msg":"success","result":1,"data":"success"}
+[dbg] TIMEOUT fd=372 status=2 proto=reqlogin
+[dbg] fd=372 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=384 status=2 proto=reqlogin
+[dbg] fd=384 reqlogin still waiting (1), no relogin
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":58,"heroCfgId":61301,"uid":100152,"starLv":14},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+[dbg] TIMEOUT fd=428 status=2 proto=reqlogin
+[dbg] fd=428 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=436 status=2 proto=reqlogin
+[dbg] fd=436 reqlogin still waiting (1), no relogin
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":73,"uid":100151,"heroCfgId":63301,"starLv":22},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"msg":"success","data":"success","result":1}
+[dbg] TIMEOUT fd=352 status=2 proto=reqlogin
+[dbg] fd=352 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=308 status=2 proto=reqlogin
+[dbg] fd=308 reqlogin still waiting (1), no relogin
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":57,"heroCfgId":61301,"starLv":9,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61301,"lv":86,"uid":100149,"starLv":17},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":85,"heroCfgId":62301,"uid":100152,"starLv":10},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":98,"uid":100151,"heroCfgId":62302,"starLv":14},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":100,"heroCfgId":62301,"starLv":25,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":59,"uid":100151,"heroCfgId":61302,"starLv":23},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62301,"lv":77,"uid":100149,"starLv":11},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":58,"heroCfgId":63301,"uid":100152,"starLv":23},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":96,"uid":100151,"heroCfgId":62303,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63301,"lv":43,"uid":100149,"starLv":20},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":89,"heroCfgId":63301,"starLv":21,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":72,"heroCfgId":62302,"uid":100152,"starLv":11},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":60,"uid":100151,"heroCfgId":62401,"starLv":12},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62302,"lv":88,"uid":100149,"starLv":19},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":62,"heroCfgId":62302,"starLv":16,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":72,"uid":100151,"heroCfgId":62402,"starLv":16},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":67,"heroCfgId":61302,"uid":100152,"starLv":17},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":51,"heroCfgId":61302,"starLv":8,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61302,"lv":43,"uid":100149,"starLv":14},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":90,"uid":100151,"heroCfgId":61401,"starLv":15},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":74,"heroCfgId":62303,"uid":100152,"starLv":8},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62303,"lv":81,"uid":100149,"starLv":24},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":58,"heroCfgId":62303,"starLv":25,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":97,"uid":100151,"heroCfgId":62403,"starLv":25},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":73,"heroCfgId":62401,"starLv":21,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":77,"uid":100151,"heroCfgId":63401,"starLv":21},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62401,"lv":86,"uid":100149,"starLv":10},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":46,"heroCfgId":62401,"uid":100152,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62402,"lv":90,"uid":100149,"starLv":18},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":50,"heroCfgId":62402,"starLv":17,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":91,"uid":100151,"heroCfgId":63402,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":93,"heroCfgId":62402,"uid":100152,"starLv":14},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61401,"lv":64,"uid":100149,"starLv":15},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":47,"heroCfgId":61401,"starLv":25,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":73,"heroCfgId":61401,"uid":100152,"starLv":5},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":41,"uid":100151,"heroCfgId":63403,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62403,"lv":92,"uid":100149,"starLv":17},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":99,"heroCfgId":62403,"uid":100152,"starLv":8},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":94,"heroCfgId":62403,"starLv":21,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63401,"lv":87,"uid":100149,"starLv":5},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":88,"uid":100151,"heroCfgId":61402,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":41,"heroCfgId":63401,"uid":100152,"starLv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":51,"heroCfgId":63401,"starLv":24,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":62,"uid":100151,"heroCfgId":61403,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":82,"heroCfgId":63402,"uid":100152,"starLv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63402,"lv":47,"uid":100149,"starLv":22},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":68,"uid":100151,"heroCfgId":61404,"starLv":9},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":98,"heroCfgId":63403,"uid":100152,"starLv":9},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":100,"heroCfgId":63402,"starLv":21,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63403,"lv":51,"uid":100149,"starLv":23},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":93,"uid":100151,"heroCfgId":61501,"starLv":8},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":43,"heroCfgId":61402,"uid":100152,"starLv":8},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":46,"heroCfgId":63403,"starLv":25,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61402,"lv":56,"uid":100149,"starLv":24},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":78,"heroCfgId":61403,"uid":100152,"starLv":17},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":79,"uid":100151,"heroCfgId":61502,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":72,"heroCfgId":61402,"starLv":11,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61403,"lv":91,"uid":100149,"starLv":7},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":86,"heroCfgId":61404,"uid":100152,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":72,"uid":100151,"heroCfgId":63501,"starLv":25},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":46,"heroCfgId":61403,"starLv":17,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61404,"lv":91,"uid":100149,"starLv":9},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":56,"heroCfgId":61501,"uid":100152,"starLv":13},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61501,"lv":44,"uid":100149,"starLv":18},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":49,"heroCfgId":61404,"starLv":19,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":98,"uid":100151,"heroCfgId":63502,"starLv":11},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":74,"heroCfgId":61502,"uid":100152,"starLv":9},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61502,"lv":89,"uid":100149,"starLv":21},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":87,"uid":100151,"heroCfgId":62501,"starLv":9},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":68,"heroCfgId":61501,"starLv":23,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":47,"heroCfgId":63501,"uid":100152,"starLv":22},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63501,"lv":60,"uid":100149,"starLv":11},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":84,"heroCfgId":61502,"starLv":24,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":99,"uid":100151,"heroCfgId":62502,"starLv":13},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63502,"lv":89,"uid":100149,"starLv":6},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":41,"heroCfgId":63502,"uid":100152,"starLv":13},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":55,"uid":100151,"heroCfgId":61503,"starLv":14},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":96,"heroCfgId":63501,"starLv":8,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62501,"lv":65,"uid":100149,"starLv":21},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":44,"uid":100151,"heroCfgId":62503,"starLv":21},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":98,"heroCfgId":62501,"uid":100152,"starLv":14},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":93,"heroCfgId":63502,"starLv":9,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":96,"heroCfgId":62502,"uid":100152,"starLv":7},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":94,"uid":100151,"heroCfgId":63503,"starLv":16},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":76,"heroCfgId":62501,"starLv":5,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62502,"lv":44,"uid":100149,"starLv":25},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":42,"heroCfgId":61503,"uid":100152,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":41,"heroCfgId":62502,"starLv":19,"uid":100150}}
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61503,"lv":82,"uid":100149,"starLv":14},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":45,"heroCfgId":62503,"uid":100152,"starLv":23},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":68,"heroCfgId":61503,"starLv":24,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62503,"lv":40,"uid":100149,"starLv":18},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":96,"heroCfgId":63503,"uid":100152,"starLv":9},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":42,"heroCfgId":62503,"starLv":20,"uid":100150}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63503,"lv":92,"uid":100149,"starLv":7},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":93,"heroCfgId":63503,"starLv":22,"uid":100150}}
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+protocol_task: results saved to game_bw/protocol/result_A162_2026-10-15_11-06-17.xlsx
+[dbg] TIMEOUT fd=400 status=2 proto=reqlogin
+[dbg] fd=400 reqlogin still waiting (1), no relogin
+protocol_task: results saved to game_bw/protocol/result_A161_2026-10-15_11-06-17.xlsx
+[dbg] TIMEOUT fd=372 status=2 proto=nil
+[dbg] fd=372 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=384 status=2 proto=nil
+[dbg] fd=384 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=388 status=2 proto=reqlogin
+[dbg] fd=388 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=392 status=2 proto=reqlogin
+[dbg] fd=392 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=372 gw=10.0.0.142:8107 uid=100158 token_len=28
+[dbg] reconnect fd=372 -> 372 gw=10.0.0.142:8107
+protocol_task: results saved to game_bw/protocol/result_A163_2026-10-15_11-06-17.xlsx
+[dbg] TIMEOUT fd=428 status=2 proto=nil
+[dbg] fd=428 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=436 status=2 proto=nil
+[dbg] fd=436 reqlogin still waiting (2), no relogin
+[dbg] TIMEOUT fd=440 status=2 proto=reqlogin
+[dbg] fd=440 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=444 status=2 proto=reqlogin
+[dbg] fd=444 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=312 gw=10.0.0.142:8107 uid=100153 token_len=28
+[dbg] reconnect fd=312 -> 312 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=404 gw=10.0.0.142:8107 uid=100155 token_len=28
+[dbg] reconnect fd=404 -> 404 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=400 gw=10.0.0.142:8107 uid=100154 token_len=28
+[dbg] reconnect fd=400 -> 400 gw=10.0.0.142:8107
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","data":{"buildCfgId":100,"uid":100156,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100156}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","data":{"uid":100156},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+[dbg] reqlogin resp fd=384 gw=10.0.0.142:8107 uid=100159 token_len=28
+[dbg] reconnect fd=384 -> 384 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=388 gw=10.0.0.142:8107 uid=100160 token_len=28
+[dbg] reconnect fd=388 -> 388 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=392 gw=10.0.0.142:8107 uid=100157 token_len=28
+[dbg] reconnect fd=392 -> 392 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=428 gw=10.0.0.142:8107 uid=100163 token_len=28
+[dbg] reconnect fd=428 -> 428 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=436 gw=10.0.0.142:8107 uid=100164 token_len=28
+[dbg] reconnect fd=436 -> 492 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=440 gw=10.0.0.142:8107 uid=100161 token_len=28
+[dbg] reconnect fd=440 -> 440 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=444 gw=10.0.0.142:8107 uid=100162 token_len=28
+[dbg] reconnect fd=444 -> 444 gw=10.0.0.142:8107
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"msg":"success","data":"success","result":1}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"buildCfgId":100,"lv":19,"uid":100160},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"forceChangeBuildLv"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"forceChangeBuildLv","data":{"buildCfgId":100,"lv":19,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":41,"uid":100156,"heroCfgId":61301,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100160}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100160},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"unlockCityAreaAll"}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100161}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"unlockCityAreaAll","data":{"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":62,"uid":100156,"heroCfgId":62301,"starLv":9},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":84,"uid":100156,"heroCfgId":63301,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"msg":"success","result":1,"data":"success"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":97,"uid":100156,"heroCfgId":62302,"starLv":13},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"buildCfgId":100,"lv":19,"uid":100158},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"forceChangeBuildLv"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":61,"uid":100156,"heroCfgId":61302,"starLv":7},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task: results saved to game_bw/protocol/result_A164_2026-10-15_11-06-17.xlsx
+[dbg] TIMEOUT fd=356 status=2 proto=reqlogin
+[dbg] fd=356 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=360 status=2 proto=reqlogin
+[dbg] fd=360 reqlogin still waiting (1), no relogin
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":41,"uid":100156,"heroCfgId":62303,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"forceChangeBuildLv","data":{"buildCfgId":100,"lv":19,"uid":100163}}
+[dbg] reqlogin resp fd=352 gw=10.0.0.142:8107 uid=100165 token_len=28
+[dbg] reconnect fd=352 -> 504 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=308 gw=10.0.0.142:8107 uid=100166 token_len=28
+[dbg] reconnect fd=308 -> 308 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=356 gw=10.0.0.142:8107 uid=100167 token_len=28
+[dbg] reconnect fd=356 -> 476 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=360 gw=10.0.0.142:8107 uid=100168 token_len=28
+[dbg] reconnect fd=360 -> 360 gw=10.0.0.142:8107
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100158}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100158},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"unlockCityAreaAll"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"buildCfgId":100,"lv":19,"uid":100168},"cmd":"forceChangeBuildLv","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":80,"uid":100156,"heroCfgId":62401,"starLv":17},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100163}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"unlockCityAreaAll","data":{"uid":100163}}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"msg":"success","result":1,"data":"success"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"buildCfgId":100,"lv":19,"uid":100159},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"forceChangeBuildLv"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":65,"uid":100156,"heroCfgId":62402,"starLv":11},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100168}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100168},"cmd":"unlockCityAreaAll","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":62,"uid":100156,"heroCfgId":61401,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100159}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100159},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"unlockCityAreaAll"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":46,"uid":100156,"heroCfgId":62403,"starLv":15},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":49,"uid":100156,"heroCfgId":63401,"starLv":17},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"msg":"success","data":"success","result":1}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"buildCfgId":100,"lv":19,"uid":100165},"cmd":"forceChangeBuildLv","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"forceChangeBuildLv","data":{"buildCfgId":100,"lv":19,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":84,"uid":100156,"heroCfgId":63402,"starLv":17},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":61,"uid":100156,"heroCfgId":63403,"starLv":7},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"msg":"success","result":1,"data":"success"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"buildCfgId":100,"lv":19,"uid":100157},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"forceChangeBuildLv"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":88,"uid":100156,"heroCfgId":61402,"starLv":21},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100157}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":100157},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"unlockCityAreaAll"}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100165}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100165},"cmd":"unlockCityAreaAll","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100164}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"unlockCityAreaAll","data":{"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":58,"uid":100156,"heroCfgId":61403,"starLv":5},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":82,"uid":100156,"heroCfgId":61404,"starLv":25},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"msg":"success","data":"success","result":1}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"buildCfgId":100,"lv":19,"uid":100166},"cmd":"forceChangeBuildLv","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"forceChangeBuildLv","data":{"buildCfgId":100,"lv":19,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":98,"uid":100156,"heroCfgId":61501,"starLv":11},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100166}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100166},"cmd":"unlockCityAreaAll","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":72,"uid":100156,"heroCfgId":61502,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100162}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"unlockCityAreaAll","data":{"uid":100162}}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"msg":"success","result":1,"data":"success"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":96,"uid":100156,"heroCfgId":63501,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":58,"uid":100156,"heroCfgId":63502,"starLv":10},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":82,"heroCfgId":61301,"uid":100160,"starLv":5},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":86,"uid":100156,"heroCfgId":62501,"starLv":7},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":47,"uid":100156,"heroCfgId":62502,"starLv":15},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"msg":"success","data":"success","result":1}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"buildCfgId":100,"lv":19,"uid":100167},"cmd":"forceChangeBuildLv","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":86,"heroCfgId":62301,"uid":100160,"starLv":14},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":67,"uid":100156,"heroCfgId":61503,"starLv":11},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100167}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100167},"cmd":"unlockCityAreaAll","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":67,"heroCfgId":63301,"uid":100160,"starLv":21},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":98,"uid":100156,"heroCfgId":62503,"starLv":11},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":58,"heroCfgId":62302,"uid":100160,"starLv":5},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":100,"heroCfgId":61301,"starLv":9,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":91,"uid":100156,"heroCfgId":63503,"starLv":9},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":100,"heroCfgId":61302,"uid":100160,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":91,"heroCfgId":62301,"starLv":6,"uid":100161}}
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"msg":"success","data":"success","result":1}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61301,"lv":79,"uid":100165,"starLv":11},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":76,"heroCfgId":62303,"uid":100160,"starLv":21},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":49,"heroCfgId":63301,"starLv":10,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62301,"lv":94,"uid":100165,"starLv":13},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":44,"heroCfgId":62302,"starLv":24,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":83,"heroCfgId":62401,"uid":100160,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63301,"lv":40,"uid":100165,"starLv":15},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":96,"heroCfgId":61302,"starLv":16,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":60,"heroCfgId":62402,"uid":100160,"starLv":11},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62302,"lv":68,"uid":100165,"starLv":23},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":67,"heroCfgId":62303,"starLv":6,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":74,"heroCfgId":61401,"uid":100160,"starLv":5},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61302,"lv":94,"uid":100165,"starLv":21},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":47,"heroCfgId":62401,"starLv":15,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":85,"heroCfgId":62403,"uid":100160,"starLv":12},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":57,"heroCfgId":62402,"starLv":8,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62303,"lv":63,"uid":100165,"starLv":9},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":76,"heroCfgId":63401,"uid":100160,"starLv":9},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":98,"heroCfgId":61401,"starLv":9,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62401,"lv":60,"uid":100165,"starLv":11},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":54,"heroCfgId":63402,"uid":100160,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":69,"heroCfgId":62403,"starLv":18,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62402,"lv":55,"uid":100165,"starLv":6},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":81,"heroCfgId":63403,"uid":100160,"starLv":14},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":59,"heroCfgId":63401,"starLv":14,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61401,"lv":50,"uid":100165,"starLv":12},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":95,"heroCfgId":61402,"uid":100160,"starLv":7},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":80,"heroCfgId":63402,"starLv":16,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62403,"lv":92,"uid":100165,"starLv":21},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":40,"heroCfgId":61403,"uid":100160,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63401,"lv":50,"uid":100165,"starLv":16},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":41,"heroCfgId":63403,"starLv":25,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":56,"heroCfgId":61404,"uid":100160,"starLv":11},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63402,"lv":63,"uid":100165,"starLv":21},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":43,"heroCfgId":61402,"starLv":7,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":69,"heroCfgId":61501,"uid":100160,"starLv":21},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":64,"heroCfgId":61403,"starLv":17,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63403,"lv":52,"uid":100165,"starLv":20},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":56,"heroCfgId":61502,"uid":100160,"starLv":15},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":42,"heroCfgId":61404,"starLv":7,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61402,"lv":48,"uid":100165,"starLv":18},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":90,"heroCfgId":63501,"uid":100160,"starLv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":69,"heroCfgId":61501,"starLv":24,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61403,"lv":76,"uid":100165,"starLv":12},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":91,"heroCfgId":61502,"starLv":15,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61404,"lv":65,"uid":100165,"starLv":15},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":95,"heroCfgId":63502,"uid":100160,"starLv":13},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":55,"heroCfgId":63501,"starLv":25,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61501,"lv":69,"uid":100165,"starLv":14},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":54,"heroCfgId":62501,"uid":100160,"starLv":23},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":48,"heroCfgId":63502,"starLv":14,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61502,"lv":47,"uid":100165,"starLv":5},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":57,"heroCfgId":62502,"uid":100160,"starLv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":77,"heroCfgId":62501,"starLv":11,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":83,"heroCfgId":61503,"uid":100160,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63501,"lv":99,"uid":100165,"starLv":18},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":49,"heroCfgId":62502,"starLv":7,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63502,"lv":86,"uid":100165,"starLv":24},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":98,"heroCfgId":61503,"starLv":22,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62501,"lv":59,"uid":100165,"starLv":15},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":86,"heroCfgId":62503,"uid":100160,"starLv":12},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62502,"lv":75,"uid":100165,"starLv":22},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":79,"heroCfgId":63503,"uid":100160,"starLv":13},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":93,"heroCfgId":62503,"starLv":17,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61503,"lv":75,"uid":100165,"starLv":23},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":57,"heroCfgId":63503,"starLv":8,"uid":100161}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62503,"lv":66,"uid":100165,"starLv":8},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63503,"lv":45,"uid":100165,"starLv":5},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+protocol_task: results saved to game_bw/protocol/result_A174_2026-10-15_11-06-21.xlsx
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","data":{"buildCfgId":100,"uid":100153,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100153}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","data":{"uid":100153},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"msg":"success","data":"success","result":1}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","data":{"buildCfgId":100,"uid":100155,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100155}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","data":{"uid":100155},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"msg":"success","data":"success","result":1}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","data":{"buildCfgId":100,"uid":100154,"lv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheattask[CheatTask.force_change_build_lv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task cheat matched: cmd_module=cheat.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":100154}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","data":{"uid":100154},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheat[cheat.unlockCityAreaAll] err=0 result={"msg":"success","data":"success","result":1}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":67,"uid":100155,"heroCfgId":61301,"starLv":21},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":67,"uid":100155,"heroCfgId":62301,"starLv":22},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task: results saved to game_bw/protocol/result_A168_2026-10-15_11-06-22.xlsx
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":45,"uid":100155,"heroCfgId":63301,"starLv":5},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61301,"lv":100,"uid":100166,"starLv":24},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":65,"uid":100155,"heroCfgId":62302,"starLv":25},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62301,"lv":64,"uid":100166,"starLv":14},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":72,"uid":100155,"heroCfgId":61302,"starLv":25},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":66,"uid":100155,"heroCfgId":62303,"starLv":23},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63301,"lv":43,"uid":100166,"starLv":10},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":41,"uid":100155,"heroCfgId":62401,"starLv":15},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62302,"lv":75,"uid":100166,"starLv":19},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":64,"uid":100155,"heroCfgId":62402,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61302,"lv":74,"uid":100166,"starLv":7},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":67,"uid":100155,"heroCfgId":61401,"starLv":8},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":53,"uid":100155,"heroCfgId":62403,"starLv":13},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62303,"lv":42,"uid":100166,"starLv":23},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":60,"uid":100155,"heroCfgId":63401,"starLv":16},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62401,"lv":93,"uid":100166,"starLv":18},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: results saved to game_bw/protocol/result_A173_2026-10-15_11-06-22.xlsx
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":81,"heroCfgId":61301,"uid":100158,"starLv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":77,"uid":100155,"heroCfgId":63402,"starLv":25},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62402,"lv":63,"uid":100166,"starLv":13},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61401,"lv":56,"uid":100166,"starLv":22},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":99,"heroCfgId":62301,"uid":100158,"starLv":25},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":61,"uid":100155,"heroCfgId":63403,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62403,"lv":81,"uid":100166,"starLv":11},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: results saved to game_bw/protocol/result_A175_2026-10-15_11-06-22.xlsx
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":53,"heroCfgId":61301,"starLv":22,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":43,"uid":100155,"heroCfgId":61402,"starLv":25},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":76,"heroCfgId":63301,"uid":100158,"starLv":14},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63401,"lv":94,"uid":100166,"starLv":25},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":60,"uid":100155,"heroCfgId":61403,"starLv":16},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":96,"heroCfgId":62301,"starLv":18,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":61,"heroCfgId":62302,"uid":100158,"starLv":17},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63402,"lv":72,"uid":100166,"starLv":21},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":58,"uid":100155,"heroCfgId":61404,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63403,"lv":52,"uid":100166,"starLv":13},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":75,"heroCfgId":63301,"starLv":18,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":71,"heroCfgId":61302,"uid":100158,"starLv":23},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":50,"uid":100155,"heroCfgId":61501,"starLv":17},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61402,"lv":58,"uid":100166,"starLv":19},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":70,"heroCfgId":62302,"starLv":12,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":75,"uid":100155,"heroCfgId":61502,"starLv":23},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":78,"heroCfgId":62303,"uid":100158,"starLv":12},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61403,"lv":56,"uid":100166,"starLv":21},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":73,"heroCfgId":61302,"starLv":6,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":76,"heroCfgId":62401,"uid":100158,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61404,"lv":49,"uid":100166,"starLv":9},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":75,"uid":100155,"heroCfgId":63501,"starLv":5},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":54,"heroCfgId":62303,"starLv":13,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":65,"heroCfgId":62402,"uid":100158,"starLv":18},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61501,"lv":91,"uid":100166,"starLv":20},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":67,"heroCfgId":62401,"starLv":6,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":72,"heroCfgId":61401,"uid":100158,"starLv":12},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61502,"lv":94,"uid":100166,"starLv":7},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":63,"uid":100155,"heroCfgId":63502,"starLv":10},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":69,"heroCfgId":62403,"uid":100158,"starLv":25},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63501,"lv":78,"uid":100166,"starLv":19},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":64,"heroCfgId":62402,"starLv":8,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":95,"uid":100155,"heroCfgId":62501,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":74,"heroCfgId":63401,"uid":100158,"starLv":22},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63502,"lv":65,"uid":100166,"starLv":20},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":61,"heroCfgId":61401,"starLv":5,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":90,"uid":100155,"heroCfgId":62502,"starLv":15},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":49,"heroCfgId":63402,"uid":100158,"starLv":5},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":97,"heroCfgId":62403,"starLv":22,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62501,"lv":75,"uid":100166,"starLv":8},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":54,"uid":100155,"heroCfgId":61503,"starLv":9},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":65,"heroCfgId":63403,"uid":100158,"starLv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62502,"lv":94,"uid":100166,"starLv":21},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":47,"uid":100155,"heroCfgId":62503,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":47,"heroCfgId":63401,"starLv":10,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61503,"lv":83,"uid":100166,"starLv":6},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":67,"heroCfgId":61402,"uid":100158,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":93,"uid":100155,"heroCfgId":63503,"starLv":17},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":44,"heroCfgId":63402,"starLv":23,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62503,"lv":59,"uid":100166,"starLv":11},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":62,"heroCfgId":61403,"uid":100158,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63503,"lv":59,"uid":100166,"starLv":11},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":56,"heroCfgId":63403,"starLv":8,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":93,"heroCfgId":61404,"uid":100158,"starLv":25},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":81,"heroCfgId":61402,"starLv":22,"uid":100163}}
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":60,"heroCfgId":61501,"uid":100158,"starLv":16},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":58,"heroCfgId":61403,"starLv":8,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":95,"heroCfgId":61502,"uid":100158,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":74,"heroCfgId":63501,"uid":100158,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":84,"heroCfgId":61404,"starLv":14,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":40,"heroCfgId":61501,"starLv":19,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":93,"heroCfgId":63502,"uid":100158,"starLv":5},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":54,"heroCfgId":61502,"starLv":25,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":74,"heroCfgId":62501,"uid":100158,"starLv":21},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":77,"heroCfgId":63501,"starLv":12,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":58,"heroCfgId":62502,"uid":100158,"starLv":22},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":95,"heroCfgId":63502,"starLv":15,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":100,"heroCfgId":61503,"uid":100158,"starLv":21},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":54,"heroCfgId":62501,"starLv":6,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":61,"heroCfgId":62502,"starLv":8,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":71,"heroCfgId":62503,"uid":100158,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":68,"heroCfgId":61503,"starLv":18,"uid":100163}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":49,"heroCfgId":63503,"uid":100158,"starLv":9},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":84,"heroCfgId":62503,"starLv":7,"uid":100163}}
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":76,"heroCfgId":63503,"starLv":25,"uid":100163}}
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+protocol_task: results saved to game_bw/protocol/result_A170_2026-10-15_11-06-25.xlsx
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":79,"uid":100153,"heroCfgId":61301,"starLv":8},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task: results saved to game_bw/protocol/result_A172_2026-10-15_11-06-25.xlsx
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61301,"lv":78,"uid":100167,"starLv":19},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":64,"uid":100153,"heroCfgId":62301,"starLv":8},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":97,"uid":100153,"heroCfgId":63301,"starLv":12},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62301,"lv":100,"uid":100167,"starLv":17},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":60,"uid":100153,"heroCfgId":62302,"starLv":23},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63301,"lv":96,"uid":100167,"starLv":17},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":100,"uid":100153,"heroCfgId":61302,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62302,"lv":55,"uid":100167,"starLv":24},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61302,"lv":45,"uid":100167,"starLv":6},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":87,"uid":100153,"heroCfgId":62303,"starLv":17},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62303,"lv":69,"uid":100167,"starLv":13},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: results saved to game_bw/protocol/result_A165_2026-10-15_11-06-26.xlsx
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":79,"heroCfgId":61301,"uid":100159,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":64,"uid":100153,"heroCfgId":62401,"starLv":15},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62401,"lv":68,"uid":100167,"starLv":25},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: results saved to game_bw/protocol/result_A167_2026-10-15_11-06-26.xlsx
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":78,"heroCfgId":61301,"starLv":14,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":100,"uid":100153,"heroCfgId":62402,"starLv":23},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":71,"uid":100153,"heroCfgId":61401,"starLv":18},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62402,"lv":81,"uid":100167,"starLv":9},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":52,"heroCfgId":62301,"starLv":13,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61401,"lv":74,"uid":100167,"starLv":23},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":54,"uid":100153,"heroCfgId":62403,"starLv":14},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":77,"heroCfgId":62301,"uid":100159,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":59,"uid":100153,"heroCfgId":63401,"starLv":5},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62403,"lv":83,"uid":100167,"starLv":17},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":66,"heroCfgId":63301,"starLv":25,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":88,"uid":100153,"heroCfgId":63402,"starLv":5},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63401,"lv":84,"uid":100167,"starLv":10},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":67,"heroCfgId":63301,"uid":100159,"starLv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":49,"uid":100153,"heroCfgId":63403,"starLv":22},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":88,"heroCfgId":62302,"starLv":24,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63402,"lv":100,"uid":100167,"starLv":25},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":92,"heroCfgId":62302,"uid":100159,"starLv":23},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":82,"uid":100153,"heroCfgId":61402,"starLv":22},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63403,"lv":78,"uid":100167,"starLv":25},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":73,"heroCfgId":61302,"starLv":24,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":67,"heroCfgId":61302,"uid":100159,"starLv":16},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61402,"lv":82,"uid":100167,"starLv":18},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":95,"uid":100153,"heroCfgId":61403,"starLv":13},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":47,"heroCfgId":62303,"starLv":15,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":65,"heroCfgId":62303,"uid":100159,"starLv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61403,"lv":71,"uid":100167,"starLv":6},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":96,"heroCfgId":62401,"starLv":20,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":89,"uid":100153,"heroCfgId":61404,"starLv":18},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61404,"lv":90,"uid":100167,"starLv":5},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":95,"uid":100153,"heroCfgId":61501,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":93,"heroCfgId":62401,"uid":100159,"starLv":11},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":90,"heroCfgId":62402,"starLv":16,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61501,"lv":47,"uid":100167,"starLv":16},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":48,"heroCfgId":62402,"uid":100159,"starLv":9},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61502,"lv":49,"uid":100167,"starLv":10},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":41,"uid":100153,"heroCfgId":61502,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":73,"heroCfgId":61401,"starLv":21,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63501,"lv":50,"uid":100167,"starLv":22},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":99,"heroCfgId":62403,"starLv":5,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":47,"uid":100153,"heroCfgId":63501,"starLv":17},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":70,"heroCfgId":61401,"uid":100159,"starLv":15},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":72,"heroCfgId":63401,"starLv":7,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":48,"uid":100153,"heroCfgId":63502,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63502,"lv":57,"uid":100167,"starLv":19},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":70,"heroCfgId":62403,"uid":100159,"starLv":23},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":88,"uid":100153,"heroCfgId":62501,"starLv":25},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":63,"heroCfgId":63402,"starLv":15,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62501,"lv":57,"uid":100167,"starLv":17},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":47,"heroCfgId":63401,"uid":100159,"starLv":23},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":63,"heroCfgId":63403,"starLv":13,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62502,"lv":92,"uid":100167,"starLv":10},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":43,"uid":100153,"heroCfgId":62502,"starLv":12},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":52,"heroCfgId":63402,"uid":100159,"starLv":16},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":51,"heroCfgId":61402,"starLv":9,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61503,"lv":61,"uid":100167,"starLv":9},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":51,"uid":100153,"heroCfgId":61503,"starLv":16},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":95,"heroCfgId":63403,"uid":100159,"starLv":10},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":83,"heroCfgId":61403,"starLv":20,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62503,"lv":57,"uid":100167,"starLv":15},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":46,"uid":100153,"heroCfgId":62503,"starLv":16},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":52,"heroCfgId":61402,"uid":100159,"starLv":14},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":59,"heroCfgId":61404,"starLv":22,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63503,"lv":45,"uid":100167,"starLv":20},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":46,"heroCfgId":61403,"uid":100159,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":86,"uid":100153,"heroCfgId":63503,"starLv":21},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":58,"heroCfgId":61404,"uid":100159,"starLv":14},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":71,"heroCfgId":61501,"starLv":21,"uid":100164}}
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":58,"heroCfgId":61501,"uid":100159,"starLv":11},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":76,"heroCfgId":61502,"starLv":15,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":67,"heroCfgId":61502,"uid":100159,"starLv":25},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":49,"heroCfgId":63501,"starLv":9,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":52,"heroCfgId":63502,"starLv":11,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":73,"heroCfgId":62501,"starLv":21,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":46,"heroCfgId":63501,"uid":100159,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":44,"heroCfgId":63502,"uid":100159,"starLv":17},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":98,"heroCfgId":62502,"starLv":21,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":42,"heroCfgId":62501,"uid":100159,"starLv":8},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":87,"heroCfgId":61503,"starLv":13,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":49,"heroCfgId":62502,"uid":100159,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":77,"heroCfgId":61503,"uid":100159,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":51,"heroCfgId":62503,"starLv":5,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":40,"heroCfgId":62503,"uid":100159,"starLv":7},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":96,"heroCfgId":63503,"starLv":20,"uid":100164}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":77,"heroCfgId":63503,"uid":100159,"starLv":21},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+protocol_task: results saved to game_bw/protocol/result_A176_2026-10-15_11-06-29.xlsx
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61301,"lv":97,"uid":100168,"starLv":9},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62301,"lv":90,"uid":100168,"starLv":17},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: results saved to game_bw/protocol/result_A166_2026-10-15_11-06-29.xlsx
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":91,"uid":100154,"heroCfgId":61301,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63301,"lv":44,"uid":100168,"starLv":20},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":45,"uid":100154,"heroCfgId":62301,"starLv":25},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62302,"lv":71,"uid":100168,"starLv":21},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":67,"uid":100154,"heroCfgId":63301,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61302,"lv":75,"uid":100168,"starLv":22},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":98,"uid":100154,"heroCfgId":62302,"starLv":14},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62303,"lv":67,"uid":100168,"starLv":19},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":92,"uid":100154,"heroCfgId":61302,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62401,"lv":89,"uid":100168,"starLv":18},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":58,"uid":100154,"heroCfgId":62303,"starLv":9},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62402,"lv":53,"uid":100168,"starLv":23},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":84,"uid":100154,"heroCfgId":62401,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61401,"lv":74,"uid":100168,"starLv":25},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":94,"uid":100154,"heroCfgId":62402,"starLv":22},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62403,"lv":53,"uid":100168,"starLv":10},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63401,"lv":60,"uid":100168,"starLv":6},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":71,"uid":100154,"heroCfgId":61401,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63402,"lv":43,"uid":100168,"starLv":10},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":81,"uid":100154,"heroCfgId":62403,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63403,"lv":50,"uid":100168,"starLv":6},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":86,"uid":100154,"heroCfgId":63401,"starLv":22},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task: results saved to game_bw/protocol/result_A169_2026-10-15_11-06-29.xlsx
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":88,"heroCfgId":61301,"uid":100157,"starLv":15},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+protocol_task: results saved to game_bw/protocol/result_A171_2026-10-15_11-06-29.xlsx
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":94,"heroCfgId":61301,"starLv":18,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61402,"lv":69,"uid":100168,"starLv":22},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":93,"uid":100154,"heroCfgId":63402,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":98,"heroCfgId":62301,"starLv":21,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":80,"uid":100154,"heroCfgId":63403,"starLv":21},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61403,"lv":40,"uid":100168,"starLv":23},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":52,"heroCfgId":62301,"uid":100157,"starLv":8},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":61,"uid":100154,"heroCfgId":61402,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":48,"heroCfgId":63301,"uid":100157,"starLv":25},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":86,"heroCfgId":63301,"starLv":22,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61404,"lv":96,"uid":100168,"starLv":22},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":56,"uid":100154,"heroCfgId":61403,"starLv":23},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61501,"lv":41,"uid":100168,"starLv":13},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":85,"heroCfgId":62302,"starLv":7,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":50,"heroCfgId":62302,"uid":100157,"starLv":22},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":84,"heroCfgId":61302,"starLv":23,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":75,"uid":100154,"heroCfgId":61404,"starLv":9},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61502,"lv":59,"uid":100168,"starLv":25},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":40,"heroCfgId":61302,"uid":100157,"starLv":25},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":93,"heroCfgId":62303,"starLv":24,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":56,"uid":100154,"heroCfgId":61501,"starLv":13},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63501,"lv":82,"uid":100168,"starLv":6},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":89,"uid":100154,"heroCfgId":61502,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":84,"heroCfgId":62303,"uid":100157,"starLv":14},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":87,"heroCfgId":62401,"starLv":11,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63502,"lv":75,"uid":100168,"starLv":24},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":81,"heroCfgId":62401,"uid":100157,"starLv":17},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":73,"heroCfgId":62402,"starLv":12,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":77,"uid":100154,"heroCfgId":63501,"starLv":13},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62501,"lv":52,"uid":100168,"starLv":21},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":53,"heroCfgId":62402,"uid":100157,"starLv":11},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":75,"uid":100154,"heroCfgId":63502,"starLv":12},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":73,"heroCfgId":61401,"starLv":25,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62502,"lv":97,"uid":100168,"starLv":25},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":70,"heroCfgId":61401,"uid":100157,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":53,"uid":100154,"heroCfgId":62501,"starLv":21},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":61503,"lv":95,"uid":100168,"starLv":7},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":98,"heroCfgId":62403,"starLv":6,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":65,"heroCfgId":62403,"uid":100157,"starLv":21},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":49,"uid":100154,"heroCfgId":62502,"starLv":7},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":62503,"lv":88,"uid":100168,"starLv":7},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":99,"heroCfgId":63401,"uid":100157,"starLv":8},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":79,"uid":100154,"heroCfgId":61503,"starLv":10},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":73,"heroCfgId":63401,"starLv":14,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":57,"heroCfgId":63402,"uid":100157,"starLv":10},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":54,"uid":100154,"heroCfgId":62503,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":68,"heroCfgId":63402,"starLv":17,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"heroCfgId":63503,"lv":65,"uid":100168,"starLv":14},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":95,"heroCfgId":63403,"uid":100157,"starLv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":65,"heroCfgId":63403,"starLv":24,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"lv":56,"uid":100154,"heroCfgId":63503,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":65,"heroCfgId":61402,"starLv":21,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":57,"heroCfgId":61402,"uid":100157,"starLv":19},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":64,"heroCfgId":61403,"uid":100157,"starLv":22},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":48,"heroCfgId":61403,"starLv":23,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":95,"heroCfgId":61404,"uid":100157,"starLv":13},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":55,"heroCfgId":61404,"starLv":5,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":94,"heroCfgId":61501,"uid":100157,"starLv":23},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":79,"heroCfgId":61501,"starLv":23,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":74,"heroCfgId":61502,"uid":100157,"starLv":24},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":44,"heroCfgId":61502,"starLv":24,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":74,"heroCfgId":63501,"uid":100157,"starLv":7},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":79,"heroCfgId":63501,"starLv":20,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":75,"heroCfgId":63502,"uid":100157,"starLv":6},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":75,"heroCfgId":63502,"starLv":18,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":53,"heroCfgId":62501,"uid":100157,"starLv":11},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":52,"heroCfgId":62501,"starLv":11,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":55,"heroCfgId":62502,"uid":100157,"starLv":20},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":43,"heroCfgId":62502,"starLv":16,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":71,"heroCfgId":61503,"uid":100157,"starLv":11},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":87,"heroCfgId":61503,"starLv":8,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":98,"heroCfgId":62503,"uid":100157,"starLv":16},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":71,"heroCfgId":62503,"starLv":24,"uid":100162}}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":52,"heroCfgId":63503,"uid":100157,"starLv":13},"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero"}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e","cmd":"addOneHero","data":{"lv":60,"heroCfgId":63503,"starLv":20,"uid":100162}}
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+protocol_task cheattask[CheatTask.add_random_hero] err=0 result=ok
+protocol_task: results saved to game_bw/protocol/result_A180_2026-10-15_11-06-32.xlsx
+game_bw thread 4 all accounts done, report early stop
+protocol_task: results saved to game_bw/protocol/result_A178_2026-10-15_11-06-32.xlsx
+game_bw thread 2 all accounts done, report early stop
+protocol_task: results saved to game_bw/protocol/result_A177_2026-10-15_11-06-32.xlsx
+game_bw thread 1 all accounts done, report early stop
+protocol_task: results saved to game_bw/protocol/result_A179_2026-10-15_11-06-32.xlsx
+game_bw thread 3 all accounts done, report early stop
+Running 600s test skynet
+  4 threads and 20 connections
+all threads tasks done, early stop after 34 s (configured 600 s)
+Running 600s test skynet
+  4 threads and actually 40 connections
+  Thread Stats       Avg       Min       Max
+    Latency       337.10 ms    0.00 ms    5875.27 ms
+  194 requests 29656 responses in 38133.01 ms, 1399.78 kb read
+  Socket errors: connect 0, read 0, write 0, timeout 4
+Requests/sec:      5.09
+Responses/sec:    777.70
+Transfer/sec:      36.71 kb

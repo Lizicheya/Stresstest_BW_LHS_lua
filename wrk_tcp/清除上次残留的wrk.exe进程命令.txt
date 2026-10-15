@@ -1,0 +1,4 @@
+PS E:\LuaYaCe> Get-Process wrk -ErrorAction SilentlyContinue | Stop-Process -Force
+
+
+Get-Process wrk -ErrorAction SilentlyContinue | Stop-Process -Force

@@ -1,0 +1,7 @@
+cd eLuaYaCewrk_tcp
+if not exist logs mkdir logs
+for f tokens=2 delims== %a in ('wmic os get localdatetime value ^ findstr =') do set ts=%a
+.wrk.exe  logswrk_run_%ts~0,8%_%ts~8,6%.log 2&1
+
+# 备用 Win11 较新版本已移除 wmic,此时改用下面这行代替第3行
+# for f %a in ('powershell -NoProfile -Command Get-Date -Format yyyyMMdd_HHmmss') do set ts=%a

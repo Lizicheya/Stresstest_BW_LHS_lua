@@ -1,0 +1,7 @@
+E:\LuaYaCe\wrk_tcp\wrk_src\zmalloc.c: In function 'zmalloc_default_oom':
+E:\LuaYaCe\wrk_tcp\wrk_src\zmalloc.c:89:65: warning: unknown conversion type character 'z' in format [-Wformat=]
+   89 |     fprintf(stderr, "zmalloc: Out of memory trying to allocate %zu bytes\n",
+      |                                                                 ^
+E:\LuaYaCe\wrk_tcp\wrk_src\zmalloc.c:89:21: warning: too many arguments for format [-Wformat-extra-args]
+   89 |     fprintf(stderr, "zmalloc: Out of memory trying to allocate %zu bytes\n",
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

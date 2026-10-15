@@ -1,0 +1,4 @@
+﻿total lines:	9889
+full file:	false	lualib/sprotoparser.lua:62: syntax error at [=text] line (57)
+FAIL at line 6: lualib/sprotoparser.lua:62: syntax error at [=text] line (7)
+  content:	    .ComPath {

@@ -1,0 +1,290 @@
+game_bw load accounts from ycf_b.txt, count:680
+game_bw init thread id:4 delta:0s
+game_bw load accounts from ycf_b.txt, count:680
+game_bw init thread id:1 delta:0s
+game_bw load accounts from ycf_b.txt, count:680
+game_bw init thread id:2 delta:0s
+game_bw load accounts from ycf_b.txt, count:680
+game_bw init thread id:3 delta:0s
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=388 gw=10.0.0.142:8107 uid=101292 token_len=28
+[dbg] reconnect fd=388 -> 388 gw=10.0.0.142:8107
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=356 gw=10.0.0.142:8107 uid=101291 token_len=28
+[dbg] reconnect fd=356 -> 356 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":101292,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","data":{"buildCfgId":100,"uid":101292,"lv":19},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"msg":"success","data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101292}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","data":{"uid":101292},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"uid":101291,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"lv":19,"uid":101291,"buildCfgId":100},"time":0,"cmd":"forceChangeBuildLv"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=432 gw=10.0.0.142:8107 uid=101290 token_len=28
+[dbg] reconnect fd=432 -> 432 gw=10.0.0.142:8107
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101291}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"uid":101291},"time":0,"cmd":"unlockCityAreaAll"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=284 gw=10.0.0.142:8107 uid=101293 token_len=28
+[dbg] reconnect fd=284 -> 284 gw=10.0.0.142:8107
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+[dbg] TIMEOUT fd=384 status=2 proto=reqlogin
+[dbg] fd=384 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=368 status=2 proto=reqlogin
+[dbg] fd=368 reqlogin still waiting (1), no relogin
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":101290,"lv":19,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"data":{"uid":101290,"lv":19,"buildCfgId":100}}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":101293}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":101293},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101293}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":101293},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101290}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"data":{"uid":101290}}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"msg":"success","data":"success"}
+[dbg] TIMEOUT fd=352 status=2 proto=reqlogin
+[dbg] fd=352 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=400 status=2 proto=reqlogin
+[dbg] fd=400 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=404 gw=10.0.0.142:8107 uid=101295 token_len=28
+[dbg] reconnect fd=404 -> 404 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=408 gw=10.0.0.142:8107 uid=101296 token_len=28
+[dbg] reconnect fd=408 -> 408 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=400 gw=10.0.0.142:8107 uid=101297 token_len=28
+[dbg] reconnect fd=400 -> 400 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=352 gw=10.0.0.142:8107 uid=101294 token_len=28
+[dbg] reconnect fd=352 -> 352 gw=10.0.0.142:8107
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] TIMEOUT fd=280 status=2 proto=reqlogin
+[dbg] fd=280 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=296 status=2 proto=reqlogin
+[dbg] fd=296 reqlogin still waiting (1), no relogin
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"msg":"success","result":1,"data":"success"}
+[dbg] TIMEOUT fd=440 status=2 proto=reqlogin
+[dbg] fd=440 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=444 status=2 proto=reqlogin
+[dbg] fd=444 reqlogin still waiting (1), no relogin
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":101296,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","data":{"buildCfgId":100,"uid":101296,"lv":19},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"msg":"success","data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101296}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","data":{"uid":101296},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+[dbg] reqlogin resp fd=444 gw=10.0.0.142:8107 uid=101303 token_len=28
+[dbg] reconnect fd=444 -> 444 gw=10.0.0.142:8107
+[dbg] TIMEOUT fd=448 status=2 proto=reqlogin
+[dbg] fd=448 reqlogin still waiting (1), no relogin
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"msg":"success","data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":101294,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","data":{"buildCfgId":100,"uid":101294,"lv":19},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"msg":"success","data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101294}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","data":{"uid":101294},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"msg":"success","data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":101297,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","data":{"buildCfgId":100,"uid":101297,"lv":19},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"msg":"success","data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101297}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","data":{"uid":101297},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"msg":"success","data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"uid":101295,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","data":{"buildCfgId":100,"uid":101295,"lv":19},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"msg":"success","data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101295}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","data":{"uid":101295},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"msg":"success","data":"success"}
+protocol_task: results saved to game_bw/protocol/result_A324_2026-10-13_17-30-16.xlsx
+[dbg] TIMEOUT fd=392 status=2 proto=reqlogin
+[dbg] fd=392 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=384 gw=10.0.0.142:8107 uid=101298 token_len=28
+[dbg] reconnect fd=384 -> 384 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=368 gw=10.0.0.142:8107 uid=101299 token_len=28
+[dbg] reconnect fd=368 -> 368 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=392 gw=10.0.0.142:8107 uid=101300 token_len=28
+[dbg] reconnect fd=392 -> 392 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=396 gw=10.0.0.142:8107 uid=101301 token_len=28
+[dbg] reconnect fd=396 -> 396 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"uid":101298,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"lv":19,"uid":101298,"buildCfgId":100},"time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101298}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"uid":101298},"time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"uid":101299,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"lv":19,"uid":101299,"buildCfgId":100},"time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101299}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"uid":101299},"time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"uid":101300,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"lv":19,"uid":101300,"buildCfgId":100},"time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101300}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"uid":101300},"time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"uid":101301,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"lv":19,"uid":101301,"buildCfgId":100},"time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101301}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"uid":101301},"time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"data":"success","msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_A325_2026-10-13_17-30-18.xlsx
+protocol_task: results saved to game_bw/protocol/result_A323_2026-10-13_17-30-17.xlsx
+[dbg] TIMEOUT fd=452 status=2 proto=reqlogin
+[dbg] fd=452 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=440 gw=10.0.0.142:8107 uid=101304 token_len=28
+[dbg] reconnect fd=440 -> 440 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=448 gw=10.0.0.142:8107 uid=101305 token_len=28
+[dbg] reconnect fd=448 -> 448 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=452 gw=10.0.0.142:8107 uid=101302 token_len=28
+[dbg] reconnect fd=452 -> 452 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":101303,"lv":19,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"data":{"uid":101303,"lv":19,"buildCfgId":100}}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101303}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"data":{"uid":101303}}
+protocol_task: results saved to game_bw/protocol/result_A322_2026-10-13_17-30-17.xlsx
+[dbg] TIMEOUT fd=300 status=2 proto=reqlogin
+[dbg] fd=300 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=424 status=2 proto=reqlogin
+[dbg] fd=424 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=280 gw=10.0.0.142:8107 uid=101307 token_len=28
+[dbg] reconnect fd=280 -> 280 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=296 gw=10.0.0.142:8107 uid=101306 token_len=28
+[dbg] reconnect fd=296 -> 296 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=300 gw=10.0.0.142:8107 uid=101309 token_len=28
+[dbg] reconnect fd=300 -> 300 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=424 gw=10.0.0.142:8107 uid=101308 token_len=28
+[dbg] reconnect fd=424 -> 424 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":101308}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":101308},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101308}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":101308},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":101304,"lv":19,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"data":{"uid":101304,"lv":19,"buildCfgId":100}}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101304}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"data":{"uid":101304}}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":101307}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":101307},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101307}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":101307},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":101305,"lv":19,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"data":{"uid":101305,"lv":19,"buildCfgId":100}}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101305}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"data":{"uid":101305}}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":101306}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":101306},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101306}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":101306},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":101302,"lv":19,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"data":{"uid":101302,"lv":19,"buildCfgId":100}}
+protocol_task: results saved to game_bw/protocol/result_A328_2026-10-13_17-30-19.xlsx
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101302}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"data":{"uid":101302}}
+protocol_task: results saved to game_bw/protocol/result_A333_2026-10-13_17-30-19.xlsx
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":101309}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"lv":19,"buildCfgId":100,"uid":101309},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101309}
+curl_cheat POST http://10.0.0.142:9007/ body={"time":0,"data":{"uid":101309},"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_A336_2026-10-13_17-30-21.xlsx
+protocol_task: results saved to game_bw/protocol/result_A327_2026-10-13_17-30-21.xlsx
+protocol_task: results saved to game_bw/protocol/result_A326_2026-10-13_17-30-21.xlsx
+protocol_task: results saved to game_bw/protocol/result_A321_2026-10-13_17-30-21.xlsx
+protocol_task: results saved to game_bw/protocol/result_A340_2026-10-13_17-30-22.xlsx
+protocol_task: results saved to game_bw/protocol/result_A335_2026-10-13_17-30-23.xlsx
+protocol_task: results saved to game_bw/protocol/result_A338_2026-10-13_17-30-23.xlsx
+protocol_task: results saved to game_bw/protocol/result_A329_2026-10-13_17-30-24.xlsx
+protocol_task: results saved to game_bw/protocol/result_A332_2026-10-13_17-30-24.xlsx
+game_bw thread 4 all accounts done, report early stop
+protocol_task: results saved to game_bw/protocol/result_A331_2026-10-13_17-30-24.xlsx
+protocol_task: results saved to game_bw/protocol/result_A334_2026-10-13_17-30-24.xlsx
+protocol_task: results saved to game_bw/protocol/result_A337_2026-10-13_17-30-25.xlsx
+game_bw thread 1 all accounts done, report early stop
+protocol_task: results saved to game_bw/protocol/result_A339_2026-10-13_17-30-26.xlsx
+game_bw thread 3 all accounts done, report early stop
+protocol_task: results saved to game_bw/protocol/result_A330_2026-10-13_17-30-26.xlsx
+game_bw thread 2 all accounts done, report early stop
+Running 600s test skynet
+  4 threads and 20 connections
+all threads tasks done, early stop after 24 s (configured 600 s)
+Running 600s test skynet
+  4 threads and actually 40 connections
+  Thread Stats       Avg       Min       Max
+    Latency       176.62 ms    0.00 ms    7235.41 ms
+  411 requests 7786 responses in 28568.87 ms, 512.96 kb read
+  Socket errors: connect 0, read 0, write 0, timeout 2
+Requests/sec:     14.39
+Responses/sec:    272.53
+Transfer/sec:      17.96 kb

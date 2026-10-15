@@ -1,0 +1,16 @@
+﻿core.saveproto:	function
+core.loadproto:	function
+core.newproto:	function
+
+--- register ---
+register result:	true	nil
+
+--- direct core test ---
+parsed bin len:	219518
+newproto:	true	nil
+
+--- saveproto ---
+saveproto:	true	nil
+
+--- loadproto ---
+loadproto:	false	nil sproto at index 1

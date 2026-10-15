@@ -1,0 +1,12 @@
+In file included from lua_cjson.c:47:
+fpconv.h:15:20: warning: inline function 'fpconv_init' declared but never defined
+   15 | extern inline void fpconv_init();
+      |                    ^~~~~~~~~~~
+strbuf.c: In function 'debug_stats':
+strbuf.c:98:17: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   98 |                 (long)s, s->reallocs, s->length, s->size);
+      |                 ^
+strbuf.c: In function 'strbuf_resize':
+strbuf.c:172:17: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  172 |                 (long)s, s->size, newsize);
+      |                 ^

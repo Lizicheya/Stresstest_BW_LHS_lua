@@ -1,0 +1,1995 @@
+﻿gcc.exe : E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/.
+./../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccQ
+9KaN0.o:luasocket.c:(.text+0x1f): undefined reference to `luaL_checkinteger'
+At line:5 char:1
++ & gcc -shared -O2 -DLUASOCKET_NODEBUG -DWINVER=0x0600 -D_WIN32_WINNT= ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (E:/LuaYaCe/ming...L_checkinteger' 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccQ9KaN0.o:lu
+asocket.c:(.text+0x2a): undefined reference to `lua_gettop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccQ9KaN0.o:lu
+asocket.c:(.text+0x6b): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccQ9KaN0.o:lu
+asocket.c:(.text+0x7d): undefined reference to `luaL_setfuncs'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccQ9KaN0.o:lu
+asocket.c:(.text+0x8c): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccQ9KaN0.o:lu
+asocket.c:(.text+0x9b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccQ9KaN0.o:lu
+asocket.c:(.text+0xa8): undefined reference to `lua_rawset'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccQ9KaN0.o:lu
+asocket.c:(.text+0xe3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccQ9KaN0.o:lu
+asocket.c:(.text+0xeb): undefined reference to `lua_error'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccdOSqGi.o:ti
+meout.c:(.text+0xa): undefined reference to `luaL_checknumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccdOSqGi.o:ti
+meout.c:(.text+0xbd): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccdOSqGi.o:ti
+meout.c:(.text+0x48f): undefined reference to `luaL_setfuncs'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccdOSqGi.o:ti
+meout.c:(.text+0x4bf): undefined reference to `luaL_optnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccdOSqGi.o:ti
+meout.c:(.text+0x4da): undefined reference to `luaL_optlstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccdOSqGi.o:ti
+meout.c:(.text+0x500): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccdOSqGi.o:ti
+meout.c:(.text+0x530): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccdOSqGi.o:ti
+meout.c:(.text+0x561): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccdOSqGi.o:ti
+meout.c:(.text+0x56e): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0xe2): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0xfc): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x111): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x1a0): undefined reference to `luaL_optnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x1c9): undefined reference to `luaL_optnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x1e0): undefined reference to `lua_isnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x1f4): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x265): undefined reference to `lua_tonumberx'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x297): undefined reference to `lua_gettop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x2b6): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x2ce): undefined reference to `luaL_optnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x2e7): undefined reference to `luaL_optnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x3b6): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x3be): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x3c6): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x3ce): undefined reference to `lua_gettop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x418): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x433): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x449): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x4b9): undefined reference to `luaL_optlstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x4d7): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x4df): undefined reference to `lua_gettop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x4ee): undefined reference to `luaL_buffinit'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x4fe): undefined reference to `luaL_addlstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x50b): undefined reference to `lua_isnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x526): undefined reference to `luaL_optlstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x543): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x54b): undefined reference to `luaL_pushresult'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x553): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x55b): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x563): undefined reference to `lua_gettop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x59c): undefined reference to `lua_tonumberx'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x62f): undefined reference to `luaL_addlstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x664): undefined reference to `luaL_pushresult'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x67b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x688): undefined reference to `lua_pushvalue'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x690): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x6a3): undefined reference to `lua_copy'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x6b0): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x6f0): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x756): undefined reference to `luaL_addlstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cccoYNOV.o:bu
+ffer.c:(.text+0x811): undefined reference to `luaL_prepbuffsize'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x21): undefined reference to `luaL_newmetatable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x30): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x3d): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x4c): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x57): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x64): undefined reference to `lua_rawset'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x74): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x83): undefined reference to `lua_pushcclosure'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x9e): undefined reference to `lua_rawset'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0xb3): undefined reference to `lua_rawset'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0xdf): undefined reference to `lua_getmetatable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0xf2): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0xfa): undefined reference to `lua_error'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x11b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x128): undefined reference to `lua_gettable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x135): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x149): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x156): undefined reference to `lua_gettable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x163): undefined reference to `lua_isstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x17d): undefined reference to `lua_touserdata'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x19f): undefined reference to `lua_tolstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x1b4): undefined reference to `lua_pushfstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x1d5): undefined reference to `lua_getfield'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x1e0): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x1ed): undefined reference to `lua_pushboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x1fa): undefined reference to `lua_rawset'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x239): undefined reference to `luaL_testudata'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x278): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x2a5): undefined reference to `lua_getfield'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x2e4): undefined reference to `lua_getmetatable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x2f3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x300): undefined reference to `lua_rawget'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x30d): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x31e): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x339): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x3a0): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x3e0): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x3ea): undefined reference to `lua_typename'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x3ff): undefined reference to `lua_pushfstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x42c): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x43e): undefined reference to `lua_typename'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0xc7): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x20d): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x2be): undefined reference to `lua_setmetatable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x32f): undefined reference to `lua_touserdata'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x3ca): undefined reference to `luaL_testudata'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x413): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cc4yVRzC.o:au
+xiliar.c:(.text+0x45b): undefined reference to `lua_toboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x17): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x29): undefined reference to `lua_typename'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x48): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x55): undefined reference to `lua_gettable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x62): undefined reference to `lua_isstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x7f): undefined reference to `lua_tolstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xa1): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xae): undefined reference to `lua_gettable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xbb): undefined reference to `lua_isstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xcb): undefined reference to `__imp_htonl'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xdf): undefined reference to `lua_tolstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xf4): undefined reference to `lua_tolstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x122): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x13a): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x170): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x190): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1b0): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1d0): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1e4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1f3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x238): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x24a): undefined reference to `lua_typename'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x269): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x276): undefined reference to `lua_gettable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x283): undefined reference to `lua_isstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x2a0): undefined reference to `lua_tolstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x2b1): undefined reference to `__imp_inet_pton'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x2c8): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x2d5): undefined reference to `lua_gettable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x2e2): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x302): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x31a): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x340): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x359): undefined reference to `lua_isnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x36d): undefined reference to `lua_tonumberx'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x390): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x3b0): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x3c4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x3d3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x40c): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x47b): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x4d7): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x4eb): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x504): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x513): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x567): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x577): undefined reference to `lua_pushboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x594): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x5a3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x5e7): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x5fb): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x614): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x623): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x677): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x687): undefined reference to `lua_pushboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x6a4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x6b3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x6f7): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x70b): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x724): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x733): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x787): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x797): undefined reference to `lua_pushboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x7b4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x7c3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x807): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x81b): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x834): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x843): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x897): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x8a7): undefined reference to `lua_pushboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x8c4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x8d3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x917): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x92b): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x944): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x953): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x9a7): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x9b7): undefined reference to `lua_pushboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x9d4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x9e3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xa27): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xa3b): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xa54): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xa63): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xab7): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xac7): undefined reference to `lua_pushboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xae4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xaf3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xb15): undefined reference to `lua_tonumberx'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xb3e): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xb52): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xb6c): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xb7b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xbc7): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xbdd): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xbf4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xc03): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xc47): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xc5d): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xc74): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xc83): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xca5): undefined reference to `lua_tonumberx'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xcce): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xce2): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xcfc): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xd0b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xd35): undefined reference to `lua_tonumberx'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xd5e): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xd72): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xd8c): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xd9b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xde7): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xdfd): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xe14): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xe23): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xe45): undefined reference to `lua_tonumberx'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xe6e): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xe82): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xe9c): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xeab): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xef7): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xf0d): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xf24): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xf33): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xf74): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xf88): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xfa4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0xfb3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1004): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1014): undefined reference to `lua_pushboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x102c): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x103b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1087): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x109b): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x10b4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x10c3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1117): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1127): undefined reference to `lua_pushboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1144): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1153): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1172): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1184): undefined reference to `lua_typename'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x11a3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x11b0): undefined reference to `lua_gettable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x11bd): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x11d6): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x11e3): undefined reference to `lua_toboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x11f7): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1204): undefined reference to `lua_gettable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1211): undefined reference to `lua_isnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1225): undefined reference to `lua_tonumberx'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x124f): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1263): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1288): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1294): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x12a3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x12ef): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1300): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x130d): undefined reference to `lua_pushboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1321): undefined reference to `lua_setfield'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x132e): undefined reference to `lua_pushinteger'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1342): undefined reference to `lua_setfield'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x135c): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x136b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1395): undefined reference to `lua_tonumberx'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x13bb): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x13cf): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x13e4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x13f3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x142c): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1437): undefined reference to `__imp_htonl'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x146b): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x147f): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x14b0): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x14c4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x14d3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x151c): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x152a): undefined reference to `__imp_inet_ntoa'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1535): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x154c): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x155b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x15e7): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x15f7): undefined reference to `lua_pushboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1614): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1623): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1667): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x167b): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1694): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x16a3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x16f7): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x170f): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1724): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccjvTjhD.o:op
+tions.c:(.text+0x1733): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x22): undefined reference to `luaL_optlstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x38): undefined reference to `luaL_optlstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x88): undefined reference to `__imp_getaddrinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x9f): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xc2): undefined reference to `__imp_getnameinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x10d): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x118): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x125): undefined reference to `lua_settable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x170): undefined reference to `__imp_freeaddrinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x1a1): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x1bb): undefined reference to `luaL_error'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x1cc): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x1de): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x20f): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x24b): undefined reference to `__imp_getaddrinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x262): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x277): undefined reference to `__imp_getnameinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x2af): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x2c1): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x2ce): undefined reference to `lua_settable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x2dd): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x2e8): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x2f5): undefined reference to `lua_settable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x302): undefined reference to `lua_settable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x354): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x361): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x37d): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x397): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x3af): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x3ca): undefined reference to `__imp_freeaddrinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x3fb): undefined reference to `__imp_freeaddrinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x403): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x417): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x42c): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x43e): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x466): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x46e): undefined reference to `lua_gettop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x47f): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x48b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x495): undefined reference to `lua_settable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x4a4): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x4b3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x4c5): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x4f3): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x4ff): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x50c): undefined reference to `lua_settable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x51c): undefined reference to `lua_settable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x529): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x540): undefined reference to `__imp_inet_ntoa'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x563): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x577): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x584): undefined reference to `lua_settable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x5d3): undefined reference to `__imp_gethostname'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x5e2): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x5fc): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x614): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x640): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x64d): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x65f): undefined reference to `luaL_setfuncs'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x66c): undefined reference to `lua_settable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x68c): undefined reference to `luaL_checkoption'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x6bc): undefined reference to `luaL_checkoption'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x710): undefined reference to `__imp_getpeername'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x74d): undefined reference to `__imp_getnameinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x75e): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x779): undefined reference to `lua_pushinteger'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x79e): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x7bc): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x7c3): undefined reference to `gai_strerrorA'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x7ce): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x7ec): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x804): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x81b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x833): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x84b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x890): undefined reference to `__imp_getsockname'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x8cd): undefined reference to `__imp_getnameinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x8de): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x8e9): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x90e): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x92c): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x933): undefined reference to `gai_strerrorA'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x93e): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x95c): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x974): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x98b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x9a3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x9bb): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xa25): undefined reference to `__imp_setsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xb00): undefined reference to `__imp_getaddrinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xb21): undefined reference to `__imp_freeaddrinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xbe3): undefined reference to `__imp_freeaddrinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xcb0): undefined reference to `__imp_getaddrinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xcd1): undefined reference to `__imp_freeaddrinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xd5f): undefined reference to `__imp_freeaddrinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xe6e): undefined reference to `__imp_htonl'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xe98): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xedf): undefined reference to `__imp_inet_ntoa'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xeea): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xf27): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xf39): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xf68): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xfab): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xfe7): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0xff9): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\cci4ct4E.o:in
+et.c:(.text+0x59e): undefined reference to `lua_settable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x1e3): undefined reference to `__imp_WSAStartup'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x209): undefined reference to `__imp_WSACleanup'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x246): undefined reference to `__imp_WSACleanup'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x321): undefined reference to `__imp_select'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x37c): undefined reference to `__WSAFDIsSet'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x392): undefined reference to `__imp_WSAGetLastError'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x429): undefined reference to `__imp_select'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x485): undefined reference to `__imp_ioctlsocket'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x48e): undefined reference to `__imp_closesocket'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x4ab): undefined reference to `__imp_ioctlsocket'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x4d5): undefined reference to `__imp_shutdown'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x512): undefined reference to `__imp_socket'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x538): undefined reference to `__imp_WSAGetLastError'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x55b): undefined reference to `__imp_connect'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x572): undefined reference to `__imp_WSAGetLastError'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x5dc): undefined reference to `__imp_getsockopt'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x61d): undefined reference to `__imp_ioctlsocket'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x64f): undefined reference to `__imp_bind'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x682): undefined reference to `__imp_WSAGetLastError'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x69b): undefined reference to `__imp_ioctlsocket'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x6c7): undefined reference to `__imp_listen'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x6f2): undefined reference to `__imp_WSAGetLastError'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x72e): undefined reference to `__imp_accept'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x735): undefined reference to `__imp_WSAGetLastError'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x7d2): undefined reference to `__imp_send'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x7d9): undefined reference to `__imp_WSAGetLastError'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x889): undefined reference to `__imp_sendto'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x890): undefined reference to `__imp_WSAGetLastError'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x944): undefined reference to `__imp_recv'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0x94b): undefined reference to `__imp_WSAGetLastError'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0xa15): undefined reference to `__imp_recvfrom'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0xa1c): undefined reference to `__imp_WSAGetLastError'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0xadb): undefined reference to `__imp_ioctlsocket'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0xb0b): undefined reference to `__imp_ioctlsocket'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0xb30): undefined reference to `__imp_gethostbyaddr'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0xb50): undefined reference to `__imp_WSAGetLastError'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0xb6a): undefined reference to `__imp_gethostbyname'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0xb88): undefined reference to `__imp_WSAGetLastError'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccepiqnN.o:ws
+ocket.c:(.text+0xd28): undefined reference to `gai_strerrorA'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x1e): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x2b): undefined reference to `lua_pushvalue'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x3e): undefined reference to `lua_rotate'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x53): undefined reference to `lua_pushcclosure'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x7e): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x8b): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x9c): undefined reference to `lua_pushvalue'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0xaf): undefined reference to `lua_rotate'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0xc4): undefined reference to `lua_pushcclosure'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0xe6): undefined reference to `lua_pushcclosure'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x104): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x139): undefined reference to `lua_getmetatable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x150): undefined reference to `lua_rawequal'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x15f): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x16b): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x17e): undefined reference to `lua_rawgeti'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x19e): undefined reference to `lua_pushvalue'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x1b1): undefined reference to `lua_rotate'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x1b9): undefined reference to `lua_gettop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x1e2): undefined reference to `lua_pcallk'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x20e): undefined reference to `lua_toboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x231): undefined reference to `lua_pushvalue'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x24a): undefined reference to `lua_callk'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x257): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x267): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x274): undefined reference to `lua_pushvalue'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x287): undefined reference to `lua_rawseti'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x294): undefined reference to `lua_pushvalue'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x2a1): undefined reference to `lua_setmetatable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x2a9): undefined reference to `lua_error'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x2ce): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x2d8): undefined reference to `lua_pushboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x2ec): undefined reference to `lua_setfield'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x301): undefined reference to `luaL_setfuncs'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x117): undefined reference to `lua_error'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x127): undefined reference to `lua_gettop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccV37z0W.o:ex
+cept.c:(.text+0x21f): undefined reference to `lua_gettop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x18): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x20): undefined reference to `lua_gettop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x3d): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x4a): undefined reference to `lua_pushvalue'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x54): undefined reference to `lua_settable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x62): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x6c): undefined reference to `lua_settable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x82): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x8c): undefined reference to `lua_gettable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x99): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0xd1): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0xde): undefined reference to `lua_gettable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0xeb): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x103): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x121): undefined reference to `lua_pushvalue'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x140): undefined reference to `lua_callk'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x14d): undefined reference to `lua_isnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x161): undefined reference to `lua_tonumberx'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x1f8): undefined reference to `__WSAFDIsSet'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x211): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x22b): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x236): undefined reference to `lua_gettable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x241): undefined reference to `lua_settable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x2b1): undefined reference to `luaL_checktype'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x2cc): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x2dc): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x2e6): undefined reference to `lua_gettable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x2f3): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x375): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x382): undefined reference to `lua_pushvalue'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x38d): undefined reference to `lua_settable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x3cd): undefined reference to `luaL_argerror'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x476): undefined reference to `luaL_optnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x49a): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x4a7): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x4af): undefined reference to `lua_gettop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x4bf): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x4c7): undefined reference to `lua_gettop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x4d8): undefined reference to `lua_createtable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x4e0): undefined reference to `lua_gettop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x4f1): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x527): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x555): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x579): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x589): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x599): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x5a6): undefined reference to `lua_gettable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x5b3): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x5d7): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x5e4): undefined reference to `lua_gettable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x5f1): undefined reference to `lua_type'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x606): undefined reference to `lua_pushvalue'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x625): undefined reference to `lua_callk'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x632): undefined reference to `lua_toboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x643): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x662): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x66f): undefined reference to `lua_pushvalue'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x67b): undefined reference to `lua_settable'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x745): undefined reference to `luaL_error'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x781): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x83b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x860): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x86d): undefined reference to `lua_pushinteger'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x87a): undefined reference to `lua_rawset'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x889): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x898): undefined reference to `lua_pushinteger'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x8a5): undefined reference to `lua_rawset'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x8b7): undefined reference to `luaL_setfuncs'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0xb2): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccJ559S5.o:se
+lect.c:(.text+0x409): undefined reference to `lua_settop'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x1f): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x32): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x48): undefined reference to `luaL_optlstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x62): undefined reference to `luaL_optlstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x8a): undefined reference to `lua_newuserdata'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x1f4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x1ff): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x225): undefined reference to `lua_newuserdata'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x2f4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x2ff): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x385): undefined reference to `luaL_checkoption'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x39f): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x3db): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x3ee): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x455): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x474): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x47f): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x4b6): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x4fe): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x51b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x55e): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x637): undefined reference to `luaL_checknumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x70f): undefined reference to `luaL_optnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x746): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x764): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x776): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x8de): undefined reference to `lua_pushboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x925): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x93f): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x9bb): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x9dc): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0x9e7): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0xa51): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0xa5c): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0xa79): undefined reference to `lua_newuserdata'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccIAwiBc.o:tc
+p.c:(.text+0xbb7): undefined reference to `luaL_setfuncs'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x12): undefined reference to `lua_newuserdata'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x8c): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x97): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xfb): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x11b): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x1bb): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x1ce): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x22c): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x244): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x24f): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x286): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x2d0): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x330): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x354): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x3c4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x3cf): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x497): undefined reference to `luaL_checknumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x51d): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x534): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x547): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x58d): undefined reference to `__imp_getaddrinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x5eb): undefined reference to `__imp_freeaddrinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x60e): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x6a4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x6c2): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x6d8): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x6e1): undefined reference to `gai_strerrorA'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x6ec): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x701): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x70e): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x719): undefined reference to `__imp_freeaddrinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x75b): undefined reference to `luaL_checklstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x7a1): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x7dc): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x7f0): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x816): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x86e): undefined reference to `luaL_optnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x920): undefined reference to `__imp_getnameinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x93a): undefined reference to `lua_pushlstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x945): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0x960): undefined reference to `lua_pushinteger'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xa31): undefined reference to `__imp_getnameinfo'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xa43): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xa4a): undefined reference to `gai_strerrorA'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xa55): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xa6c): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xa7e): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xa94): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xaa3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xab4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xabb): undefined reference to `gai_strerrorA'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xac6): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xad8): undefined reference to `lua_pushlstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xae3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xafe): undefined reference to `lua_pushinteger'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xb14): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xb6c): undefined reference to `luaL_optnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xbcf): undefined reference to `lua_pushlstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xc55): undefined reference to `lua_pushlstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xc74): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xc86): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xca4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xcb6): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xcc4): undefined reference to `lua_pushnil'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xcd3): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xd60): undefined reference to `lua_pushboolean'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xd9e): undefined reference to `lua_pushnumber'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xdbf): undefined reference to `lua_newuserdata'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xe9f): undefined reference to `luaL_setfuncs'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xeae): undefined reference to `lua_pushstring'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xebb): undefined reference to `lua_pushinteger'
+E:/LuaYaCe/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../..
+/x86_64-w64-mingw32/bin/ld.exe: C:\Users\onemt\AppData\Local\Temp\ccKSPY0e.o:ud
+p.c:(.text+0xec8): undefined reference to `lua_rawset'
+collect2.exe: error: ld returned 1 exit status
+socket exit=1 logsize=148832

@@ -1,0 +1,207 @@
+game_bw load accounts from ycf_b.txt, count:999
+game_bw init thread id:1 delta:0s
+game_bw load accounts from ycf_b.txt, count:999
+game_bw init thread id:2 delta:0s
+game_bw load accounts from ycf_b.txt, count:999
+game_bw init thread id:3 delta:0s
+game_bw load accounts from ycf_b.txt, count:999
+game_bw init thread id:4 delta:0s
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] TIMEOUT fd=316 status=2 proto=reqlogin
+[dbg] fd=316 reqlogin still waiting, no relogin
+[dbg] reqlogin resp fd=316 gw=10.0.0.142:8107 uid=100080 token_len=28
+[dbg] reconnect fd=316 -> 316 gw=10.0.0.142:8107
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] TIMEOUT fd=428 status=2 proto=reqlogin
+[dbg] fd=428 reqlogin still waiting, no relogin
+[dbg] reqlogin resp fd=428 gw=10.0.0.142:8107 uid=100078 token_len=28
+[dbg] reconnect fd=428 -> 428 gw=10.0.0.142:8107
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] TIMEOUT fd=352 status=2 proto=reqlogin
+[dbg] fd=352 reqlogin still waiting, no relogin
+[dbg] reqlogin resp fd=352 gw=10.0.0.142:8107 uid=100079 token_len=28
+[dbg] reconnect fd=352 -> 352 gw=10.0.0.142:8107
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] TIMEOUT fd=392 status=2 proto=reqlogin
+[dbg] fd=392 reqlogin still waiting, no relogin
+[dbg] reqlogin resp fd=392 gw=10.0.0.142:8107 uid=100077 token_len=28
+[dbg] reconnect fd=392 -> 392 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":10,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"lv":10,"uid":100080}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"buildCfgId":100,"lv":10,"uid":100080},"time":0,"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] TIMEOUT fd=432 status=2 proto=reqlogin
+[dbg] fd=432 reqlogin still waiting, no relogin
+[dbg] TIMEOUT fd=436 status=2 proto=reqlogin
+[dbg] fd=436 reqlogin still waiting, no relogin
+[dbg] TIMEOUT fd=328 status=2 proto=reqlogin
+[dbg] fd=328 reqlogin still waiting, no relogin
+[dbg] TIMEOUT fd=344 status=2 proto=reqlogin
+[dbg] fd=344 reqlogin still waiting, no relogin
+[dbg] TIMEOUT fd=396 status=2 proto=reqlogin
+[dbg] fd=396 reqlogin still waiting, no relogin
+[dbg] TIMEOUT fd=400 status=2 proto=reqlogin
+[dbg] fd=400 reqlogin still waiting, no relogin
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":10,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100078,"lv":10,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100078,"lv":10,"buildCfgId":100},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":10,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100077,"lv":10,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100077,"lv":10,"buildCfgId":100},"cmd":"forceChangeBuildLv","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":10}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":10,"buildCfgId":100,"uid":100079}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"lv":10,"buildCfgId":100,"uid":100079},"time":0}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto002_2026-10-12_20-18-06.xlsx
+[dbg] TIMEOUT fd=312 status=2 proto=reqlogin
+[dbg] fd=312 reqlogin still waiting, no relogin
+[dbg] TIMEOUT fd=360 status=2 proto=reqlogin
+[dbg] fd=360 reqlogin still waiting, no relogin
+[dbg] reqlogin resp fd=312 gw=10.0.0.142:8107 uid=100096 token_len=28
+[dbg] reconnect fd=312 -> 312 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=360 gw=10.0.0.142:8107 uid=100095 token_len=28
+[dbg] reconnect fd=360 -> 360 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=364 gw=10.0.0.142:8107 uid=100093 token_len=28
+[dbg] reconnect fd=364 -> 364 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=380 gw=10.0.0.142:8107 uid=100094 token_len=28
+[dbg] reconnect fd=380 -> 380 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":10,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"lv":10,"uid":100096}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"buildCfgId":100,"lv":10,"uid":100096},"time":0,"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto004_2026-10-12_20-18-06.xlsx
+[dbg] reqlogin resp fd=432 gw=10.0.0.142:8107 uid=100089 token_len=28
+[dbg] reconnect fd=432 -> 432 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=436 gw=10.0.0.142:8107 uid=100091 token_len=28
+[dbg] reconnect fd=436 -> 436 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=440 gw=10.0.0.142:8107 uid=100090 token_len=28
+[dbg] reconnect fd=440 -> 440 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=444 gw=10.0.0.142:8107 uid=100092 token_len=28
+[dbg] reconnect fd=444 -> 444 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":10,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100089,"lv":10,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100089,"lv":10,"buildCfgId":100},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto001_2026-10-12_20-18-06.xlsx
+[dbg] reqlogin resp fd=328 gw=10.0.0.142:8107 uid=100084 token_len=28
+[dbg] reconnect fd=328 -> 328 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=344 gw=10.0.0.142:8107 uid=100083 token_len=28
+[dbg] reconnect fd=344 -> 344 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=348 gw=10.0.0.142:8107 uid=100081 token_len=28
+[dbg] reconnect fd=348 -> 348 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=356 gw=10.0.0.142:8107 uid=100082 token_len=28
+[dbg] reconnect fd=356 -> 356 gw=10.0.0.142:8107
+protocol_task: results saved to game_bw/protocol/result_auto003_2026-10-12_20-18-06.xlsx
+[dbg] reqlogin resp fd=396 gw=10.0.0.142:8107 uid=100085 token_len=28
+[dbg] reconnect fd=396 -> 396 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=400 gw=10.0.0.142:8107 uid=100086 token_len=28
+[dbg] reconnect fd=400 -> 400 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=404 gw=10.0.0.142:8107 uid=100087 token_len=28
+[dbg] reconnect fd=404 -> 404 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=408 gw=10.0.0.142:8107 uid=100088 token_len=28
+[dbg] reconnect fd=408 -> 408 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":10}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":10,"buildCfgId":100,"uid":100081}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"lv":10,"buildCfgId":100,"uid":100081},"time":0}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":10,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100088,"lv":10,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100088,"lv":10,"buildCfgId":100},"cmd":"forceChangeBuildLv","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto006_2026-10-12_20-18-07.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":10,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"lv":10,"uid":100095}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"buildCfgId":100,"lv":10,"uid":100095},"time":0,"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto019_2026-10-12_20-18-07.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":10,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100085,"lv":10,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100085,"lv":10,"buildCfgId":100},"cmd":"forceChangeBuildLv","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto013_2026-10-12_20-18-07.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":10}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":10,"buildCfgId":100,"uid":100084}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"lv":10,"buildCfgId":100,"uid":100084},"time":0}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto008_2026-10-12_20-18-07.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":10,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100091,"lv":10,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100091,"lv":10,"buildCfgId":100},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto010_2026-10-12_20-18-09.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":10,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"lv":10,"uid":100093}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"buildCfgId":100,"lv":10,"uid":100093},"time":0,"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task: results saved to game_bw/protocol/result_auto007_2026-10-12_20-18-09.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":10,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100086,"lv":10,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100086,"lv":10,"buildCfgId":100},"cmd":"forceChangeBuildLv","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: results saved to game_bw/protocol/result_auto005_2026-10-12_20-18-09.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":10}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":10,"buildCfgId":100,"uid":100083}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"lv":10,"buildCfgId":100,"uid":100083},"time":0}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto012_2026-10-12_20-18-09.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":10,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100090,"lv":10,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100090,"lv":10,"buildCfgId":100},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto014_2026-10-12_20-18-10.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":10,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"lv":10,"uid":100094}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"buildCfgId":100,"lv":10,"uid":100094},"time":0,"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: results saved to game_bw/protocol/result_auto011_2026-10-12_20-18-10.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto009_2026-10-12_20-18-10.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":10,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100087,"lv":10,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100087,"lv":10,"buildCfgId":100},"cmd":"forceChangeBuildLv","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":10}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":10,"buildCfgId":100,"uid":100082}
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"lv":10,"buildCfgId":100,"uid":100082},"time":0}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto016_2026-10-12_20-18-10.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":10,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":100092,"lv":10,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100092,"lv":10,"buildCfgId":100},"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e","time":0}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","data":"success","result":1}
+protocol_task: results saved to game_bw/protocol/result_auto018_2026-10-12_20-18-11.xlsx
+game_bw thread 2 all protocol tasks done, report early stop
+protocol_task: results saved to game_bw/protocol/result_auto020_2026-10-12_20-18-11.xlsx
+game_bw thread 4 all protocol tasks done, report early stop
+protocol_task: results saved to game_bw/protocol/result_auto015_2026-10-12_20-18-11.xlsx
+protocol_task: results saved to game_bw/protocol/result_auto017_2026-10-12_20-18-11.xlsx
+game_bw thread 3 all protocol tasks done, report early stop
+game_bw thread 1 all protocol tasks done, report early stop
+Running 120s test skynet
+  4 threads and 20 connections
+all threads tasks done, early stop after 17 s (configured 120 s)
+Running 120s test skynet
+  4 threads and actually 40 connections
+  Thread Stats       Avg       Min       Max
+    Latency       559.40 ms    0.00 ms    7954.51 ms
+  68 requests 368 responses in 20146.21 ms, 203.06 kb read
+Requests/sec:      3.38
+Responses/sec:     18.27
+Transfer/sec:      10.08 kb

@@ -1,0 +1,7 @@
+﻿parse:	true
+result type:	string
+result len:	174
+hex:	01 00 00 00 A6 00 00 00 46 00 00 00 02 00 00 00 00 00 0F 00 00 00 43 6F 6D 41 72 6D 79 49 64 41 6E 64 4E 75 6D 29 00 00 00 10 00 00 00 04 00 00 00 0A 00 01 00 02 00 02 00 00 00 69 64 11 00 00 00 04 00 00 00 0A 00 01 00 04 00 03 00 00 00 6E 75 6D 58 00 00 00 02 00 00 00 00 00 0F 00 00 00 43 6F 6D 53 
+newproto:	true	nil
+querytype ComArmyIdAndNum:	false	bad argument #1 to 'sproto.core.querytype' (Need a sproto object)
+querytype ComSyncDataArmy:	false	bad argument #1 to 'sproto.core.querytype' (Need a sproto object)

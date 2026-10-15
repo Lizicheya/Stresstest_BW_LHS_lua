@@ -1,0 +1,384 @@
+game_bw load accounts from ycf_b.txt, count:700
+game_bw init thread id:4 delta:0s
+game_bw load accounts from ycf_b.txt, count:700
+game_bw init thread id:2 delta:0s
+game_bw load accounts from ycf_b.txt, count:700
+game_bw init thread id:3 delta:0s
+game_bw load accounts from ycf_b.txt, count:700
+game_bw init thread id:1 delta:0s
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=360 gw=10.0.0.142:8107 uid=101261 token_len=28
+[dbg] reconnect fd=360 -> 432 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":101261,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101261,"buildCfgId":100,"lv":19},"time":0,"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101261}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101261},"time":0,"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=384 gw=10.0.0.142:8107 uid=101264 token_len=28
+[dbg] reconnect fd=384 -> 384 gw=10.0.0.142:8107
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] encode failed fd=432 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"task_id":4,"uid":101261}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"task_id":4,"uid":101261},"time":0,"cmd":"finishChapter","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"result":0,"msg":"fail:retcode=-1_未知错误"}
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=428 gw=10.0.0.142:8107 uid=101262 token_len=28
+[dbg] reconnect fd=428 -> 428 gw=10.0.0.142:8107
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=300 gw=10.0.0.142:8107 uid=101263 token_len=28
+[dbg] reconnect fd=300 -> 300 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"lv":19,"uid":101264}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"buildCfgId":100,"lv":19,"uid":101264},"time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":101262,"lv":19,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv","data":{"uid":101262,"lv":19,"buildCfgId":100}}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"msg":"success","data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101264}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"uid":101264},"time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101262}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll","data":{"uid":101262}}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"msg":"success","data":"success"}
+[dbg] encode failed fd=384 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+[dbg] TIMEOUT fd=400 status=2 proto=reqlogin
+[dbg] fd=400 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=404 status=2 proto=reqlogin
+[dbg] fd=404 reqlogin still waiting (1), no relogin
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"task_id":4,"uid":101264}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"task_id":4,"uid":101264},"time":0,"cmd":"finishChapter"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] encode failed fd=428 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"task_id":4,"uid":101262}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"finishChapter","data":{"task_id":4,"uid":101262}}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":101263}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"lv":19,"buildCfgId":100,"uid":101263},"cmd":"forceChangeBuildLv","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"msg":"fail:retcode=-1_未知错误","result":0}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101263}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101263},"cmd":"unlockCityAreaAll","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"msg":"fail:retcode=-1_未知错误","result":0}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"msg":"success","result":1,"data":"success"}
+[dbg] encode failed fd=300 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+[dbg] TIMEOUT fd=296 status=2 proto=reqlogin
+[dbg] fd=296 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=268 status=2 proto=reqlogin
+[dbg] fd=268 reqlogin still waiting (1), no relogin
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"uid":101263,"task_id":4}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101263,"task_id":4},"cmd":"finishChapter","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"result":0,"msg":"fail:retcode=-1_未知错误"}
+protocol_task: results saved to game_bw/protocol/result_A302_2026-10-13_17-26-53.xlsx
+[dbg] TIMEOUT fd=372 status=2 proto=reqlogin
+[dbg] fd=372 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=364 status=2 proto=reqlogin
+[dbg] fd=364 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=372 gw=10.0.0.142:8107 uid=101277 token_len=28
+[dbg] reconnect fd=372 -> 372 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=364 gw=10.0.0.142:8107 uid=101276 token_len=28
+[dbg] reconnect fd=364 -> 364 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=352 gw=10.0.0.142:8107 uid=101281 token_len=28
+[dbg] reconnect fd=352 -> 352 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=424 gw=10.0.0.142:8107 uid=101280 token_len=28
+[dbg] reconnect fd=424 -> 424 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":101277,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101277,"buildCfgId":100,"lv":19},"time":0,"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101277}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101277},"time":0,"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] encode failed fd=372 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":101276,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101276,"buildCfgId":100,"lv":19},"time":0,"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101276}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101276},"time":0,"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] encode failed fd=364 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":101281,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101281,"buildCfgId":100,"lv":19},"time":0,"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101281}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101281},"time":0,"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] encode failed fd=352 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":101280,"buildCfgId":100,"lv":19}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101280,"buildCfgId":100,"lv":19},"time":0,"cmd":"forceChangeBuildLv","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101280}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101280},"time":0,"cmd":"unlockCityAreaAll","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] encode failed fd=424 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task: results saved to game_bw/protocol/result_A304_2026-10-13_17-26-54.xlsx
+[dbg] reqlogin resp fd=400 gw=10.0.0.142:8107 uid=101274 token_len=28
+[dbg] reconnect fd=400 -> 400 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=404 gw=10.0.0.142:8107 uid=101284 token_len=28
+[dbg] reconnect fd=404 -> 404 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=408 gw=10.0.0.142:8107 uid=101283 token_len=28
+[dbg] reconnect fd=408 -> 408 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=420 gw=10.0.0.142:8107 uid=101282 token_len=28
+[dbg] reconnect fd=420 -> 420 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"task_id":4,"uid":101277}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"task_id":4,"uid":101277},"time":0,"cmd":"finishChapter","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"lv":19,"uid":101274}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"buildCfgId":100,"lv":19,"uid":101274},"time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"msg":"success","data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101274}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"uid":101274},"time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"msg":"success","data":"success"}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"result":0,"msg":"fail:retcode=-1_未知错误"}
+[dbg] encode failed fd=400 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"task_id":4,"uid":101274}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"task_id":4,"uid":101274},"time":0,"cmd":"finishChapter"}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"msg":"fail:retcode=-1_未知错误","result":0}
+protocol_task: results saved to game_bw/protocol/result_A303_2026-10-13_17-26-54.xlsx
+[dbg] TIMEOUT fd=436 status=2 proto=reqlogin
+[dbg] fd=436 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=184 status=2 proto=reqlogin
+[dbg] fd=184 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=440 status=2 proto=reqlogin
+[dbg] fd=440 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=436 gw=10.0.0.142:8107 uid=101270 token_len=28
+[dbg] reconnect fd=436 -> 436 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=184 gw=10.0.0.142:8107 uid=101286 token_len=28
+[dbg] reconnect fd=184 -> 184 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=440 gw=10.0.0.142:8107 uid=101287 token_len=28
+[dbg] reconnect fd=440 -> 440 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=444 gw=10.0.0.142:8107 uid=101285 token_len=28
+[dbg] reconnect fd=444 -> 444 gw=10.0.0.142:8107
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":101287,"lv":19,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv","data":{"uid":101287,"lv":19,"buildCfgId":100}}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101287}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll","data":{"uid":101287}}
+protocol_task: results saved to game_bw/protocol/result_A301_2026-10-13_17-26-54.xlsx
+[dbg] TIMEOUT fd=340 status=2 proto=reqlogin
+[dbg] fd=340 reqlogin still waiting (1), no relogin
+[dbg] reqlogin resp fd=296 gw=10.0.0.142:8107 uid=101265 token_len=28
+[dbg] reconnect fd=296 -> 296 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=268 gw=10.0.0.142:8107 uid=101266 token_len=28
+[dbg] reconnect fd=268 -> 268 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=340 gw=10.0.0.142:8107 uid=101288 token_len=28
+[dbg] reconnect fd=340 -> 340 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=456 gw=10.0.0.142:8107 uid=101289 token_len=28
+[dbg] reconnect fd=456 -> 456 gw=10.0.0.142:8107
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] encode failed fd=440 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":101285,"lv":19,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv","data":{"uid":101285,"lv":19,"buildCfgId":100}}
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":101265}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"lv":19,"buildCfgId":100,"uid":101265},"cmd":"forceChangeBuildLv","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101265}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101265},"cmd":"unlockCityAreaAll","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"msg":"success","result":1,"data":"success"}
+[dbg] encode failed fd=296 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":101266}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"lv":19,"buildCfgId":100,"uid":101266},"cmd":"forceChangeBuildLv","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101266}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101266},"cmd":"unlockCityAreaAll","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"msg":"success","result":1,"data":"success"}
+[dbg] encode failed fd=268 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"uid":101265,"task_id":4}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101265,"task_id":4},"cmd":"finishChapter","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101285}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll","data":{"uid":101285}}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"result":0,"msg":"fail:retcode=-1_未知错误"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] encode failed fd=444 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":101270,"lv":19,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv","data":{"uid":101270,"lv":19,"buildCfgId":100}}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101270}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll","data":{"uid":101270}}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] encode failed fd=436 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"lv":19,"buildCfgId":100}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"uid":101286,"lv":19,"buildCfgId":100}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"forceChangeBuildLv","data":{"uid":101286,"lv":19,"buildCfgId":100}}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"data":"success","result":1,"msg":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101286}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"unlockCityAreaAll","data":{"uid":101286}}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"data":"success","result":1,"msg":"success"}
+[dbg] encode failed fd=184 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"task_id":4,"uid":101285}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"finishChapter","data":{"task_id":4,"uid":101285}}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"msg":"fail:retcode=-1_未知错误","result":0}
+protocol_task: results saved to game_bw/protocol/result_A306_2026-10-13_17-26-56.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"task_id":4,"uid":101276}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"task_id":4,"uid":101276},"time":0,"cmd":"finishChapter","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"result":0,"msg":"fail:retcode=-1_未知错误"}
+protocol_task: results saved to game_bw/protocol/result_A308_2026-10-13_17-26-56.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"lv":19,"uid":101283}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"buildCfgId":100,"lv":19,"uid":101283},"time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"msg":"success","data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101283}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"uid":101283},"time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"msg":"success","data":"success"}
+[dbg] encode failed fd=408 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"lv":19,"uid":101284}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"buildCfgId":100,"lv":19,"uid":101284},"time":0,"cmd":"forceChangeBuildLv"}
+protocol_task: results saved to game_bw/protocol/result_A305_2026-10-13_17-26-56.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":101288}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"lv":19,"buildCfgId":100,"uid":101288},"cmd":"forceChangeBuildLv","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"msg":"success","data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101284}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"uid":101284},"time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101288}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101288},"cmd":"unlockCityAreaAll","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"msg":"success","data":"success"}
+[dbg] encode failed fd=404 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"buildCfgId":100,"lv":19,"uid":101282}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"buildCfgId":100,"lv":19,"uid":101282},"time":0,"cmd":"forceChangeBuildLv"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"result":1,"msg":"success","data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101282}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"uid":101282},"time":0,"cmd":"unlockCityAreaAll"}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"msg":"success","result":1,"data":"success"}
+[dbg] encode failed fd=340 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"uid":101266,"task_id":4}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101266,"task_id":4},"cmd":"finishChapter","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"result":0,"msg":"fail:retcode=-1_未知错误"}
+protocol_task: results saved to game_bw/protocol/result_A319_2026-10-13_17-26-57.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"task_id":4,"uid":101287}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"finishChapter","data":{"task_id":4,"uid":101287}}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"msg":"fail:retcode=-1_未知错误","result":0}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"result":1,"msg":"success","data":"success"}
+[dbg] encode failed fd=420 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"task_id":4,"uid":101283}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"task_id":4,"uid":101283},"time":0,"cmd":"finishChapter"}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"msg":"fail:retcode=-1_未知错误","result":0}
+protocol_task: results saved to game_bw/protocol/result_A310_2026-10-13_17-26-57.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"task_id":4,"uid":101281}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"task_id":4,"uid":101281},"time":0,"cmd":"finishChapter","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"result":0,"msg":"fail:retcode=-1_未知错误"}
+protocol_task: results saved to game_bw/protocol/result_A309_2026-10-13_17-26-58.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"uid":101288,"task_id":4}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101288,"task_id":4},"cmd":"finishChapter","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"result":0,"msg":"fail:retcode=-1_未知错误"}
+protocol_task: results saved to game_bw/protocol/result_A315_2026-10-13_17-26-58.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"task_id":4,"uid":101270}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"finishChapter","data":{"task_id":4,"uid":101270}}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"msg":"fail:retcode=-1_未知错误","result":0}
+protocol_task: results saved to game_bw/protocol/result_A316_2026-10-13_17-26-58.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"task_id":4,"uid":101282}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"task_id":4,"uid":101282},"time":0,"cmd":"finishChapter"}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"msg":"fail:retcode=-1_未知错误","result":0}
+protocol_task: results saved to game_bw/protocol/result_A314_2026-10-13_17-26-58.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"task_id":4,"uid":101280}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"task_id":4,"uid":101280},"time":0,"cmd":"finishChapter","sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"result":0,"msg":"fail:retcode=-1_未知错误"}
+protocol_task: results saved to game_bw/protocol/result_A313_2026-10-13_17-26-59.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.forceChangeBuildLv pkt={"buildCfgId":100,"lv":19}
+protocol_task cheat send: cmd=forceChangeBuildLv data={"lv":19,"buildCfgId":100,"uid":101289}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"lv":19,"buildCfgId":100,"uid":101289},"cmd":"forceChangeBuildLv","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.forceChangeBuildLv] err=0 result={"msg":"success","result":1,"data":"success"}
+protocol_task cheat matched: cmd_module=CheatTask.unlockCityAreaAll pkt={}
+protocol_task cheat send: cmd=unlockCityAreaAll data={"uid":101289}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101289},"cmd":"unlockCityAreaAll","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task: results saved to game_bw/protocol/result_A307_2026-10-13_17-26-59.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"task_id":4,"uid":101286}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","time":0,"cmd":"finishChapter","data":{"task_id":4,"uid":101286}}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"msg":"fail:retcode=-1_未知错误","result":0}
+protocol_task: results saved to game_bw/protocol/result_A320_2026-10-13_17-26-59.xlsx
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"task_id":4,"uid":101284}
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"task_id":4,"uid":101284},"time":0,"cmd":"finishChapter"}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"msg":"fail:retcode=-1_未知错误","result":0}
+protocol_task cheat[CheatTask.unlockCityAreaAll] err=0 result={"msg":"success","result":1,"data":"success"}
+[dbg] encode failed fd=456 proto=LordTask.rename_user err=lualib/sproto.lua:110: LordTask.rename_user not found
+protocol_task cheat matched: cmd_module=CheatTask.finishChapter pkt={"task_id":4}
+protocol_task cheat send: cmd=finishChapter data={"uid":101289,"task_id":4}
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":101289,"task_id":4},"cmd":"finishChapter","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheat[CheatTask.finishChapter] err=1 result={"result":0,"msg":"fail:retcode=-1_未知错误"}
+protocol_task: results saved to game_bw/protocol/result_A318_2026-10-13_17-27-00.xlsx
+game_bw thread 2 all accounts done, report early stop
+protocol_task: results saved to game_bw/protocol/result_A311_2026-10-13_17-27-01.xlsx
+game_bw thread 3 all accounts done, report early stop
+protocol_task: results saved to game_bw/protocol/result_A312_2026-10-13_17-27-01.xlsx
+game_bw thread 4 all accounts done, report early stop
+protocol_task: results saved to game_bw/protocol/result_A317_2026-10-13_17-27-01.xlsx
+game_bw thread 1 all accounts done, report early stop
+Running 600s test skynet
+  4 threads and 20 connections
+all threads tasks done, early stop after 21 s (configured 600 s)
+Running 600s test skynet
+  4 threads and actually 40 connections
+  Thread Stats       Avg       Min       Max
+    Latency       320.21 ms    0.00 ms    7472.87 ms
+  131 requests 3770 responses in 24435.68 ms, 350.56 kb read
+  Socket errors: connect 0, read 0, write 0, timeout 3
+Requests/sec:      5.36
+Responses/sec:    154.28
+Transfer/sec:      14.35 kb

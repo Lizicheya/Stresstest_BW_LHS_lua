@@ -1,0 +1,14 @@
+﻿Running 5s test skynet
+  1 threads and 1 connections
+script_start error, code:2, msg:attempt to call a nil value
+connect failed, errno:0, errmsg:No error
+connect error
+Running 5s test skynet
+  1 threads and actually 0 connections
+  Thread Stats       Avg       Min       Max
+    Latency       0.00 ms    18446744073709552.00 ms    0.00 ms
+  0 requests 0 responses in 5016.97 ms, 0.00 kb read
+  Socket errors: connect 1, read 0, write 0, timeout 0
+Requests/sec:      0.00
+Responses/sec:      0.00
+Transfer/sec:       0.00 kb

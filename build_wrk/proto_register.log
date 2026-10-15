@@ -1,0 +1,15 @@
+﻿require sprotoparser:	true	nil
+require sproto.core:	true	table: 00000000018c79d0
+require sproto:	true	table: 00000000018e3be0
+require protocol.proto:	true	table: 00000000018e7640
+
+--- register test ---
+proto_index:	1
+proto_files:	table	1
+proto file:	./lualib/protocol/c2s.proto	EXISTS
+
+--- calling register ---
+register:	false	lualib/protocol\proto.lua:25: sproto parse fail in c2s , lualib/sprotoparser.lua:62: syntax error at [=text] line (69)
+
+--- calling load ---
+load:	false	lualib/protocol\proto.lua:36: nil sproto at index 1

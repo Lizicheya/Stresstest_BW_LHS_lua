@@ -1,0 +1,19 @@
+﻿lua.exe : E:\LuaYaCe\PressureTest_BW_LHS\third_party\win\lua-5.3.4\src\lua.exe:
+ error loading module 'sproto.core' from file 'lualib/sproto.dll':
+At line:3 char:1
++ & $lua 'test_proto_load.lua' 2>&1 | Out-File 'E:\LuaYaCe\build_wrk\pr ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (E:\LuaYaCe\Pres...ib/sproto.dll': 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+	%1 不是有效的 Win32 应用程序。
+
+
+stack traceback:
+	[C]: in ?
+	[C]: in function 'require'
+	lualib/protocol\proto.lua:2: in main chunk
+	[C]: in function 'require'
+	test_proto_load.lua:5: in main chunk
+	[C]: in ?
