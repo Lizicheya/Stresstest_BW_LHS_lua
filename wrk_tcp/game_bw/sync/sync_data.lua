@@ -7,6 +7,9 @@ local util = require "util"
 local tinsert = table.insert
 local M = {}
 
+-- 增量合并的三种操作类型(供 update_sync_module_data 内部复用)
+local NEW, MERGE, REMOVE = 1, 2, 3
+
 ----------------------------------------------------------------------
 -- PushHandler:推送分发器
 -- 对应 Python sync_data.py 的 PushHandler 类
@@ -24,6 +27,11 @@ function PushHandler.new(sync_data)
     self.methods = {
         -- 资源/物品/英雄等通用增删改推送
         dictUpdate = function(this, msg) this.sync_data:handle_dict_update(msg) end,
+        -- 登录全量同步(列表形态:army/hero/city 都是完整数组)
+        -- 场景逻辑依赖其中的 world.scenes / castleX / castleY / lordKillNormalMonsterStat
+        syncLoginData = function(this, msg) this.sync_data:handle_sync_login_data(msg) end,
+        -- 登录后增量同步(news/changes/removes 形态)
+        syncPlayerInfo = function(this, msg) this.sync_data:handle_sync_player_info(msg) end,
         -- 通用:无匹配处理时仅记录
         default = function(this, msg)
             -- 默认无操作,真实实现按需扩展
@@ -50,9 +58,15 @@ SyncData.__index = SyncData
 function SyncData.new()
     local self = setmetatable({}, SyncData)
     self.server_time = 0          -- 服务器时间(秒)
+    self.server_open_time = 0     -- 服务器开服时间(秒,用于算开服天数)
     self.lord = {}                -- 领主信息
     self.heros = {}               -- 英雄表: heroCfgId -> ComHero
     self.armys = {}               -- 兵种表: armyCfgId -> num
+    self.attributes = {}          -- 属性表: attrId -> value(带兵上限等)
+    self.world = {}               -- 世界信息: scenes / castleX / castleY
+    self.castle_x = 0             -- 主堡 X(冗余自 world,便于频繁读取)
+    self.castle_y = 0             -- 主堡 Y
+    self.lord_kill_monster_stat = {}  -- 杀怪统计: 怪等级 -> 击杀数
     self.wounded_armys = {}       -- 伤兵表
     self.buildings = {}           -- 建筑表: buildId -> info
     self.items = {}               -- 物品表: itemId -> info
@@ -79,6 +93,30 @@ function SyncData:get_server_time()
 end
 
 ----------------------------------------------------------------------
+-- sproto 数组/map 形态判别
+--
+-- 本项目 sproto 有两类「多值」字段,解码出来的 Lua 形状完全不同:
+--   1) `*Type(keyField)` / `*Type()`(空括号 = map) → 解码成 { [键] = 元素 } 或 { [键] = 标量 }
+--      例:army 是 *ComArmyIdAndNum() → { [兵种id] = 数量 }
+--          hero 是 *ComHero(heroCfgId) → { [heroCfgId] = ComHero 表 }
+--          world.scenes 是 *ComIntInt() → { [sceneId] = sceneCfgId }
+--   2) `*Type`(无括号,如 *uint32 / *integer) → 解码成 { 1, 2, 3 } 纯数组
+-- 因此下面所有合并函数都不能假设 ipairs,必须对两种形态都成立。
+----------------------------------------------------------------------
+
+-- 取一条记录的键:优先用元素自身的 check_key / id,否则退回容器键
+-- 注意:必须定义在所有使用它的函数之前(update_sync_module_data 就在下面),
+-- 否则该名字会退化成全局查找(取到 nil),运行期报 attempt to call a nil value。
+local function entry_key(item, fallback, check_key)
+    if type(item) == "table" then
+        local k = item[check_key]
+        if k == nil then k = item.id end
+        if k ~= nil then return k end
+    end
+    return fallback
+end
+
+----------------------------------------------------------------------
 -- 通用同步入口:对应 Python 的 update_sync_module_data
 -- sproto_name: 推送/响应中的类型名(如 "ComLord" / "ComHero")
 -- source_dict: 推送的源数据表
@@ -86,39 +124,34 @@ end
 -- check_key:   用于判定增删改的子键(如 "heroCfgId")
 ----------------------------------------------------------------------
 function SyncData:update_sync_module_data(sproto_name, source_dict, target_key, check_key)
-    if not source_dict then return end
+    if type(source_dict) ~= "table" then return end
     local target = self[target_key] or {}
     self[target_key] = target
+    check_key = check_key or "id"
 
-    -- 1) news: 新增项
-    local news = source_dict.news
-    if news then
-        for _, item in ipairs(news) do
-            local k = item[check_key] or item.id
-            target[k] = item
-        end
-    end
-
-    -- 2) changes: 修改项(按 check_key 合并字段)
-    local changes = source_dict.changes
-    if changes then
-        for _, item in ipairs(changes) do
-            local k = item[check_key] or item.id
-            local old = target[k] or {}
-            for fk, fv in pairs(item) do
-                old[fk] = fv
+    -- 统一遍历:news/changes/removes 既可能是数组,也可能是 sproto map
+    local function apply(container, mode)
+        if type(container) ~= "table" then return end
+        for k, item in pairs(container) do
+            local key = entry_key(item, k, check_key)
+            if key ~= nil then
+                if mode == REMOVE then
+                    target[key] = nil
+                elseif mode == MERGE and type(item) == "table" then
+                    local old = target[key]
+                    if type(old) ~= "table" then old = {} end
+                    for fk, fv in pairs(item) do old[fk] = fv end
+                    target[key] = old
+                else
+                    target[key] = item
+                end
             end
-            target[k] = old
         end
     end
 
-    -- 3) removes: 删除项
-    local removes = source_dict.removes
-    if removes then
-        for _, k in ipairs(removes) do
-            target[k] = nil
-        end
-    end
+    apply(source_dict.news, NEW)
+    apply(source_dict.changes, MERGE)
+    apply(source_dict.removes, REMOVE)
 end
 
 -- 路由:根据 target_key 调用对应 update_xxx
@@ -173,6 +206,143 @@ function SyncData:handle_dict_update(msg)
         if type(payload) == "table" and (payload.news or payload.changes or payload.removes) then
             self:update_module(tk, nil, payload, payload.check_key or "id")
         end
+    end
+end
+
+----------------------------------------------------------------------
+-- 登录全量同步:syncLoginData 22
+-- 与 syncPlayerInfo 不同,这里是完整数组(不是 news/changes/removes),
+-- 因此直接重建映射表。场景逻辑(world.scenes / 主堡坐标 / 杀怪统计 / 兵种 /
+-- 英雄)全部依赖这份数据,缺了会导致沙盘任务找不到场景和出征目标。
+----------------------------------------------------------------------
+
+-- 全量落地:按 check_key 作键重建映射表(兼容数组 / 映射 / 纯标量映射三种形态)
+function SyncData:merge_snapshot(target_key, list, check_key)
+    if type(list) ~= "table" then return end
+    check_key = check_key or "id"
+
+    local target = {}
+    for k, item in pairs(list) do
+        local key = entry_key(item, k, check_key)
+        if key ~= nil then target[key] = item end
+    end
+    self[target_key] = target
+end
+
+-- key/value 统计表落地(ComIntInt):兼容 { [k]=v } 与 { {key=,value=}, ... }
+function SyncData:merge_stat_map(target_key, list)
+    if type(list) ~= "table" then return end
+    local target = self[target_key] or {}
+
+    for k, v in pairs(list) do
+        local key, val
+        if type(v) == "table" then
+            key = v.key
+            if key == nil then key = v.id end
+            val = v.value
+            if val == nil then val = v.num end
+        else
+            key = k
+            val = v
+        end
+
+        if key ~= nil then
+            key = tonumber(key) or key
+            target[key] = tonumber(val) or 0
+        end
+    end
+    self[target_key] = target
+end
+
+function SyncData:handle_sync_login_data(msg)
+    if type(msg) ~= "table" then return end
+
+    if msg.serverTime then
+        self.server_time = math.floor(tonumber(msg.serverTime) or self.server_time)
+    end
+    if msg.serverOpenTime then
+        self.server_open_time = tonumber(msg.serverOpenTime) or self.server_open_time
+    end
+    if type(msg.lord) == "table" then
+        for k, v in pairs(msg.lord) do self.lord[k] = v end
+    end
+    if type(msg.world) == "table" then
+        for k, v in pairs(msg.world) do self.world[k] = v end
+        self.castle_x = tonumber(self.world.castleX) or self.castle_x
+        self.castle_y = tonumber(self.world.castleY) or self.castle_y
+    end
+
+    -- 兵种 / 伤兵 / 英雄 / 建筑 / 物品 / 队列 / 科技 / 雷达
+    self:merge_snapshot("armys",         msg.army,         "id")
+    self:merge_snapshot("wounded_armys", msg.woundedArmy,  "id")
+    self:merge_snapshot("heros",         msg.hero,         "heroCfgId")
+    self:merge_snapshot("buildings",     msg.city,         "id")
+    self:merge_snapshot("items",         msg.item,         "id")
+    self:merge_snapshot("queues",        msg.queue,        "queueCfgId")
+    self:merge_snapshot("techs",         msg.technology,   "id")
+    self:merge_snapshot("radar_events",  msg.radarEvents,  "id")
+
+    -- 属性表(*ComIntInt):带兵上限等场景出征参数来源
+    self:merge_stat_map("attributes", msg.attribute)
+    -- 杀怪统计(*ComIntInt: lv -> 击杀数),场景据此推算可打最高怪等级
+    self:merge_stat_map("lord_kill_monster_stat", msg.lordKillNormalMonsterStat)
+
+    self.login_info = msg
+end
+
+----------------------------------------------------------------------
+-- 登录后增量同步:syncPlayerInfo 23
+-- 结构为 ComSyncData*(news/changes/removes),直接复用通用合并逻辑
+----------------------------------------------------------------------
+function SyncData:handle_sync_player_info(msg)
+    if type(msg) ~= "table" then return end
+
+    if type(msg.lord) == "table" then
+        for k, v in pairs(msg.lord) do self.lord[k] = v end
+    end
+    if type(msg.world) == "table" then
+        for k, v in pairs(msg.world) do self.world[k] = v end
+        self.castle_x = tonumber(self.world.castleX) or self.castle_x
+        self.castle_y = tonumber(self.world.castleY) or self.castle_y
+    end
+
+    if msg.army then
+        self:update_sync_module_data("ComSyncDataArmy", msg.army, "armys", "id")
+    end
+    if msg.woundedArmy then
+        self:update_sync_module_data("ComSyncDataArmy", msg.woundedArmy, "wounded_armys", "id")
+    end
+    if msg.hero then
+        self:update_sync_module_data("ComSyncDataHero", msg.hero, "heros", "heroCfgId")
+    end
+    if msg.city then
+        self:update_sync_module_data("ComSyncDataCity", msg.city, "buildings", "id")
+    end
+    if msg.item then
+        self:update_sync_module_data("ComSyncDataItem", msg.item, "items", "id")
+    end
+    if msg.queue then
+        self:update_sync_module_data("ComSyncDataQueue", msg.queue, "queues", "queueCfgId")
+    end
+    if msg.technology then
+        self:update_sync_module_data("ComSyncDataTechnology", msg.technology, "techs", "id")
+    end
+    if msg.radarEvents then
+        self:update_sync_module_data("ComSyncRadarEvent", msg.radarEvents, "radar_events", "id")
+    end
+
+    if type(msg.attribute) == "table" then
+        self:merge_stat_map("attributes", msg.attribute.news)
+        self:merge_stat_map("attributes", msg.attribute.changes)
+    end
+    if type(msg.lordKillNormalMonsterStat) == "table" then
+        self:merge_stat_map("lord_kill_monster_stat", msg.lordKillNormalMonsterStat.news)
+        self:merge_stat_map("lord_kill_monster_stat", msg.lordKillNormalMonsterStat.changes)
+    end
+
+    -- 部队/场景对象推送:交给场景模块按需消费(状态机里也可直接读 self.troops)
+    if type(msg.troop) == "table" then
+        self:update_sync_module_data("ComTroop", msg.troop, "troops", "id")
     end
 end
 
@@ -446,6 +616,73 @@ end
 
 function SyncData:get_server_time()
     return self.server_time
+end
+
+----------------------------------------------------------------------
+-- 沙盘场景相关取值(对应 Python sync_data 的 get_building_info /
+-- get_max_kill_monster / cur_server_day / hero_list 等)
+----------------------------------------------------------------------
+
+-- 取世界信息:scenes(场景 id 表) / castleX / castleY
+function SyncData:get_world()
+    return self.world
+end
+
+-- 取建筑等级:buildId 规则为 buildCfgId * 10 + subIndex(主堡 100 -> 1001)
+-- 找不到时返回 -1(与 Python 一致,调用方需自行判断「等级未知」与「等级为 0」)
+function SyncData:get_building_lv(build_id, sub_index)
+    build_id = tonumber(build_id) or 0
+    sub_index = tonumber(sub_index) or 1
+    if build_id == 158 then build_id = 118 end
+
+    local idx = tonumber(tostring(build_id) .. tostring(sub_index))
+    local b = idx and self.buildings[idx] or nil
+    if not b then b = self.buildings[build_id] end
+    if not b then
+        for _, item in pairs(self.buildings) do
+            if type(item) == "table" and item.buildCfgId == build_id then
+                b = item
+                break
+            end
+        end
+    end
+    if type(b) ~= "table" then return -1 end
+    return tonumber(b.lv) or -1
+end
+
+-- 取当前可打的普通怪最高等级:已击杀最高等级 + 1,上限 30
+function SyncData:get_max_kill_monster()
+    local max_lv = 0
+    for k in pairs(self.lord_kill_monster_stat or {}) do
+        local lv = tonumber(k) or 0
+        if lv > max_lv then max_lv = lv end
+    end
+    if max_lv <= 0 then return 1 end
+    max_lv = max_lv + 1
+    if max_lv > 30 then max_lv = 30 end
+    return max_lv
+end
+
+-- 取服务器开服天数:((服务器时间 - 开服时间) / 86400) + 1
+function SyncData:get_server_day()
+    local open = tonumber(self.server_open_time) or 0
+    local now = tonumber(self.server_time) or 0
+    if open <= 0 or now <= 0 then return 1 end
+    return math.floor((now - open) / 86400) + 1
+end
+
+-- 取英雄配置 id 列表
+function SyncData:get_hero_list()
+    local list = {}
+    for cfg_id in pairs(self.heros) do
+        list[#list + 1] = cfg_id
+    end
+    return list
+end
+
+-- 取某个属性值(attribute 推送: attrId -> value)
+function SyncData:get_attribute(attr_id)
+    return tonumber(self.attributes[attr_id]) or 0
 end
 
 ----------------------------------------------------------------------

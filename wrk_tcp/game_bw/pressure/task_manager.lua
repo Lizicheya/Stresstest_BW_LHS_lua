@@ -15,6 +15,8 @@ local task_modules = {
     backpack = require "task.backpack_task",
     produce = require "task.produce_task",
     heart = require "task.heart_task",
+    -- 沙盘场景:打怪/采集/加速/迁城(状态按 sync_data 隔离,见 scene/scene_task.lua)
+    scene = require "scene.scene_task",
     -- login 模块仅占位,不参与调度
     -- login = require "task.login_task",
 }

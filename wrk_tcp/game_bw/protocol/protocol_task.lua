@@ -118,6 +118,7 @@ function M.new(opts)
     self.client = nil        -- sproto_client 引用(用于重新登录/账号切换)
     self.next_available_time = 0  -- sleep_time 非阻塞等待的解锁时间戳
     self.pending_relogin = false  -- 是否需要重新登录
+    self._current_scene_ctx = nil -- 在途场景任务的上下文(响应回来时推进场景状态)
 
     return self
 end
@@ -451,6 +452,10 @@ function M:next_request(sync_data)
                 return self:_handle_cheat(case, pkt, method)
             elseif prefix and string.lower(prefix) == "cheattask" then
                 return self:_handle_cheattask(case, pkt, method)
+            elseif prefix and string.lower(prefix) == "scenetask" then
+                -- 沙盘场景命令:SceneTask.yyy -> scene/scene_task.lua
+                -- 必须先于通用 XXXTask 分支判断,否则会被 task$ 规则截走
+                return self:_handle_scene_task(case, pkt, method)
             elseif prefix and string.find(string.lower(prefix), "task$") then
                 return self:_handle_task_dispatch(case, pkt)
             end
@@ -572,6 +577,46 @@ function M:_handle_cheattask(case, pkt, method)
 end
 
 ----------------------------------------------------------------------
+-- 沙盘场景命令处理:cmd_module 为 SceneTask.yyy
+-- 调用 scene/scene_task.lua 的 DISPATCH 映射,返回 (协议名, 参数字表),
+-- 与 cheattask 不同:场景是 TCP 协议,要走正常请求发送 + 等响应,
+-- 响应侧由 record_response 调用 SceneTask:on_response 推进场景状态
+----------------------------------------------------------------------
+function M:_handle_scene_task(case, pkt, method)
+    local ok_mod, scene_task = pcall(require, "scene.scene_task")
+    if not ok_mod or type(scene_task) ~= "table" then
+        self:_record_result(case, "scene module load failed: " .. tostring(scene_task), "failed", "1")
+        self.waiting_response = false
+        return self:next_request(nil)
+    end
+
+    local sync_data = self.client and self.client.sync_data
+    if not sync_data then
+        self:_record_result(case, "scene: client.sync_data nil", "failed", "1")
+        self.waiting_response = false
+        return self:next_request(nil)
+    end
+
+    local proto_name, msg = scene_task.call(method, sync_data, pkt)
+    if not proto_name then
+        -- 前置条件未满足(未进场景/队列已满/等待服务器开放等)或纯本地动作:
+        -- 本次不产出请求,记录后继续下一个用例,避免卡住整条用例链
+        local detail = (type(msg) == "table" and (msg.reason or msg.err)) or "no request"
+        self:_record_result(case, "scene skip: " .. tostring(detail), "not run", "not run")
+        self.waiting_response = false
+        return self:next_request(nil)
+    end
+
+    -- 记住上下文:响应到达时推进场景状态(命中对象/部队登记/迁城坐标等)
+    self._current_scene_ctx = scene_task.get(sync_data)
+    if case.write_log and case.write_log ~= 0 then
+        print(string.format("protocol_task scene[%s] send %s",
+            case.cmd_module, tostring(proto_name)))
+    end
+    return proto_name, msg or {}
+end
+
+----------------------------------------------------------------------
 -- 通用 Task 分发:cmd_module 为 XXXTask.yyy 格式,
 -- 目录 task/xxxtask/ 下 xxx_task.lua(LordTask -> task/lordtask/lord_task),
 -- 再调用模块的 yyy 方法。方法返回 (sproto_name, msg)
@@ -619,6 +664,19 @@ function M:record_response(proto_name, result, err_code)
 
     if case.res_var and next(case.res_var) and err_code == 0 then
         self:_extract_res_var(result, case.res_var)
+    end
+
+    -- 沙盘场景任务:先把响应交给 scene_task 推进状态
+    -- (findSceneObj 命中对象缓存、addTroop 登记部队、moveCastle 更新主堡坐标等),
+    -- 再走通用的用例结果记录。pcall 保证场景侧异常不影响整条用例链。
+    if self._current_scene_ctx then
+        local ok, err = pcall(self._current_scene_ctx.on_response,
+            self._current_scene_ctx, proto_name, result, err_code)
+        if not ok then
+            io.stderr:write("[scene] on_response failed: " .. tostring(err) .. "\n")
+            io.stderr:flush()
+        end
+        self._current_scene_ctx = nil
     end
 
     local pass = (err_code == case.expect_err) and "success" or "failed"

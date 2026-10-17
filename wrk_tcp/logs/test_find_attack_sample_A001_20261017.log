@@ -1,0 +1,55 @@
+[test] 账号文件 robot/ycf_a.txt, 共 1000 条
+[test] 使用账号 A001 (1/1000) kingdomId=1 nickName=lord-199790
+[test] 单连接联调: threads=1 connections=1
+[test] 开始登录 fd=308 account=A001
+[dbg] reqlogin resp fd=308 gw=10.0.0.142:8107 uid=100009 token_len=28
+[dbg] reconnect fd=308 -> 308 gw=10.0.0.142:8107
+[10:50:27.392][test] 登录成功 account=A001 uid=100009 gateway=10.0.0.142:8107
+[10:50:27.480][test] 登录同步就绪: 开服第 32 天, 场景 137441306624->1000, 主堡(869,369)
+[10:50:27.480][test] 兵种: 230011=9000
+[10:50:27.480][test] 英雄: 61301,61302,61401,61402,61403,61404,61501,61502,61503,62301,62302,62303,62401,62402,62403,62501,62502,62503,63301,63401,63402,63403,63501,63502,63503
+[10:50:27.482][test] 主堡等级: 20
+[scene] enterScene sceneId=137441306624
+[10:50:27.482][test] [req ] enterScene   sceneId=137441306624
+[10:50:27.483][test] [resp] enterScene   err=0    cost=0s 已进入场景
+[10:50:27.483][test] [req ] setAoiPos    lod=1 sceneId=137441306624 x=0 y=0
+[10:50:27.486][test] [resp] setAoiPos    err=0    cost=0s AOI 就绪
+[scene] findSceneObj monster cfg=10002 (lv=2, self_max=2, server_max=22)
+[10:50:27.486][test] [req ] findSceneObj isFullRes=false isIncludeOccupyRes=false isRadar=false objCfgId=10002 objIds={} objType=131
+[10:50:27.486][test] [resp] findSceneObj err=0    cost=0s 未命中对象
+[scene] findSceneObj 命中 0 个对象
+[10:50:27.486][test]   搜索怪物 未完成,第 1/3 次重试,2s 后继续
+[scene] findSceneObj monster cfg=10002 (lv=2, self_max=2, server_max=22)
+[10:50:29.121][test] [req ] findSceneObj isFullRes=false isIncludeOccupyRes=false isRadar=false objCfgId=10002 objIds={} objType=131
+[10:50:29.121][test] [resp] findSceneObj err=0    cost=0s 命中 1 个, 首个 id=2367540378284982272 type=131 cfg=10002 pos=(870.0,366.0) status=1
+[scene] findSceneObj 命中 id=2367540378284982272 type=131 cfg=10002 (870.0,366.0)
+[scene] addMonsterTroop target=2367540378284982272
+[10:50:29.121][test] [req ] addTroop     army={230011=495} formationId=1 heros={1=62301,2=63301,3=62302,4=61503,5=61404} isAutoBack=true targetId=2367540378284982272 targetX=870.0 targetY=366.0
+[10:50:29.152][test] [resp] addTroop     err=0    cost=0s troopId=1837468654521352193
+[scene] addTroop ok troopId=1837468654521352193
+[10:50:29.152][test]   出征成功 (1/1)
+[10:50:29.152][test]   等待 3s 观察部队推送...
+[10:50:32.200][test] 部队表(1): 1837468654521352193(status=110)
+
+[10:50:32.200][test] ================ 用例结果 ================
+[10:50:32.200][test] 账号        : A001
+[10:50:32.200][test] uid         : 100009
+[10:50:32.200][test] 结论        : PASS (打怪流程完成)
+[10:50:32.200][test] 场景 id     : 137441306624
+[10:50:32.200][test] 主堡坐标    : (869, 369)
+[10:50:32.200][test] 搜怪/出征   : 命中 1 次, 出征成功 1 次
+[10:50:32.200][test] 失败回包数  : 0
+[10:50:32.200][test] 耗时        : 5s
+[10:50:32.200][test] ==========================================
+
+Running 90s test skynet
+  1 threads and 1 connections
+all threads tasks done, early stop after 6 s (configured 90 s)
+Running 90s test skynet
+  1 threads and actually 2 connections
+  Thread Stats       Avg       Min       Max
+    Latency       43.28 ms    0.00 ms    309.21 ms
+  14 requests 41 responses in 6187.58 ms, 26.31 kb read
+Requests/sec:      2.26
+Responses/sec:      6.63
+Transfer/sec:       4.25 kb

@@ -112,8 +112,24 @@ end
 
 -- 加兵 addArmy
 function M.add_army(uid, pkt)
-    return curl_cheat("addArmy", with_uid(uid, pkt))
+    local army_id, army_num
+    if pkt then
+        army_id = pkt.id
+        army_num = pkt.num
+    else
+        army_id = 230011
+        army_num = 2000
+    end
+
+    curl_cheat("addArmy", {
+            uid = uid,
+            army = {
+                {id = army_id,
+                num = army_num}
+            }
+        })
 end
+
 
 -- 加英雄 add_hero_item
 function M.add_hero_item(uid, pkt)

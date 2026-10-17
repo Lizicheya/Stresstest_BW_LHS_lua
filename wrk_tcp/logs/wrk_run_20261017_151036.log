@@ -1,0 +1,166 @@
+game_bw load accounts from robot/ycf_b.txt, count:999
+game_bw init thread id:3 delta:0s
+game_bw load accounts from robot/ycf_b.txt, count:999
+game_bw init thread id:1 delta:0s
+game_bw load accounts from robot/ycf_b.txt, count:999
+game_bw init thread id:4 delta:0s
+game_bw load accounts from robot/ycf_b.txt, count:999
+game_bw init thread id:2 delta:0s
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=192 gw=10.0.0.142:8107 uid=100019 token_len=28
+[dbg] reconnect fd=192 -> 192 gw=10.0.0.142:8107
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100019,"army":[{"id":230015,"num":7000}]},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+[dbg] TIMEOUT fd=292 status=2 proto=reqlogin
+[dbg] fd=292 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=296 status=2 proto=reqlogin
+[dbg] fd=296 reqlogin still waiting (1), no relogin
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=408 gw=10.0.0.142:8107 uid=100012 token_len=28
+[dbg] reconnect fd=408 -> 480 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=292 gw=10.0.0.142:8107 uid=100026 token_len=28
+[dbg] reconnect fd=292 -> 292 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=296 gw=10.0.0.142:8107 uid=100024 token_len=28
+[dbg] reconnect fd=296 -> 296 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=308 gw=10.0.0.142:8107 uid=100027 token_len=28
+[dbg] reconnect fd=308 -> 308 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=304 gw=10.0.0.142:8107 uid=100025 token_len=28
+[dbg] reconnect fd=304 -> 304 gw=10.0.0.142:8107
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"army":[{"id":230015,"num":7000}],"uid":100012},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+[dbg] TIMEOUT fd=412 status=2 proto=reqlogin
+[dbg] fd=412 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=420 status=2 proto=reqlogin
+[dbg] fd=420 reqlogin still waiting (1), no relogin
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100027,"army":[{"id":230015,"num":7000}]},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100026,"army":[{"id":230015,"num":7000}]},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100024,"army":[{"id":230015,"num":7000}]},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=376 gw=10.0.0.142:8107 uid=100011 token_len=28
+[dbg] reconnect fd=376 -> 376 gw=10.0.0.142:8107
+protocol_task: sheets=1, run_times=1, fun_vars=5
+[dbg] reqlogin resp fd=416 gw=10.0.0.142:8107 uid=100018 token_len=28
+[dbg] reconnect fd=416 -> 416 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=432 gw=10.0.0.142:8107 uid=100023 token_len=28
+[dbg] reconnect fd=432 -> 432 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=412 gw=10.0.0.142:8107 uid=100021 token_len=28
+[dbg] reconnect fd=412 -> 412 gw=10.0.0.142:8107
+[dbg] TIMEOUT fd=356 status=2 proto=reqlogin
+[dbg] fd=356 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=380 status=2 proto=reqlogin
+[dbg] fd=380 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=384 status=2 proto=reqlogin
+[dbg] fd=384 reqlogin still waiting (1), no relogin
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"army":[{"num":7000,"id":230015}],"uid":100011},"cmd":"addOneHero","time":0}
+[dbg] TIMEOUT fd=404 status=2 proto=reqlogin
+[dbg] fd=404 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=424 status=2 proto=reqlogin
+[dbg] fd=424 reqlogin still waiting (1), no relogin
+[dbg] TIMEOUT fd=428 status=2 proto=reqlogin
+[dbg] fd=428 reqlogin still waiting (1), no relogin
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"army":[{"num":7000,"id":230015}],"uid":100018},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+[dbg] reqlogin resp fd=384 gw=10.0.0.142:8107 uid=100032 token_len=28
+[dbg] reconnect fd=384 -> 384 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=356 gw=10.0.0.142:8107 uid=100034 token_len=28
+[dbg] reconnect fd=356 -> 356 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=424 gw=10.0.0.142:8107 uid=100028 token_len=28
+[dbg] reconnect fd=424 -> 424 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=404 gw=10.0.0.142:8107 uid=100029 token_len=28
+[dbg] reconnect fd=404 -> 404 gw=10.0.0.142:8107
+protocol_task: results saved to game_bw/protocol/result_A012_2026-10-17_15-10-52.xlsx
+protocol_task: results saved to game_bw/protocol/result_A003_2026-10-17_15-10-52.xlsx
+[dbg] reqlogin resp fd=420 gw=10.0.0.142:8107 uid=100020 token_len=28
+[dbg] reconnect fd=420 -> 408 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=436 gw=10.0.0.142:8107 uid=100022 token_len=28
+[dbg] reconnect fd=436 -> 436 gw=10.0.0.142:8107
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"army":[{"id":230015,"num":7000}],"uid":100021},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"army":[{"id":230015,"num":7000}],"uid":100023},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"army":[{"id":230015,"num":7000}],"uid":100020},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"army":[{"id":230015,"num":7000}],"uid":100022},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+protocol_task: results saved to game_bw/protocol/result_A002_2026-10-17_15-10-53.xlsx
+[dbg] reqlogin resp fd=380 gw=10.0.0.142:8107 uid=100035 token_len=28
+[dbg] reconnect fd=380 -> 380 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=388 gw=10.0.0.142:8107 uid=100033 token_len=28
+[dbg] reconnect fd=388 -> 388 gw=10.0.0.142:8107
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"army":[{"num":7000,"id":230015}],"uid":100034},"cmd":"addOneHero","time":0}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"army":[{"num":7000,"id":230015}],"uid":100032},"cmd":"addOneHero","time":0}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+protocol_task: results saved to game_bw/protocol/result_A005_2026-10-17_15-10-53.xlsx
+[dbg] reqlogin resp fd=428 gw=10.0.0.142:8107 uid=100030 token_len=28
+[dbg] reconnect fd=428 -> 476 gw=10.0.0.142:8107
+[dbg] reqlogin resp fd=440 gw=10.0.0.142:8107 uid=100031 token_len=28
+[dbg] reconnect fd=440 -> 440 gw=10.0.0.142:8107
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"army":[{"num":7000,"id":230015}],"uid":100029},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"army":[{"num":7000,"id":230015}],"uid":100028},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"army":[{"num":7000,"id":230015}],"uid":100035},"cmd":"addOneHero","time":0}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"sign":"6bb8c5202918721b84bf0d183b653c0e","data":{"army":[{"num":7000,"id":230015}],"uid":100033},"cmd":"addOneHero","time":0}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"army":[{"num":7000,"id":230015}],"uid":100030},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+curl_cheat POST http://10.0.0.142:9007/ body={"cmd":"addOneHero","data":{"army":[{"num":7000,"id":230015}],"uid":100031},"time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+protocol_task: results saved to game_bw/protocol/result_A004_2026-10-17_15-10-53.xlsx
+protocol_task: results saved to game_bw/protocol/result_A007_2026-10-17_15-10-54.xlsx
+protocol_task: results saved to game_bw/protocol/result_A008_2026-10-17_15-10-55.xlsx
+[dbg] TIMEOUT fd=304 status=4 proto=reqAuth
+[dbg] fd=304 reqAuth still waiting (1), no reauth
+protocol_task: results saved to game_bw/protocol/result_A006_2026-10-17_15-10-55.xlsx
+protocol_task: results saved to game_bw/protocol/result_A009_2026-10-17_15-10-55.xlsx
+protocol_task: results saved to game_bw/protocol/result_A011_2026-10-17_15-10-56.xlsx
+protocol_task: results saved to game_bw/protocol/result_A020_2026-10-17_15-10-56.xlsx
+curl_cheat POST http://10.0.0.142:9007/ body={"data":{"uid":100025,"army":[{"id":230015,"num":7000}]},"cmd":"addOneHero","time":0,"sign":"6bb8c5202918721b84bf0d183b653c0e"}
+protocol_task cheattask[CheatTask.add_army_2] err=0 result=ok
+protocol_task: results saved to game_bw/protocol/result_A010_2026-10-17_15-10-56.xlsx
+protocol_task: results saved to game_bw/protocol/result_A013_2026-10-17_15-10-56.xlsx
+protocol_task: results saved to game_bw/protocol/result_A015_2026-10-17_15-10-57.xlsx
+protocol_task: results saved to game_bw/protocol/result_A014_2026-10-17_15-10-58.xlsx
+protocol_task: results saved to game_bw/protocol/result_A017_2026-10-17_15-10-58.xlsx
+protocol_task: results saved to game_bw/protocol/result_A019_2026-10-17_15-10-59.xlsx
+game_bw thread 2 all accounts done, report early stop
+protocol_task: results saved to game_bw/protocol/result_A016_2026-10-17_15-10-59.xlsx
+game_bw thread 3 all accounts done, report early stop
+protocol_task: results saved to game_bw/protocol/result_A018_2026-10-17_15-11-00.xlsx
+game_bw thread 1 all accounts done, report early stop
+protocol_task: results saved to game_bw/protocol/result_A021_2026-10-17_15-11-00.xlsx
+game_bw thread 4 all accounts done, report early stop
+Running 600s test skynet
+  4 threads and 20 connections
+all threads tasks done, early stop after 25 s (configured 600 s)
+Running 600s test skynet
+  4 threads and actually 40 connections
+  Thread Stats       Avg       Min       Max
+    Latency       586.50 ms    0.00 ms    6696.59 ms
+  95 requests 275 responses in 30453.32 ms, 360.19 kb read
+  Socket errors: connect 0, read 0, write 0, timeout 4
+Requests/sec:      3.12
+Responses/sec:      9.03
+Transfer/sec:      11.83 kb

@@ -44,4 +44,22 @@ local config = {
     url = "http://127.0.0.1:17788",  -- 压测目标 URL
 }
 
+-------------------------------------------------------------------------------------------
+-- 单账号联调用例入口覆盖(默认关闭,不影响正常压测)
+-- 设置环境变量 WRK_MAIN_ENTRY 时:改用该入口,并把并发压到 1 连接 / 1 线程、关闭账号轮换。(要执行的文件在下述的批处理文件中修改)
+-- 供 game_bw/test/test_find_attack_monster.lua 这类「单账号真实登录 + 指定业务步骤」的
+-- 调试用例使用(由 run_test_find_attack_monster.bat 设置,见该批处理说明)。
+-------------------------------------------------------------------------------------------
+local test_entry = os.getenv("WRK_MAIN_ENTRY")
+if test_entry and test_entry ~= "" then
+    config.main_entry     = test_entry
+    config.connections    = 1
+    config.threads        = 1
+    config.duration       = tonumber(os.getenv("WRK_TEST_DURATION") or "") or 180
+    config.total_accounts = 0                          -- 0 = 不轮换账号
+    config.early_stop     = true
+    config.test_spec_user = true
+    config.user_ids_file  = os.getenv("WRK_TEST_ACCOUNT_FILE") or "robot/ycf_a.txt"
+end
+
 return config
