@@ -1,0 +1,25 @@
+1、
+cd E:\TreaCN\Projects\协议整合和转换\sprotorpc
+python merge_protos_to_sproto.py
+
+2、
+cd E:\TreaCN\Projects\协议整合和转换\sprotoGen\sproto_dump
+lua sprotodump.lua -spb "E:\TreaCN\Projects\协议整合和转换\sprotorpc\s2c.sproto" -o "E:\TreaCN\Projects\协议整合和转换\sprotorpc\s2c.spb" 
+
+3、第2步运行后存在以下问题：
+（1）有残留的脚本代码 \n" 和 str = str .. " 。                可以手动清除也可以找AI清除
+
+
+（2）有一大块 Lua 脚本代码混入了 s2c.sproto 文件中（删除了 genClientQueryRspSproto.lua 的 Lua 脚本残留）
+可以执行（但确认下要删除的行数对不对）：cd "E:\TreaCN\Projects\协议整合和转换\sprotorpc"; python fix_s2c.py
+
+
+4、
+cd E:\TreaCN\Projects\协议整合和转换\sprotoGen\sproto_dump
+lua sprotodump.lua -spb "E:\TreaCN\Projects\协议整合和转换\sprotorpc\c2s.sproto" -o "E:\TreaCN\Projects\协议整合和转换\sprotorpc\c2s.spb"
+
+5、第4步运行后存在以下问题：
+（1）c2s.sproto 文件也有相同的问题，第 5680-5682 行有残留的脚本代码``\n"`` 和``str = str .. "`` 。
+
+（2）c2s.sproto 文件也有和 s2c.sproto 相同的问题，在第 12822-12824 行有残留的脚本代码。让我使用 Python 脚本一次性修复所有问题。
+可以执行（但确认下要删除的行数对不对）：cd "E:\TreaCN\Projects\协议整合和转换\sprotorpc"; python fix_c2s_v2.py

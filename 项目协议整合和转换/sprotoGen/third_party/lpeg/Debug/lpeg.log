@@ -1,0 +1,17 @@
+﻿  lpcap.c
+  lpcode.c
+  lpprint.c
+  lptree.c
+h:\code\lua-5.2.4\lpeg\lpeg\lptree.c(58): warning C4244: “=”: 从“lua_Number”转换到“int”，可能丢失数据
+h:\code\lua-5.2.4\lpeg\lpeg\lptree.c(165): warning C4244: “=”: 从“lua_Unsigned”转换到“int”，可能丢失数据
+h:\code\lua-5.2.4\lpeg\lpeg\lptree.c(184): warning C4244: “return”: 从“lua_Unsigned”转换到“int”，可能丢失数据
+h:\code\lua-5.2.4\lpeg\lpeg\lptree.c(341): warning C4244: “return”: 从“lua_Unsigned”转换到“int”，可能丢失数据
+h:\code\lua-5.2.4\lpeg\lpeg\lptree.c(456): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+h:\code\lua-5.2.4\lpeg\lpeg\lptree.c(756): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+h:\code\lua-5.2.4\lpeg\lpeg\lptree.c(1071): warning C4244: “初始化”: 从“lua_Unsigned”转换到“int”，可能丢失数据
+  lpvm.c
+h:\code\lua-5.2.4\lpeg\lpeg\lpvm.c(72): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+h:\code\lua-5.2.4\lpeg\lpeg\lpvm.c(107): warning C4244: “return”: 从“lua_Integer”转换到“int”，可能丢失数据
+  正在生成代码...
+    正在创建库 H:\code\lua-5.2.4\lpeg\Debug\lpeg.lib 和对象 H:\code\lua-5.2.4\lpeg\Debug\lpeg.exp
+  lpeg.vcxproj -> H:\code\lua-5.2.4\lpeg\Debug\lpeg.dll

@@ -1,0 +1,5 @@
+将E:\TreaCN\Projects\协议整合和转换\sprotorpc文件夹下，所有的协议文件；客户端到服务端（c2s）的协议合并到c2s.sproto文件中；将服务端到客户端（s2c）的协议合并到s2c.sproto文件中；关于一些纯定义的内容（例如.ComBuild格式），需要在c2s.sproto文件和s2c.sproto文件都添加
+
+
+
+将E:\TreaCN\Projects\协议整合和转换\sprotorpc\sproto\game文件夹下的commonStruct.lua中的部分协议定义内容，分别添加到E:\TreaCN\Projects\协议整合和转换\sprotorpc下c2s.sproto和s2c.sproto文件中

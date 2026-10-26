@@ -1,0 +1,1 @@
+将E:\TreaCN\Projects\协议整合和转换\sprotorpc目录下的s2c.sproto文件转换为同名的spb文件；并输出在E:\TreaCN\Projects\协议整合和转换\sprotorpc目录下（不要尝试使用其他位置的s2c.sproto文件，只能使用我给定目录下的源文件）

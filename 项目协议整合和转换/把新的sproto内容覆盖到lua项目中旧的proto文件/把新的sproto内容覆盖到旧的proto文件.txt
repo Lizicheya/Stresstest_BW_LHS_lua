@@ -1,0 +1,8 @@
+copy y eLuaYaCewrk_tcplualibprotocolc2s.proto eLuaYaCewrk_tcplualibprotocolc2s.proto.bak
+copy y eLuaYaCewrk_tcplualibprotocolc2s.sproto eLuaYaCewrk_tcplualibprotocolc2s.proto
+
+
+
+PowerShel语言：
+Copy-Item e:\LuaYaCe\wrk_tcp\lualib\protocol\c2s.sproto e:\LuaYaCe\wrk_tcp\lualib\protocol\c2s.proto.bak -Force
+Copy-Item e:\LuaYaCe\wrk_tcp\lualib\protocol\c2s.sproto e:\LuaYaCe\wrk_tcp\lualib\protocol\c2s.proto -Force
