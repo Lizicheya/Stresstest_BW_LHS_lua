@@ -10,13 +10,16 @@ local config = {
     --服务器相关配置
     ------------------------------------------------------------------------------------------
     host = "10.0.0.142",    -- 目标主机地址(真实游戏网关)
-    -- port = 8007,            -- 目标主机端口
-    port = 8007,            -- 登录服端口(reqlogin 在此发,响应后 reconnect 切到网关发 reqAuth)
+    -- port = 8007,            -- 目标主机端口；登录服端口(reqlogin 在此发,响应后 reconnect 切到网关发 reqAuth)   ---虎生服
+    port = 8007,            -- -李虎生
+    -- port = 8005,               ---先习服
+    -- port = 8011,               ---SDK服
 
     -- GM Web(cheat) 服务器:对应 Python aow_test_config.py 的 WebHost("10.0.0.142", 9007)
     -- cheat_task.curl_cheat 向该地址 POST JSON 作弊请求
-    cheat_host = "10.0.0.142:9007",
-
+    cheat_host = "10.0.0.142:9007",        --虎生服
+    -- cheat_host = "10.0.0.142:9005",           --先习服
+    -- cheat_host = "10.0.0.142:9011",           --SDK服
 
     -- 账号文件配置(对应原项目 aow_test_config.py LoginLSTaskSet)
     -- 文件格式: 第0行 Record time, 第1行起每行 JSON {"user":"B202",...}

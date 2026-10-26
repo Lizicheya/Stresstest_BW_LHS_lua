@@ -27,7 +27,7 @@ local bw_cfg = {
     -- wrk 的 TCP 连接目标由根 config.lua 的 host/port 指定,这里不再重复
     -- 登录默认不需要密码: reqlogin 仅含 account + sdkToken
     -- sdkToken 按原项目 com.py 逻辑: 10.0.0.142:8007 不匹配 skip 分支, 用 ""
-    sdk_token = "",              -- reqlogin.sdkToken 字段
+    sdk_token = "skip",              -- reqlogin.sdkToken 字段
     server_id = 1,               -- reqlogin.serverId 字段(仅 create_new_role=true 时发送)
     create_new_role = false,    -- reqlogin.createNewRole 字段(false 时不发送 serverId/createNewRole)
 

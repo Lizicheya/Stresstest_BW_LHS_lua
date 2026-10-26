@@ -30,6 +30,58 @@ M.STATE_NONE            = 8   -- 流程结束
 -- session 自增计数器
 local session_counter = 0
 
+----------------------------------------------------------------------
+-- sdkToken 取值规则
+-- 仅以下登录服地址才携带 config.sdk_token:
+--   10.0.0.142:8011(SDK 服)
+--   10.0.0.142:8001
+-- 其余主机/端口一律下发空串,避免把 token 发到不收 token 的服(会被判为非法参数)。
+----------------------------------------------------------------------
+local SDK_TOKEN_ADDRS = {
+    ["10.0.0.142:8011"] = true,
+    ["10.0.0.142:8001"] = true,
+}
+
+----------------------------------------------------------------------
+-- 解析当前连接的目标(登录服)地址
+-- 优先级:self.login_host/login_port(main_bw、单账号联调入口在建连后注入)
+--       -> 根 config.lua 的 host/port(game_bw/config.lua 已合并,可直接读)
+-- 兼容 "10.0.0.142:8011" 这种把端口写进主机串的形式,以及字符串形式的端口
+-- 返回: host(字符串,可能为 ""), port(数字,解析失败为 nil)
+----------------------------------------------------------------------
+local function resolve_login_addr(self)
+    local host = self.login_host
+    local port = self.login_port
+
+    if host == nil or host == "" then host = config.host end
+    if port == nil or port == "" then port = config.port end
+
+    host = tostring(host or "")
+    -- 主机串里带端口时拆出来(未单独配置端口则以串内端口为准)
+    local h, p = string.match(host, "^(.-):(%d+)$")
+    if h and h ~= "" then
+        host = h
+        if port == nil or port == "" then port = p end
+    end
+
+    return host, tonumber(port)
+end
+
+----------------------------------------------------------------------
+-- 按目标地址决定 reqlogin.sdkToken
+-- 命中 SDK_TOKEN_ADDRS 且 config.sdk_token 非空时用该常量,否则 ""
+----------------------------------------------------------------------
+local function resolve_sdk_token(self)
+    local host, port = resolve_login_addr(self)
+    if host == "" or port == nil then return "" end
+
+    if not SDK_TOKEN_ADDRS[host .. ":" .. tostring(port)] then return "" end
+
+    local token = config.sdk_token
+    if type(token) ~= "string" or token == "" then return "" end
+    return token
+end
+
 -- 构造函数
 function M:ctor(fd)
     self.fd = fd
@@ -68,9 +120,11 @@ function M:start(account)
     -- reqlogin 字段对齐原项目 com.py loginServer: 登录默认不需要密码
     -- create_new_role=false 时仅发 account + sdkToken(原项目 del serverId/createNewRole)
     -- create_new_role=true 时附带 serverId + createNewRole
+    -- sdkToken 按目标登录服地址判定(见文件头 resolve_sdk_token):
+    -- 仅 10.0.0.142:8011 / 10.0.0.142:8001 且 config.sdk_token 非空时携带,其余为 ""
     local reqlogin_args = {
         account = self.login_web_data.account or "",
-        sdkToken = config.sdk_token or "",
+        sdkToken = resolve_sdk_token(self),
     }
     if config.create_new_role then
         reqlogin_args.serverId = config.server_id or 0
@@ -555,10 +609,10 @@ function M:relogin(new_account)
         end
     end
 
-    -- 重新发起 reqlogin
+    -- 重新发起 reqlogin(sdkToken 同样按目标登录服地址判定)
     local reqlogin_args = {
         account = self.login_web_data.account or "",
-        sdkToken = config.sdk_token or "",
+        sdkToken = resolve_sdk_token(self),
     }
     if config.create_new_role then
         reqlogin_args.serverId = config.server_id or 0
